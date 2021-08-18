@@ -17,31 +17,56 @@
 		</div>
 	</section>
 	<section id="location">
-		<div class="container">
+		<div class="">
 			<div class="row align-self-center">
-				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
+				<div class="col-md-12 text-center breadcrumb-info">
 					<img alt=""
 						src="https://www.vnpt-technology.vn/front/images/logo_ansv.png">
 					<h3 class="title">
 						<b>CÔNG TY TNHH THIẾT BỊ VIỄN THÔNG <font color="orange">ANSV</font>
 						</b>
 					</h3>
-					<p>
-						<i class="icofont-location-pin"></i> &ensp;Địa chỉ: 124 Hoàng Quốc
-						Việt, Cầu Giấy, Hà Nội
-					</p>
-					<p>
-						<i class="icofont-phone"></i>&ensp;Tel: (+84) 4 3836 2094
-					</p>
-					<p>
-						<i class="icofont-fax"></i>&ensp;Fax: (+84) 4 3836 2915
-					</p>
-					<div class="location">
-						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.646304539094!2d105.7896128144076!3d21.046833692538094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab303888d26b%3A0xddc5b2c532d564b5!2zMTI0IEhvw6BuZyBRdeG7kWMgVmnhu4d0LCBD4buVIE5odeG6vywgQ-G6p3UgR2nhuqV5LCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1620983215348!5m2!1svi!2s"
-							width="800" height="600" style="border: 0; width: 100%;"
-							allowfullscreen="" loading="lazy"></iframe>
+					<div class="row">
+						<div class="col-md-6">
+							<p>
+								<i class="icofont-location-pin"></i> &ensp;Địa chỉ: 124 Hoàng
+								Quốc Việt, Cầu Giấy, Hà Nội
+							</p>
+							<p>
+								<i class="icofont-phone"></i>&ensp;Tel: (+84) 24 3836 2094
+							</p>
+							<p>
+								<i class="icofont-fax"></i>&ensp;Fax: (+84) 24 3836 2915
+							</p>
+							<div class="location">
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.643316045164!2d105.78977541440769!3d21.04695319253407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab303bb1d5d7%3A0xf0660878fed77d08!2zMTI0IEhvw6BuZyBRdeG7kWMgVmnhu4d0LCBD4buVIE5odeG6vywgQ-G6p3UgR2nhuqV5LCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1629296912397!5m2!1svi!2s"
+									width="600" height="450" style="border: 0;" allowfullscreen=""
+									loading="lazy"></iframe>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<p>
+								<i class="icofont-location-pin"></i> &ensp;Địa chỉ: Số 10, Phổ
+								Quang, Quận Tân Bình,TP.Hồ Chí Minh
+							</p>
+							<p>
+								<i class="icofont-phone"></i>&ensp;Tel: (+84) 28 3842 2888
+							</p>
+							<p>
+								<i class="icofont-fax"></i>&ensp;Fax: (+84) 28 3997 4515
+							</p>
+							<div class="location">
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.076967373942!2d106.66389141428726!3d10.805417061613833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752924ec9ec12f%3A0xacc27f0ef0174f85!2zMTAgUGjhu5UgUXVhbmcsIFBoxrDhu51uZyAyLCBUw6JuIELDrG5oLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1629297345813!5m2!1svi!2s"
+									width="600" height="450" style="border: 0;" allowfullscreen=""
+									loading="lazy"></iframe>
+							</div>
+
+						</div>
 					</div>
+
+
 				</div>
 			</div>
 		</div>

@@ -56,7 +56,6 @@
 					<ul>
 						<li class="drop-down"><a href="#">Giải pháp</a>
 							<ul>
-								<li><a href="#"></a></li>
 								<li><a href="chuyen-nganh-vien-thong">Chuyên ngành viễn
 										thông</a></li>
 								<li><a href="cong-nghe-thong-tin">Công nghệ thông tin
