@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>GW040_H</title>
+<title>GW020_H</title>
 
 </head>
 
@@ -98,42 +98,34 @@ img.xzoom:hover {
 					<div class="container">
 						<div class="row align-self-center">
 							<div class="col-md-8 offset-md-2 text-center">
-								<h3>GPON ONT iGate GW040-H</h3>
+								<h3>GPON ONT iGate GW020-H</h3>
 								<div class="prd-img-detail">
 									<div class="xzoom-container">
 										<img class="xzoom"
-											src="<c:url value="/assets/user/img/portfolio/040_1.png" />"
-											xoriginal="<c:url value="/assets/user/img/portfolio/040_1.png" />" />
+											src="<c:url value="/assets/user/img/portfolio/800x800_GPON_iGate_GW020-01.png" />"
+											xoriginal="<c:url value="/assets/user/img/portfolio/800x800_GPON_iGate_GW020-01.png" />" />
 										<div class="xzoom-thumbs">
 											<a
-												href="<c:url value="/assets/user/img/portfolio/040_1.png" />">
+												href="<c:url value="/assets/user/img/portfolio/800x800_GPON_iGate_GW020-01.png" />">
 												<img class="xzoom-gallery" width="50"
-												src="<c:url value="/assets/user/img/portfolio/040_1.png" />"
-												xpreview="<c:url value="/assets/user/img/portfolio/040_1.png" />">
+												src="<c:url value="/assets/user/img/portfolio/800x800_GPON_iGate_GW020-01.png" />"
+												xpreview="<c:url value="/assets/user/img/portfolio/800x800_GPON_iGate_GW020-01.png" />">
 											</a> <a
-												href="<c:url value="/assets/user/img/portfolio/040_2.png" />">
+												href="<c:url value="/assets/user/img/portfolio/800x800_GPON_iGate_GW020-02.png" />">
 												<img class="xzoom-gallery" width="50"
-												src="<c:url value="/assets/user/img/portfolio/040_2.png" />">
+												src="<c:url value="/assets/user/img/portfolio/800x800_GPON_iGate_GW020-02.png" />">
 											</a> <a
-												href="<c:url value="/assets/user/img/portfolio/040_3.png" />">
+												href="<c:url value="/assets/user/img/portfolio/800x800_GPON_iGate_GW020-03.png" />">
 												<img class="xzoom-gallery" width="50"
-												src="<c:url value="/assets/user/img/portfolio/040_3.png" />">
+												src="<c:url value="/assets/user/img/portfolio/800x800_GPON_iGate_GW020-03.png" />">
 											</a> <a
-												href="<c:url value="/assets/user/img/portfolio/040_4.png" />">
+												href="<c:url value="/assets/user/img/portfolio/800x800_GPON_iGate_GW020-04.png" />">
 												<img class="xzoom-gallery" width="50"
-												src="<c:url value="/assets/user/img/portfolio/040_4.png" />">
+												src="<c:url value="/assets/user/img/portfolio/800x800_GPON_iGate_GW020-04.png" />">
 											</a> <a
-												href="<c:url value="/assets/user/img/portfolio/040_5.png" />">
+												href="<c:url value="/assets/user/img/portfolio/800x800_GPON_iGate_GW020-05.png" />">
 												<img class="xzoom-gallery" width="50"
-												src="<c:url value="/assets/user/img/portfolio/040_5.png" />">
-											</a> <a
-												href="<c:url value="/assets/user/img/portfolio/040_6.png" />">
-												<img class="xzoom-gallery" width="50"
-												src="<c:url value="/assets/user/img/portfolio/040_6.png" />">
-											</a> <a
-												href="<c:url value="/assets/user/img/portfolio/040_7.png" />">
-												<img class="xzoom-gallery" width="50"
-												src="<c:url value="/assets/user/img/portfolio/040_7.png" />">
+												src="<c:url value="/assets/user/img/portfolio/800x800_GPON_iGate_GW020-05.png" />">
 											</a>
 
 										</div>
@@ -149,17 +141,15 @@ img.xzoom:hover {
 							<div id="overview-prd"
 								class="col-md-12 pt-5 prd-detail-info page-section">
 								<h2 class="title">Tổng Quan:</h2>
-								<p style="text-align: justify">
-									<strong>iGate GW040-H</strong> là thiết bị GPON ONT dành cho
-									dịch vụ băng rộng cáp quang tốc độ cao; đáp ứng nhu cầu truy
-									cập mạng, xem truyền hình và thoại Internet cho gia đình; cũng
-									như mang lại kết nối mạng ổn định dành cho doanh nghiệp.
+								<p>
+									<strong>iGate GW020-H</strong> là thiết bị GPON ONT dành cho
+									dịch vụ Internet cáp quang tốc độ cao, đáp ứng nhu cầu truy cập
+									mạng, xem truyền hình và thoại Internet cho gia đình, mang lại
+									kết nối mạng ổn định dành cho doanh nghiệp thông qua kết nối
+									Wi-Fi chuẩn ac tốc độ cao hỗ trợ cả 2 băng tần 2.4GHz và 5GHz.
 								</p>
-								<p style="text-align: justify">Sản phẩm hỗ trợ Wi-Fi chuẩn
-									ac tốc độ cao, được tối ưu hoạt động trên cả 2 băng tần 2.4GHz
-									và 5GHz.</p>
-								<p style="text-align: justify">
-									<strong>iGate GW040-H</strong> là một thành phần trong giải
+								<p>
+									<strong>iGate GW020-H</strong> là một thành phần trong giải
 									pháp GPON tổng thể do VNPT Technology phát triển, bao gồm: ONT,
 									OLT và hệ thống quản lý ONE Telco Platform.
 								</p>
@@ -167,13 +157,12 @@ img.xzoom:hover {
 									<strong>ĐẶC ĐIỂM NỔI BẬT</strong>
 								</p>
 								<ul>
-									<li>4 cổng LAN tốc độ GE</li>
+									<li>2 cổng LAN tốc độ GE</li>
 									<li>Wi-Fi chuẩn a/b/g/n/ac hỗ trợ 2 băng tần 2.4GHz và
 										5GHz</li>
 									<li>Hỗ trợ đồng thời IPv4 và IPv6</li>
 									<li>Tương thích với nhiều chủng loại OLT khác nhau</li>
-									<li>Quản lý bởi hệ thống ONE Telco Platform của VNPT
-										Technology</li>
+									<li>Quản lý bởi hệ thống One Telco Platform</li>
 								</ul>
 							</div>
 							<div id="key-features-prd"
@@ -186,7 +175,7 @@ img.xzoom:hover {
 								<ul>
 									<li>Tương thích các tiêu chuẩn của Liên minh Viễn thông
 										quốc tế (ITU):
-										<ul style="list-style-type: circle">
+										<ul>
 											<li>ITU-T G.984.4</li>
 											<li>ITU-T G.984.3</li>
 										</ul>
@@ -200,13 +189,39 @@ img.xzoom:hover {
 								</ul>
 
 								<p>
-									<strong>Bảo mật</strong>
+									<strong>Ethernet </strong>
 								</p>
 
 								<ul>
-									<li>NAT, SPI Firewall</li>
+									<li>Giao diện 10/100/1000BASE-T</li>
+									<li>Tự động xác định tốc độ và chế độ hoạt động</li>
+									<li>Hỗ trợ tính năng VLAN tag/ untag trên cổng Ethernet</li>
+									<li>Hỗ trợ tính năng VLAN stacking (Qin-Q) và VLAN
+										translation</li>
+									<li>Hỗ trợ IGMP snooping v2, 3</li>
+								</ul>
+
+								<p>
+									<strong>Kết nối không dây </strong>
+								</p>
+
+								<ul>
+									<li>Wi-Fi IEEE 802.11a/b/g/n/ac hỗ trợ băng thông lên đến
+										1.2Gbps giúp cải thiện tốc độ truy cập và giảm nguy cơ ngắt
+										kết nối đối với các dịch vụ như Game online, các cuộc gọi trên
+										nền tảng Internet hay xem video HD</li>
+									<li>Chức năng tắt bật Wi-Fi dễ dàng với nút Wi-Fi ON/OFF</li>
+								</ul>
+
+								<p>
+									<strong>Bảo mật </strong>
+								</p>
+
+								<ul>
+									<li>NAT and SPI Firewall</li>
 									<li>MAC / IP / Packet / Application / URL Filtering</li>
-									<li>Chống tất công từ chối dịch vụ (DoS), SYN Flooding</li>
+									<li>Tấn công từ chối dịch vụ (DoS), SYN&nbsp;Flooding</li>
+									<li>Chữ kí số firmware</li>
 								</ul>
 
 								<p>
@@ -222,47 +237,24 @@ img.xzoom:hover {
 								</ul>
 
 								<p>
-									<strong>Ethernet </strong>
-								</p>
-
-								<ul>
-									<li>Giao diện 10/100/1000BASE-T</li>
-									<li>Tự động xác định tốc độ và chế độ hoạt động</li>
-									<li>Hỗ trợ tính năng VLAN tag / untag</li>
-									<li>Hỗ trợ tính năng VLAN stacking (Q-in-Q) và VLAN
-										translation</li>
-									<li>Hỗ trợ IGMP snooping v2, 3</li>
-								</ul>
-
-								<p>
-									<strong>Kết nối không dây</strong>
-								</p>
-
-								<ul>
-									<li>Wi-Fi IEEE 802.11ac hỗ trợ băng thông lên đến 867 Mbps</li>
-									<li>Chức năng tắt bật Wi-Fi dễ dàng với nút Wi-Fi ON/OFF</li>
-								</ul>
-
-								<p>
-									<strong>Quản lý và bảo trì thiết bị</strong>
+									<strong>Quản lý và bảo trì thiết bị </strong>
 								</p>
 
 								<ul>
 									<li>Cấu hình dịch vụ và nâng cấp phần mềm qua Website</li>
 									<li>Quản lý thiết bị và cập nhật phần mềm thông qua OMCI</li>
 									<li>Truy xuất thông tin thu phát quang của ONT</li>
-									<li>Báo cáo cảnh báo Dying_Gasp khi ONT bị tắt nguồn</li>
-									<li>Quản lý từ xa bằng hệ thống ONE Telco Platform thông
-										qua giao thức TR-069</li>
+									<li>Báo cáo cảnh báo Dying_Gasp khi ONT bị tắt nguồn Quản
+										lý từ xa qua TR-069 (ONE Telco Platform)</li>
 								</ul>
 
 								<p>
-									<strong>Các chức năng khác</strong>
+									<strong>Các chức năng khác </strong>
 								</p>
 
 								<ul>
 									<li>Thông tin hệ thống: phiên bản phần mềm, trạng thái kết
-										nối và thống kê gói tin</li>
+										nối và thống kê&nbsp;gói tin</li>
 									<li>Kết nối WAN: PPPoE, Dynamic and Static IPoE, Bridge và
 										hỗ trợ nhiều kết nối đồng thời</li>
 									<li style="text-align: justify">Giao thức mạng và các tính
@@ -272,9 +264,10 @@ img.xzoom:hover {
 										Server, Static Routing, VPN (PPTP, L2TP, IPSec) Pass through,
 										Interface Grouping, VLAN tag/untag trên cổng Ethernet, DNS
 										Relay, DDNS, IGMP snooping v2/v3, Virtual server, DMZ,
-										ACL(Access Control List), UPnP, NAT and SPI Firewall, MAC / IP
-										/ URL Filtering, Denial of Service (DoS), QoS, (802.1p),
-										Support 32 T-CONT/256 GEM</li>
+										ACL(Access Control List)</li>
+									<li>UPnP, NAT and SPI Firewall, MAC / IP / URL Filtering,
+										Denial of Service (DoS), QoS, (802.1p), Support 32 T-CONT/256
+										GEM</li>
 								</ul>
 							</div>
 							<div id="specifications-prd"
@@ -285,35 +278,20 @@ img.xzoom:hover {
 										<tbody>
 
 											<tr>
-												<td class="columnxx" colspan="2">GPON</td>
+												<td class="columnxx" colspan="2">Giao diện kết nối</td>
 											</tr>
 											<tr>
-												<td class="column1">Tốc độ đường xuống</td>
-												<td class="column2">2.488 Gbps</td>
+												<td class="column1">LAN</td>
+												<td class="column2">2 x 10/100/1000Base-T<br>(RJ-45)
+												</td>
 											</tr>
 											<tr>
-												<td class="column1">Tốc độ đường lên</td>
-												<td class="column2">1.244Gbps</td>
+												<td class="column1">Quang</td>
+												<td class="column2">1 x SC/APC</td>
 											</tr>
 											<tr>
-												<td class="column1">Lớp laser quang</td>
-												<td class="column2">Laser Class B+</td>
-											</tr>
-											<tr>
-												<td class="column1">Bước sóng thu (Rx)</td>
-												<td class="column2">1490nm</td>
-											</tr>
-											<tr>
-												<td class="column1">Bước sóng phát (Tx)</td>
-												<td class="column2">1310nm</td>
-											</tr>
-											<tr>
-												<td class="column1">Công suất phát</td>
-												<td class="column2">0.5dBm ÷ 5dBm</td>
-											</tr>
-											<tr>
-												<td class="column1">Độ nhạy thu</td>
-												<td class="column2">-28dBm ÷ 8dBm</td>
+												<td class="column1">USB</td>
+												<td class="column2">1 x USB 2.0</td>
 											</tr>
 											<tr>
 												<td class="columnxx" colspan="2">Wi-Fi</td>
@@ -324,57 +302,28 @@ img.xzoom:hover {
 											</tr>
 											<tr>
 												<td class="column1">Tần số</td>
-												<td class="column2">2.4GHz:<br>2.400GHz÷2.4835GHz,
-													OBW = 20/40Mhz<br>Tự động lựa chọn kênh<br>
-												<br>5GHz: <br>5.170GHz ÷ 5.815GHz, OBW =
-													20/40/80Mhz <br>Tự động lựa chọn kênh
+												<td class="column2">2.4GHz: 2.400GHz ÷ 2.4835GHz, OBW =
+													20/40Mhz, Tự động lựa chọn kênh<br>5GHz: 5.170GHz ÷
+													5.815GHz, OBW = 20/40/80Mhz, Tự động lựa chọn kênh
 												</td>
 											</tr>
 											<tr>
 												<td class="column1">SSID</td>
-												<td class="column2">8 SSID, chia đều trên mỗi băng tần
+												<td class="column2">8 SSID, chia đều trên mỗi band
 													(2.4Ghz và 5GHz)</td>
 											</tr>
 											<tr>
 												<td class="column1">Bảo mật</td>
-												<td class="column2">64/128 bit WEP, WPA/ WPA2,
-													WPA-PSK/WPA2- PSK, MAC Filtering, Ẩn SSID, WPS</td>
+												<td class="column2">64/128bit WEP, WPA/WPA2, WPA-PSK /
+													WPA2-PSK, MAC Filtering, ẩn SSID, WPS</td>
 											</tr>
 											<tr>
 												<td class="column1">Ăng ten</td>
-												<td class="column2">MIMO 2x2</td>
+												<td class="column2">5dBi, MU MIMO 2x2</td>
 											</tr>
 											<tr>
 												<td class="column1">Băng thông</td>
-												<td class="column2">802.11ac: Lên đến 867Mbps<br>802.11n:
-													Lên đến 300Mbps
-												</td>
-											</tr>
-											<tr>
-												<td class="columnxx" colspan="2">Giao diện kết nối</td>
-											</tr>
-											<tr>
-												<td class="column1">LAN</td>
-												<td class="column2">4 x 10/100/1000 BASE-T (RJ-45)</td>
-											</tr>
-											<tr>
-												<td class="column1">Quang</td>
-												<td class="column2">1 x SC/APC</td>
-											</tr>
-											<tr>
-												<td class="column1">USB</td>
-												<td class="column2">1 x USB 3.0</td>
-											</tr>
-											<tr>
-												<td class="columnxx" colspan="2">Nguồn</td>
-											</tr>
-											<tr>
-												<td class="column1">Nguồn cấp</td>
-												<td class="column2">12V - 1A, bảo vệ quá áp/quá dòng</td>
-											</tr>
-											<tr>
-												<td class="column1">Công suất</td>
-												<td class="column2">&lt;8W</td>
+												<td class="column2">Lên đến 1.2Gbps</td>
 											</tr>
 											<tr>
 												<td class="column1">Số thiết bị đồng thời</td>
@@ -382,11 +331,57 @@ img.xzoom:hover {
 													2.4GHz &amp; 5GHz</td>
 											</tr>
 											<tr>
+												<td class="columnxx" colspan="2">GPON</td>
+											</tr>
+											<tr>
+												<td class="column1">Tốc độ đường xuống</td>
+												<td class="column2">2.4GHz</td>
+											</tr>
+											<tr>
+												<td class="column1">Tốc độ đường lên</td>
+												<td class="column2">2.488Gbps</td>
+											</tr>
+											<tr>
+												<td class="column1">Lớp laser quang</td>
+												<td class="column2">1.244Gbps</td>
+											</tr>
+											<tr>
+												<td class="column1">Bước sóng thu (Rx)</td>
+												<td class="column2">Laser Class B+</td>
+											</tr>
+											<tr>
+												<td class="column1">Bước sóng phát (Tx)</td>
+												<td class="column2">1490nm</td>
+											</tr>
+											<tr>
+												<td class="column1">Công suất phát</td>
+												<td class="column2">1310nm</td>
+											</tr>
+											<tr>
+												<td class="column1">Độ nhạy thu</td>
+												<td class="column2">-28dBm ÷ 8dBm</td>
+											</tr>
+											<tr>
+												<td class="columnxx" colspan="2">Nguồn</td>
+											</tr>
+											<tr>
+												<td class="column1">Nguồn cấp</td>
+												<td class="column2">12V - 1.5A, bảo vệ quá áp/quá dòng</td>
+											</tr>
+											<tr>
+												<td class="column1">Công suất</td>
+												<td class="column2">&lt;8W</td>
+											</tr>
+											<tr>
 												<td class="columnxx" colspan="2">Thông số khác</td>
 											</tr>
 											<tr>
 												<td class="column1">Kích thước</td>
-												<td class="column2">225 x 38 x 140 mm</td>
+												<td class="column2">191 x 35 x 157 mm</td>
+											</tr>
+											<tr>
+												<td class="column1">Khối lượng</td>
+												<td class="column2">~ 300g</td>
 											</tr>
 											<tr>
 												<td class="column1">Nhiệt độ hoạt động</td>
@@ -394,7 +389,7 @@ img.xzoom:hover {
 											</tr>
 											<tr>
 												<td class="column1">Độ ẩm hoạt động</td>
-												<td class="column2">5% ÷ 90% Không ngưng kết</td>
+												<td class="column2">5% ÷ 90%</td>
 											</tr>
 										</tbody>
 									</table>

@@ -95,34 +95,13 @@
 
 				<div class="col-md-4 col-sm-6">
 					<div class="product-item">
-						<a href="Sm_box2_ATV"> <img class="img-fluid"
-							style="background-color: white;"
-							src="<c:url value="/assets/user/img/portfolio/Smartbox2ATV-1.jpg" />"></a>
-						<div class="info">
-							<div class="cat mb-2">
-								<a href="san-pham-cong-nghe-cong-nghiep">Sản phẩm Công nghệ
-									Công nghiệp</a>
-							</div>
-							<h4 class="title">
-								<a href="Sm_box2_ATV">SmartBox 2 ATV</a>
-							</h4>
-							<p class="desc">SmartBox 2 ATV là thiết bị Set-top Box do
-								VNPT Technology nghiên cứu phát triển và sản xuất. Thiết bị sử
-								dụng hệ điều hành Android TVTM 9 và được tối ưu cho dịch vụ IPTV
-								và Internet TV.</p>
-							<a href="Sm_box2_ATV" class="read-more">Xem thêm</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6">
-					<div class="product-item">
 						<a href="EW12S_SG"> <img class="img-fluid"
 							style="background-color: white;"
 							src="<c:url value="/assets/user/img/portfolio/800x800-Mesh-iGate-EW12S-01.png" />"></a>
 						<div class="info">
 							<div class="cat mb-2">
-								<a href="san-pham-thuong-mai">Sản phẩm Công nghệ Công nghiệp</a>
+								<a href="san-pham-cong-nghe-cong-nghiep">Sản phẩm Công nghệ
+									Công nghiệp</a>
 							</div>
 							<h4 class="title">
 								<a href="EW12S_SG">Easy Mesh Access Point – iGate EW12S/SG</a>
@@ -144,11 +123,11 @@
 							src="<c:url value="/assets/user/img/portfolio/EW12C-1.png" />"></a>
 						<div class="info">
 							<div class="cat mb-2">
-								<a href="san-pham-thuong-mai">Sản phẩm Công nghệ Công nghiệp</a>
+								<a href="san-pham-cong-nghe-cong-nghiep">Sản phẩm Công nghệ
+									Công nghiệp</a>
 							</div>
 							<h4 class="title">
-								<a href="EW12C_CG">Easy Mesh Access Point – iGate
-									EW12C/CG</a>
+								<a href="EW12C_CG">Easy Mesh Access Point – iGate EW12C/CG</a>
 							</h4>
 							<p class="desc">iGate EW12C/CG là bộ thu phát WiFi(Access
 								Point) có chức năng tạo ra một mạng lưới không dây cục bộ (WLAN)
@@ -158,6 +137,52 @@
 						</div>
 					</div>
 				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<div class="product-item">
+						<a href="GW020_H"> <img class="img-fluid"
+							style="background-color: white;"
+							src="<c:url value="/assets/user/img/portfolio/960x643_GPON_iGate_GW020.jpg" />"></a>
+						<div class="info">
+							<div class="cat mb-2">
+								<a href="san-pham-cong-nghe-cong-nghiep">Sản phẩm Công nghệ
+									Công nghiệp</a>
+							</div>
+							<h4 class="title">
+								<a href="GW020_H">GPON ONT iGate GW020-H</a>
+							</h4>
+							<p class="desc">iGate GW020-H là thiết bị GPON ONT dành cho
+								dịch vụ Internet cáp quang tốc độ cao, đáp ứng nhu cầu truy cập
+								mạng, xem truyền hình và thoại Internet cho gia đình, mang lại
+								kết nối mạng ổn định dành cho doanh nghiệp thông qua kết nối
+								Wi-Fi chuẩn ac tốc độ cao hỗ trợ cả 2 băng tần 2.4GHz và 5GHz.</p>
+							<a href="GW020_H" class="read-more">Xem thêm</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6">
+					<div class="product-item">
+						<a href="GW240_H"> <img class="img-fluid"
+							style="background-color: white;"
+							src="<c:url value="/assets/user/img/portfolio/960x643-iGate_GW240-H.jpg" />"></a>
+						<div class="info">
+							<div class="cat mb-2">
+								<a href="san-pham-cong-nghe-cong-nghiep">Sản phẩm Công nghệ
+									Công nghiệp</a>
+							</div>
+							<h4 class="title">
+								<a href="GW240_H">GPON ONT iGate GW240-H</a>
+							</h4>
+							<p class="desc">iGate GW240-H là thiết bị GPON ONT dành cho
+								dịch vụ Internet cáp quang tốc độ cao, đáp ứng nhu cầu truy cập
+								mạng, xem truyền hình và hỗ trợ VoIP, mang lại kết nối mạng ổn
+								định dành cho doanh nghiệp.</p>
+							<a href="GW240_H" class="read-more">Xem thêm</a>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</section>
