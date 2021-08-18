@@ -8,15 +8,29 @@
 		<div class="container">
 			<div class="row">
 
-				<div class="col-lg-3 col-md-6 footer-contact">
-					<h4>Công ty TNHH Thiết bị Viễn thông ANSV</h4>
-					<p>
+				<div class="col-lg-7 col-md-6 footer-contact">
+					<h3>Công ty TNHH Thiết bị Viễn thông ANSV</h3>
+					<div class="row">
+						<div class="col-md-6">
+							<p>
 						<i class="icofont-location-pin"></i> &ensp; 124 Hoàng Quốc <br>
-						Việt, Cầu Giấy, Hà Nội <br> <br> <i class="icofont-fax"></i>&ensp;Fax:
-						(+84) 4 3836 2915 <br> <i class="icofont-phone"></i>&ensp; <strong>Phone:</strong>
-						84 - 4 38362094<br> <i class='bx bx-mail-send'></i>&ensp; <strong>Email:</strong>
-						info@example.com<br>
+						Việt, Cầu Giấy, Hà Nội <br> <br> <i class="icofont-fax"></i>&ensp;<strong>Fax:</strong>
+						(+84) 24 3836 2915 <br> <i class="icofont-phone"></i>&ensp; <strong>Phone:</strong>
+						(+84) 24 3836 2094<br> <!-- <i class='bx bx-mail-send'></i>&ensp;  <strong>Email:</strong>
+						info@example.com<br> -->
 					</p>
+						</div>
+						<div class="col-md-6">
+							<p>
+						<i class="icofont-location-pin"></i> &ensp; Số 10, Phổ Quang,  <br>
+						Quận Tân Bình,TP.Hồ Chí Minh <br> <br> <i class="icofont-fax"></i>&ensp;<strong>Fax:</strong>
+						(+84) 28 3997 4515 <br> <i class="icofont-phone"></i>&ensp; <strong>Phone:</strong>
+						(+84) 28 3842 2888<br> <!-- <i class='bx bx-mail-send'></i>&ensp;  <strong>Email:</strong>
+						info@example.com<br>  -->
+					</p>
+						</div>
+					</div>
+					
 				</div>
 
 				<div class="col-lg-2 col-md-6 footer-links">
@@ -44,14 +58,14 @@
 					</ul>
 				</div>
 
-				<div class="col-lg-4 col-md-6 footer-newsletter">
+				<!-- <div class="col-lg-4 col-md-6 footer-newsletter">
 					<h4>Tham gia với chúng tôi</h4>
 					<p>Hãy để lại email để được tư vấn tận tình</p>
 					<form action="" method="post">
 						<input type="email" name="email"><input type="submit"
 							value="Đăng ký">
 					</form>
-				</div>
+				</div> -->
 
 			</div>
 		</div>

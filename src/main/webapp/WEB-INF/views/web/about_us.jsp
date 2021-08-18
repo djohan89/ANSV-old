@@ -36,7 +36,7 @@
 	                    		<li class="list-group-item"><a href="ve-chung-toi"><b>Giới thiệu</b></a></li>
 			                    <li class="list-group-item"><a href="to-chuc"><b>Cơ cấu tổ chức</b></a></li>
 			                    <li class="list-group-item"><a href="lich-su"><b>Lịch sử hình thành và phát triển</b></a></li>
-			                    <li class="list-group-item"><a href="khach-hang"><b>Đối tác & Khách hàng</b></a>
+			                    <li class="list-group-item"><a href="khach-hang"><b>Khách hàng & Đối tác</b></a>
 			                    </li>
 	                		</ul> 
                 		</nav> 

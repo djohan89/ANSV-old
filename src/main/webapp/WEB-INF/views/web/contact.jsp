@@ -29,14 +29,14 @@
 					<div class="row">
 						<div class="col-md-6">
 							<p>
-								<i class="icofont-location-pin"></i> &ensp;Địa chỉ: 124 Hoàng
+								<i class="icofont-location-pin"></i> &ensp;<strong>Địa chỉ:</strong> 124 Hoàng
 								Quốc Việt, Cầu Giấy, Hà Nội
 							</p>
 							<p>
-								<i class="icofont-phone"></i>&ensp;Tel: (+84) 24 3836 2094
+								<i class="icofont-phone"></i>&ensp;<strong>Tel:</strong> (+84) 24 3836 2094
 							</p>
 							<p>
-								<i class="icofont-fax"></i>&ensp;Fax: (+84) 24 3836 2915
+								<i class="icofont-fax"></i>&ensp;<strong>Fax:</strong> (+84) 24 3836 2915
 							</p>
 							<div class="location">
 								<iframe
@@ -47,14 +47,14 @@
 						</div>
 						<div class="col-md-6">
 							<p>
-								<i class="icofont-location-pin"></i> &ensp;Địa chỉ: Số 10, Phổ
+								<i class="icofont-location-pin"></i> &ensp;<strong>Địa chỉ:</strong> Số 10, Phổ
 								Quang, Quận Tân Bình,TP.Hồ Chí Minh
 							</p>
 							<p>
-								<i class="icofont-phone"></i>&ensp;Tel: (+84) 28 3842 2888
+								<i class="icofont-phone"></i>&ensp;<strong>Tel:</strong> (+84) 28 3842 2888
 							</p>
 							<p>
-								<i class="icofont-fax"></i>&ensp;Fax: (+84) 28 3997 4515
+								<i class="icofont-fax"></i>&ensp;<strong>Fax:</strong> (+84) 28 3997 4515
 							</p>
 							<div class="location">
 								<iframe
