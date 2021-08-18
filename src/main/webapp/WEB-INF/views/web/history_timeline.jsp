@@ -33,8 +33,7 @@
 									cấu tổ chức</b></a></li>
 						<li class="active list-group-item"><a href="lich-su"><b>Lịch
 									sử hình thành và phát triển</b></a></li>
-						<li class="list-group-item"><a href="khach-hang"><b>Đối
-									tác</b></a></li>
+						<li class="list-group-item"><a href="khach-hang"><b>Khách hàng & Đối tác</b></a></li>
 					</ul>
 				</div>
 				<div class="col-md-9 order-md-9">
