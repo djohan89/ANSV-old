@@ -146,8 +146,8 @@ img.xzoom:hover {
 									Technology nghiên cứu phát triển và sản xuất. Thiết bị sử dụng
 									hệ điều hành Android TVTM 9 và được tối ưu cho dịch vụ IPTV và
 									Internet TV.
-								</p style="text-align: justify;">
-								<p>Thiết bị đã được chứng nhận, công bố hợp quy theo quy
+								</p >
+								<p style="text-align: justify;">Thiết bị đã được chứng nhận, công bố hợp quy theo quy
 									định của Bộ Thông tin và truyền thông, và đã cung cấp ra thị
 									trường gần 1 triệu sản phẩm.</p>
 							</div>
