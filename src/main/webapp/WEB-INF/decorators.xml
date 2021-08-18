@@ -91,6 +91,10 @@
     <decorator name="EW12C_CG" page="about.jsp">
        <pattern>/EW12C_CG</pattern>
     </decorator>
+    
+    <decorator name="GW040_H" page="about.jsp">
+		<pattern>/GW040_H</pattern>
+	</decorator>
 
 
 	<!-- Phần của admin -->

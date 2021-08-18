@@ -14,6 +14,12 @@ public class HomeController {
 		return mav;
 	}
 	
+	@RequestMapping(value = { "/GW040_H" }, method = RequestMethod.GET)
+	public ModelAndView GW040_H() {
+		ModelAndView mav = new ModelAndView("web/product_detail/GW040_H");
+		return mav;
+	}
+	
 	@RequestMapping(value = "/ve-chung-toi", method = RequestMethod.GET)
 	public ModelAndView aboutPage() {
 		ModelAndView mav = new ModelAndView("web/about_us");
