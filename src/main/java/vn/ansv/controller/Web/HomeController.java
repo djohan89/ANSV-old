@@ -143,5 +143,27 @@ public class HomeController {
 		return mav;
 	}
 	
+	@RequestMapping(value = { "/GW020_H" }, method = RequestMethod.GET)
+	public ModelAndView GW020_H() {
+		ModelAndView mav = new ModelAndView("web/product_detail/GW020_H");
+		return mav;
+	}
 	
+	@RequestMapping(value = { "/22N_01" }, method = RequestMethod.GET)
+	public ModelAndView I22N_01() {
+		ModelAndView mav = new ModelAndView("web/product_detail/22N_01");
+		return mav;
+	}
+	
+	@RequestMapping(value = { "/MR4G_11D" }, method = RequestMethod.GET)
+	public ModelAndView MR4G_11D() {
+		ModelAndView mav = new ModelAndView("web/product_detail/MR4G_11D");
+		return mav;
+	}
+	
+	@RequestMapping(value = { "/GW240_H" }, method = RequestMethod.GET)
+	public ModelAndView GW240_H() {
+		ModelAndView mav = new ModelAndView("web/product_detail/GW240_H");
+		return mav;
+	}
 }
