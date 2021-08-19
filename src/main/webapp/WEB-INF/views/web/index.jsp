@@ -792,7 +792,7 @@
 		<section class="home-page">
 			<div class="section-title">
 				<h2>
-					Dịch Vụ &amp; Giải Pháp</strong>
+					Giải Pháp &amp;	Dịch Vụ  </strong>
 				</h2>
 			</div>
 			<main id="main-home" role="main">
@@ -1607,7 +1607,7 @@
 		<!-- End Portfolio Section -->
 
 		<!-- ======= Our Clients Section ======= -->
-		<section id="clients" class="clients">
+		<%-- <section id="clients" class="clients">
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-title">
@@ -1679,7 +1679,7 @@
 				</div>
 
 			</div>
-		</section>
+		</section> --%>
 		<!-- End Our Clients Section -->
 
 
@@ -1731,7 +1731,7 @@
 										alt="A black background image with thin blue curves at the bottom." />
 									<span></span>
 								</div>
-								<h3>Video</h3>
+								<h3>Cuộc sống của chúng tôi</h3>
 								<div class="video_ul">
 									<ul>
 										<li class=""><a data-src="0nrzdDqCs3w"

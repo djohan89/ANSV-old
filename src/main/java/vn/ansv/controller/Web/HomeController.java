@@ -33,6 +33,12 @@ public class HomeController {
 		return mav;
 	}
 	
+	@RequestMapping(value = "/thong-diep", method = RequestMethod.GET)
+	public ModelAndView thongDiep() {
+		ModelAndView mav = new ModelAndView("web/thong_diep");
+		return mav;
+	}
+	
 	@RequestMapping(value = "/khach-hang", method = RequestMethod.GET)
 	public ModelAndView clientPage() {
 		ModelAndView mav = new ModelAndView("web/client");
