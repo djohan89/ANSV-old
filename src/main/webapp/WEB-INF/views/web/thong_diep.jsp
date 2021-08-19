@@ -18,7 +18,7 @@
 		<div class="container">
 			<div class="row align-self-center text-center">
 				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
-					<h2 class="text-white text-uppercase">Về Chúng Tôi</h2>
+					<h2 class="text-uppercase header_text">Thông điệp Tổng Giám Đốc</h2>
 				</div>
 
 			</div>
@@ -56,8 +56,8 @@
 								</h2>
 							</div>
 
-							<div class="row content">
-								<div class="col-lg-6" data-aos="fade-right">
+							<div class="row">
+								<div class="col-lg-4" data-aos="fade-right">
 									<img src="<c:url value="/assets/user/img/Presedent.JPG" />"
 										class="img-fluid" alt="">
 								</div>

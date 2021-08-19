@@ -24,14 +24,14 @@
 			      		<div class="slide__bg"></div>
 			      		<div class="slide__content">
 				        	<svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
-				          		<path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+				          		<path class="slide__overlay-path" d="M0,0 50,0 340,405 0,405" />
 				        	</svg>
 					        <div class="slide__text">
 					          	<h2 class="slide__text-heading">
 					          		<font color="#e67e22"><b>ANSV</b></font>
 					          	</h2>
 					          	<font size="+1" color="black">
-				          			ADVANCED NETWORK SYSTEMS VIETNAM COMPANY LIMITED
+				          			<b>ADVANCED NETWORK SYSTEMS VIETNAM COMPANY LIMITED</b>
 				          		</font><br><br>
 					          	<a href="ve-chung-toi" class="slide__text-link">Tìm hiểu...</a>
 					        </div>
@@ -41,7 +41,7 @@
 			      		<div class="slide__bg"></div>
 			      		<div class="slide__content">
 			        		<svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
-			          			<path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+			          			<path class="slide__overlay-path" d="M0,0 50,0 340,405 0,405" />
 			        		</svg>
 			        		<div class="slide__text">
 			          			<h2 class="slide__text-heading">
@@ -58,7 +58,7 @@
 				      	<div class="slide__bg"></div>
 				      	<div class="slide__content">
 					        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
-					          	<path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+					          	<path class="slide__overlay-path" d="M0,0 50,0 340,405 0,405" />
 					        </svg>
 					        <div class="slide__text">
 					          	<h2 class="slide__text-heading">

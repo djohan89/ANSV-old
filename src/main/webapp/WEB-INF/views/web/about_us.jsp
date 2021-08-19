@@ -24,7 +24,7 @@
 		<div class="container">
 			<div class="row align-self-center text-center">
 				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
-					<h2 class="text-white text-uppercase">Về Chúng Tôi</h2>
+					<h2 class="text-uppercase header_text">Về Chúng Tôi</h2>
 				</div>
 			
 			</div>

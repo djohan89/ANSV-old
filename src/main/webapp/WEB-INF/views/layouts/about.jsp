@@ -105,6 +105,11 @@
 	<script
 		src="<c:url value="/assets/user/vendor/elevatezoom/jquery.elevatezoom.min.js" />"></script>
 
-
+	<style>
+		.header_text {
+			font-weight: bold;
+			color: orange;
+		}
+	</style>
 </body>
 </html>

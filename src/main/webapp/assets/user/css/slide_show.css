@@ -129,7 +129,7 @@ svg {
   background-image: url("../img/slider/Gioi thieu DN.jpg");
 }
 .slide:nth-child(1) .slide__overlay-path {
-  fill: #f9ecf2;
+  fill: #F8F8F8;
   opacity: 0.4;
  
 }
@@ -216,7 +216,7 @@ svg {
   position: absolute;
   width: 25%;
   bottom: 15%;
-  left: 12%;
+  left: 6%;
   color: #fff;
   transition: transform 0.5s 0.8s, opacity 0.5s 0.8s;
   will-change: transform, opacity;
