@@ -14,7 +14,7 @@
 		<div class="container">
 			<div class="row align-self-center text-center">
 				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
-					<h2 class="text-white text-uppercase">Sản phẩm thương mại</h2>
+					<h2 class="header_text text-uppercase">Sản phẩm thương mại</h2>
 				</div>
 			</div>
 		</div>
@@ -74,7 +74,7 @@
 
 				<div class="col-md-4 col-sm-6">
 					<div class="product-item">
-						<a href="MR4G_11D"> <img style="background-color: white;"
+						<a href="javascript:void(0)"> <img style="background-color: white;"
 							class="img-fluid"
 							src="<c:url value="/assets/user/img/Product_1.JPG" />">
 						</a>
@@ -102,7 +102,7 @@
 
 				<div class="col-md-4 col-sm-6">
 					<div class="product-item">
-						<a href="MR4G_11D"> <img style="background-color: white;"
+						<a href="javascript:void(0)"> <img style="background-color: white;"
 							class="img-fluid"
 							src="<c:url value="/assets/user/img/Product_2.JPG" />">
 						</a>
@@ -127,7 +127,7 @@
 
 				<div class="col-md-4 col-sm-6">
 					<div class="product-item">
-						<a href="MR4G_11D"> <img style="background-color: white;"
+						<a href="javascript:void(0)"> <img style="background-color: white;"
 							class="img-fluid"
 							src="<c:url value="/assets/user/img/Product_3.JPG" />">
 						</a>
@@ -160,7 +160,7 @@
 								<a href="san-pham-thuong-mai">Sản phẩm thương mại</a>
 							</div>
 							<h4 class="title">
-								<a href="MR4G_11D">Nguồn(Power Supply/Battery)</a>
+								<a href="javascript:void(0)">Nguồn(Power Supply/Battery)</a>
 							</h4>
 							<p class="desc">Một nguồn cung cấp điện là một thành
 									phần phần cứng mà cung cấp điện cho một thiết bị điện. Nó nhận
