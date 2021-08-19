@@ -8,6 +8,12 @@
 <head>
 <meta charset="UTF-8">
 <title>Lịch Sử Hình Thành Và Phát Triển</title>
+<style>
+.banner {
+	position: absolute;
+	top: 10px;
+}
+</style>
 </head>
 <body>
 	<section id="about-content">
@@ -25,17 +31,24 @@
 		data-target="#myScrollspy" data-offset="20">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3 order-md-3" id="myScrollspy">
-					<ul class="nav nav-pills nav-stacked list-group">
-						<li class="list-group-item"><a href="ve-chung-toi"><b>Giới
-									thiệu</b></a></li>
-						<li class="list-group-item"><a href="to-chuc"><b>Cơ
-									cấu tổ chức</b></a></li>
-						<li class="active list-group-item"><a href="lich-su"><b>Lịch
-									sử hình thành và phát triển</b></a></li>
-						<li class="list-group-item"><a href="khach-hang"><b>Khách hàng & Đối tác</b></a></li>
-					</ul>
-				</div>
+				<nav class="col-md-3 order-md-3 banner" id="myScrollspy">
+					<div class="cat-list ">
+						<nav>
+							<ul class="nav nav-pills nav-stacked list-group">
+								<li class="list-group-item"><a href="ve-chung-toi"><b>Giới
+											thiệu</b></a></li>
+								<li class="list-group-item"><a href="to-chuc"><b>Cơ
+											cấu tổ chức</b></a></li>
+								<li class="list-group-item"><a href="lich-su"><b>Lịch
+											sử hình thành và phát triển</b></a></li>
+								<li class="list-group-item"><a href="khach-hang"><b>Khách
+											hàng & Đối tác</b></a>
+								<li class="list-group-item"><a href="thong-diep"><b>Thông
+											điệp tổng giám đốc</b></a></li>
+							</ul>
+						</nav>
+					</div>
+				</nav>
 				<div class="col-md-9 order-md-9">
 					<div class="about-right">
 						<div>
@@ -381,5 +394,24 @@
 		</div>
 		</div>
 	</section>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				  var $banner = $('.banner'), $window = $(window);
+				  var $topDefault = parseFloat( $banner.css('top'), 10 );
+				  $window.on('scroll', function() {
+				    var $top = $(this).scrollTop();
+				    $banner.stop().animate( { top: $top + $topDefault }, 1000, 'easeOutCirc' );
+				  });
+
+				  var $wiBanner = $banner.outerWidth() * 2;
+				  function zindex(maxWidth){
+				    if( $window.width() <= maxWidth + $wiBanner ) {
+				      $banner.addClass('zindex');
+				    } else {
+				      $banner.removeClass('zindex');
+				    }
+				  }
+				});
+			</script>
 </body>
 </html>

@@ -23,6 +23,7 @@
 						<li><a href="to-chuc">Cơ cấu tổ chức</a></li>
 						<li><a href="lich-su">Lịch sử</a></li>
 						<li><a href="khach-hang">Khách hàng &amp; đối tác</a></li>
+						<li><a href="thong-diep">Thông điệp của tổng giám đốc</a></li>
 						<!-- <li class="drop-down"><a href="#">Deep Drop Down</a>
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>

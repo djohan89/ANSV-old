@@ -66,6 +66,10 @@
        <pattern>/tin-tuc</pattern>
     </decorator>
     
+    <decorator name="thong-diep" page="about.jsp">
+       <pattern>/thong-diep</pattern>
+    </decorator>
+    
     <!-- Phần của chi tiết sản phẩm -->
 		
 	<decorator name="HVIP01" page="about.jsp">
