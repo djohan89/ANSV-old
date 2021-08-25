@@ -10,6 +10,10 @@
 
 <title>Thông điệp của tổng giám đốc</title>
 <style type="text/css">
+	.banner {
+	position: absolute;
+	top: 10px;
+}
 </style>
 
 </head>
@@ -28,7 +32,7 @@
 	<section id="about-section">
 		<div class="container">
 			<div class="row">
-				<nav class="col-md-3 order-md-3" id="myScrollspy">
+				<nav class="col-md-3 order-md-3 banner" id="myScrollspy">
 					<div class="cat-list ">
 						<nav>
 							<ul class="nav nav-pills nav-stacked list-group">
@@ -50,11 +54,11 @@
 					<div class="about-right">
 						<div class="container" data-aos="fade-up">
 
-							<div class="section-title">
+							<!-- <div class="section-title">
 								<h2>
 									<strong>Thông Điệp Từ Tổng Giám Đốc</strong>
 								</h2>
-							</div>
+							</div> -->
 
 							<div class="row">
 								<div class="col-lg-4" data-aos="fade-right">
@@ -129,5 +133,26 @@
 		</div>
 
 	</section>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			var $banner = $('.banner'), $window = $(window);
+			var $topDefault = parseFloat($banner.css('top'), 10);
+			$window.on('scroll', function() {
+				var $top = $(this).scrollTop();
+				$banner.stop().animate({
+					top : $top + $topDefault
+				}, 1000, 'easeOutCirc');
+			});
+
+			var $wiBanner = $banner.outerWidth() * 2;
+			function zindex(maxWidth) {
+				if ($window.width() <= maxWidth + $wiBanner) {
+					$banner.addClass('zindex');
+				} else {
+					$banner.removeClass('zindex');
+				}
+			}
+		});
+	</script>
 </body>
 </html>

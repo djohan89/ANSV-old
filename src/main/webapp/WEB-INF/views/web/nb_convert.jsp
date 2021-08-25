@@ -13,7 +13,7 @@
 		<div class="container">
 			<div class="row align-self-center text-center">
 				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
-					<h2 class="text-white text-uppercase">Chuyển đổi số</h2>
+					<h2 class="header_text text-uppercase">Chuyển đổi số</h2>
 				</div>
 			</div>
 		</div>
