@@ -581,22 +581,22 @@
 							</ul>
 							<div class="tab-content rounded mt-2">
 								<div class="tab-pane container p-0 active" id="home1">
-									<p style="font-size: 14px; text-align: justify;">ANSV dựa
+									<p text-align: justify;">ANSV dựa
 										trên ứng dụng KHCN - CNTT-VT cùng sự liên tục đổi mới sáng tạo
-										và sực mạnh kết nối của các thành tựu công nghệ quốc tế cùng
+										và sức mạnh kết nối của các thành tựu công nghệ quốc tế cùng
 										với những chuyên gia, kỹ sư người Việt nam, chúng tôi luôn nỗ
 										lực phát triển, nâng cao giá trị cho cộng đồng, hướng tới mục
 										tiêu đặt một dấu ấn vững chắc trên bản đồ công nghệ toàn cầu.</p>
 
 								</div>
 								<div class="tab-pane container p-0 fade" id="home2">
-									<p style="font-size: 14px; text-align: justify;">ANSV định
+									<p  text-align: justify;">ANSV định
 										hướng trở thành doanh nghiệp đi đầu trong lĩnh vựa chuyển đổi
 										số, tích hợp hệ thông CNTT - VT, phân phối bán lẻ các sản phẩm
-										công nghệ ở thị trường Việt Nam và thị trường khu vựa.</p>
+										công nghệ ở thị trường Việt Nam và thị trường khu vực.</p>
 								</div>
 								<div class="tab-pane container p-0 fade" id="home3">
-									<p style="font-size: 14px; text-align: justify;">
+									<p  text-align: justify;">
 										<span> "Văn hóa là
 											tinh thần - Sức mạnh Team work" luôn được đề cao và là văn
 											hóa cốt lõi của Doanh nghiệp, tạo nên tinh thần ANSV, giúp
@@ -662,7 +662,7 @@
 
 
 		<!-- ======= President Election Section ======= -->
-		<section id="President-Election" class="President-Election">
+		<%-- <section id="President-Election" class="President-Election">
 			<div class="container" data-aos="fade-up">
 
 				<div class="section-title">
@@ -731,7 +731,7 @@
 				</div>
 
 			</div>
-		</section>
+		</section> --%>
 		<!-- End President Election Section -->
 
 

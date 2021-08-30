@@ -26,7 +26,7 @@
 				<!-- <a href="#" class="directional">Sản phẩm &nbsp</a> > &nbsp <a class="directional" href="#"> Sản phẩm Công nghệ Công nghiệp</a> -->
 			</div>
 			<div class="row">
-				<div class="col-md-4 col-sm-6">
+				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="product-item">
 						<a href="HVOF01"> <img style="background-color: white;"
 							class="img-fluid"
@@ -48,7 +48,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-4 col-sm-6">
+				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="product-item">
 						<a href="HVIP01"> <img class="img-fluid"
 							style="background-color: white;"
@@ -69,7 +69,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-4 col-sm-6">
+				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="product-item">
 						<a href="GW040_H"> <img class="img-fluid"
 							style="background-color: white;"
@@ -93,7 +93,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-4 col-sm-6">
+				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="product-item">
 						<a href="EW12S_SG"> <img class="img-fluid"
 							style="background-color: white;"
@@ -116,7 +116,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-4 col-sm-6">
+				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="product-item">
 						<a href="EW12C_CG"> <img class="img-fluid"
 							style="background-color: white;"
@@ -138,7 +138,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-4 col-sm-6">
+				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="product-item">
 						<a href="GW020_H"> <img class="img-fluid"
 							style="background-color: white;"
@@ -161,7 +161,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-4 col-sm-6">
+				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="product-item">
 						<a href="GW240_H"> <img class="img-fluid"
 							style="background-color: white;"
