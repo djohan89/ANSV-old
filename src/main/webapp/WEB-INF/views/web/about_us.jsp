@@ -66,7 +66,7 @@
 
 							<p>ANSV tiếp tục phát triển trên các lĩnh vực hoạt động truyền thống từ hơn 18 năm của mô hình liên doanh, đồng thời phát huy những kinh nghiệm cũng như nguồn lực tích lũy từ hơn 18 năm qua, tiếp tục phát triển và mở rộng lĩnh vực hoạt động thúc đẩy phát triển công nghệ, công nghiệp và dịch vụ viễn thông và công nghệ thông tin.</p>
 
-							<p>Bên cạnh đối tác công nghệ truyền thống Alcatel-Lucent, ANSV mở rộng hợp tác với các đối tác công nghệ khác như IBM, Convergys, Oracle…, để phát triển và sản xuất các sản phẩm, giải pháp phần cứng cũng như phần mềm đáp ứng nhu cầu của thị trường trong nước và khu vực.</p>
+							<p>Bên cạnh đối tác công nghệ truyền thống Nokia, ANSV mở rộng hợp tác với các đối tác công nghệ khác như IBM, Convergys, Oracle…, để phát triển và sản xuất các sản phẩm, giải pháp phần cứng cũng như phần mềm đáp ứng nhu cầu của thị trường trong nước và khu vực.</p>
 						</div>
 						<div  class="mt-5">
 							<h3 class="title"><strong>Lĩnh vực hoạt động</strong></h3>
@@ -75,9 +75,9 @@
 						</div>
 						<div  class="mt-5">
 							<h3 class="title"><strong>Sứ mệnh</strong></h3>
-							<p>ANSV dựa trên ứng dụng KHCN - CNTT-VT cùng sự liên tục đổi mới sáng tạo và sực mạnh kết nối của các thành tựu công nghệ quốc tế cùng với những chuyên gia, kỹ sư người Việt nam, chúng tôi luôn nỗ lực phát triển, nâng cao giá trị cho cộng đồng, hướng tới mục tiêu đặt một dấu ấn vững chắc trên bản đồ công nghệ toàn cầu.</p>
+							<p>ANSV dựa trên ứng dụng KHCN - CNTT-VT cùng sự liên tục đổi mới sáng tạo và sức mạnh kết nối của các thành tựu công nghệ quốc tế cùng với những chuyên gia, kỹ sư người Việt nam, chúng tôi luôn nỗ lực phát triển, nâng cao giá trị cho cộng đồng, hướng tới mục tiêu đặt một dấu ấn vững chắc trên bản đồ công nghệ toàn cầu.</p>
 							<h3 class="mt-4 title"><strong>Tầm nhìn</strong></h3>
-							<p>ANSV định hướng trở thành doanh nghiệp đi đầu trong lĩnh vựa chuyển đổi số, tích hợp hệ thông CNTT - VT, phân phối bán lẻ các sản phẩm công nghệ ở thị trường Việt Nam và thị trường khu vựa.</p>
+							<p>ANSV định hướng trở thành doanh nghiệp đi đầu trong lĩnh vực chuyển đổi số, tích hợp hệ thông CNTT - VT, phân phối bán lẻ các sản phẩm công nghệ ở thị trường Việt Nam và thị trường khu vực.</p>
 							<h3 class="mt-4 title"><strong>Giá trị cốt lõi</strong></h3>
 							<p>
 								<span> "Văn hóa là tinh thần - Sức mạnh Team work" luôn được đề cao và là văn hóa cốt lõi của Doanh nghiệp, tạo nên tinh thần ANSV, giúp chúng tôi không ngừng nỗ lực , sáng tạo vì lợi ích chung của tập thể, ủa khách hàng và của xã hội.</span></br><br>
