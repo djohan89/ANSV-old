@@ -93,6 +93,7 @@
 								Nam, có vị thế vững chắc ở thị trường trong nước và trong khu
 								vực.</p>
 
+
 							<p>Bên cạnh các đối tác công nghệ Viễn thông truyền thống lớn
 								Alcatel-Lucent (Nay là Nokia), ANSV mở rộng hợp tác với các đối
 								tác công nghệ khác như Alcatel-Lucent Enterprise, Microsoft,
@@ -101,6 +102,9 @@
 								lĩnh vực hoạt động, góp phần thúc đẩy mạnh mẽ vào sự phát triển
 								Công nghệ công nghiệp, Dịch vụ viễn thông và Công nghệ thông tin
 								tại Việt Nam.</p>
+
+							<p>Bên cạnh đối tác công nghệ truyền thống Nokia, ANSV mở rộng hợp tác với các đối tác công nghệ khác như IBM, Convergys, Oracle…, để phát triển và sản xuất các sản phẩm, giải pháp phần cứng cũng như phần mềm đáp ứng nhu cầu của thị trường trong nước và khu vực.</p>
+
 						</div>
 						<div class="mt-5">
 							<h3 class="title">
@@ -113,10 +117,11 @@
 							<img src="<c:url value="/assets/user/img/About_us.JPG"/>"
 								class="img-fluid" alt="" />
 						</div>
+
 						<div class="mt-5">
 							<h3 class="title">
 								<strong>Sứ mệnh</strong>
-							</h3>
+          </h3>
 							<p>ANSV dựa trên ứng dụng KHCN - CNTT-VT cùng sự liên tục đổi
 								mới sáng tạo và sức mạnh kết nối của các thành tựu công nghệ
 								quốc tế cùng với những chuyên gia, kỹ sư người Việt nam, chúng
@@ -133,6 +138,13 @@
 							<h3 class="mt-4 title">
 								<strong>Giá trị cốt lõi</strong>
 							</h3>
+
+						<div  class="mt-5">
+							<h3 class="title"><strong>Sứ mệnh</strong></h3>
+							<p>ANSV dựa trên ứng dụng KHCN - CNTT-VT cùng sự liên tục đổi mới sáng tạo và sức mạnh kết nối của các thành tựu công nghệ quốc tế cùng với những chuyên gia, kỹ sư người Việt nam, chúng tôi luôn nỗ lực phát triển, nâng cao giá trị cho cộng đồng, hướng tới mục tiêu đặt một dấu ấn vững chắc trên bản đồ công nghệ toàn cầu.</p>
+							<h3 class="mt-4 title"><strong>Tầm nhìn</strong></h3>
+							<p>ANSV định hướng trở thành doanh nghiệp đi đầu trong lĩnh vực chuyển đổi số, tích hợp hệ thông CNTT - VT, phân phối bán lẻ các sản phẩm công nghệ ở thị trường Việt Nam và thị trường khu vực.</p>
+							<h3 class="mt-4 title"><strong>Giá trị cốt lõi</strong></h3>
 							<p>
 								<span> "Văn hóa là tinh thần - Sức mạnh Team work" luôn
 									được đề cao và là văn hóa cốt lõi của Doanh nghiệp, tạo nên
