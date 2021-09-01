@@ -21,7 +21,7 @@
 					<ul>
 						<li><a href="ve-chung-toi">Về chúng tôi</a></li>
 						<li><a href="to-chuc">Cơ cấu tổ chức</a></li>
-						<li><a href="lich-su">Lịch sử</a></li>
+						<li><a href="lich-su">Lịch sử hình thành và phát triển</a></li>
 						<li><a href="khach-hang">Khách hàng &amp; đối tác</a></li>
 						<li><a href="thong-diep">Thông điệp của tổng giám đốc</a></li>
 						<!-- <li class="drop-down"><a href="#">Deep Drop Down</a>
