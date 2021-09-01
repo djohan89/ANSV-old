@@ -86,7 +86,7 @@ img.xzoom:hover {
 	</section>
 	<section id="product_detail">
 		<div>
-			<div class="navbar-product products_menu_list d-flex navigation">
+			<div class="navbar-product products_menu_list navigation">
 				<a class="navigation__link active" href="#img-prd">Hình ảnh</a> <a
 					class="navigation__link" href="#overview-prd">Tổng quan</a> <a
 					class="navigation__link" href="#key-features-prd">Tính năng

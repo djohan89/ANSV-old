@@ -8,7 +8,7 @@
 		<div class="container">
 			<div class="row">
 
-				<div class="col-lg-7 col-md-6 footer-contact">
+				<div class="col-lg-7 col-md-12 col-sm-12 footer-contact">
 					<h3>Công ty TNHH Thiết bị Viễn thông ANSV</h3>
 					<div class="row">
 						<div class="col-md-6">
@@ -33,7 +33,7 @@
 					
 				</div>
 
-				<div class="col-lg-2 col-md-6 footer-links">
+				<div class="col-lg-2 col-md-6 col-sm-6 footer-links">
 					<h4>Liên kết</h4>
 					<ul>
 						<li><i class="bx bx-chevron-right"></i> <a href="trang-chu">Trang
@@ -47,7 +47,7 @@
 					</ul>
 				</div>
 
-				<div class="col-lg-3 col-md-6 footer-links">
+				<div class="col-lg-3 col-md-6 col-sm-6 footer-links">
 					<h4>Dịch vụ & giải pháp của chúng tôi</h4>
 					<ul>
 						<li><i class="bx bx-chevron-right"></i> <a href="chuyen-nganh-vien-thong">Chuyên ngành viễn thông</a></li>
