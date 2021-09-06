@@ -21,6 +21,7 @@
 	background-color: #0066b3;
 	position: fixed;
 	top: 9%;
+	padding-top:0.5%;
 	width: 101%;
 	padding-left: 30%;
 	z-index: 1;
@@ -43,6 +44,7 @@ html {
 	color: #f2f2f2;
 	text-align: center;
 	padding: 14px 16px;
+	
 	text-decoration: none;
 	font-size: 17px;
 }
@@ -79,7 +81,7 @@ img.xzoom:hover {
 		<div class="container">
 			<div class="row align-self-center text-center">
 				<div class="col-md-10 offset-md-2 text-center breadcrumb-info">
-					<h2 class="text-white text-uppercase">Chi tiết sản phẩm</h2>
+					<h2 class="header_text text-uppercase">Chi tiết sản phẩm</h2>
 				</div>
 			</div>
 		</div>

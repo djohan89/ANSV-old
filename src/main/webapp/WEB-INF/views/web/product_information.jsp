@@ -41,7 +41,7 @@
 								<a href="HVOF01">Home Vision HVOF01</a>
 							</h4>
 							<p class="desc">Thiết bị camera giám sát ngoài trời do VNTP
-								Technology nghiên cứi, phát triển và sản xuất phục vụ giám sát
+								Technology nghiên cứu, phát triển và sản xuất phục vụ giám sát
 								an ninh cho ngôi nhà...</p>
 							<a href="HVOF01" class="read-more">Xem thêm</a>
 						</div>
@@ -61,8 +61,8 @@
 							<h4 class="title">
 								<a href="HVIP01">Home Vision HVIP01</a>
 							</h4>
-							<p class="desc">Thiết bị camera giám sát ngoài trời do VNTP
-								Technology nghiên cứi, phát triển và sản xuất phục vụ giám sát
+							<p class="desc">Thiết bị camera giám sát trong nhà do VNTP
+								Technology nghiên cứu, phát triển và sản xuất phục vụ giám sát
 								an ninh cho ngôi nhà...</p>
 							<a href="HVIP01" class="read-more">Xem thêm</a>
 						</div>
