@@ -20,9 +20,7 @@
 	overflow: hidden;
 	background-color: #0066b3;
 	position: fixed;
-	top: 9%;
 	width: 101%;
-	padding-top:0.5%;
 	padding-left: 30%;
 	z-index: 1;
 }
