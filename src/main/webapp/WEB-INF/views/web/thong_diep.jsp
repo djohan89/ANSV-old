@@ -69,7 +69,7 @@
 									<h3 style="border-bottom: 2px solid #f27700">Kính gửi Quý
 										khách hàng, Quý đối tác</h3>
 									<br>
-									<p style="font-size: 14px" class="font-italic">Lời đầu tiên
+									<p  class="font-italic">Lời đầu tiên
 										tôi xin thay mặt toàn thể cán bộ công nhân viên của công ty
 										TNHH Thiết bị viễn thông ANSV xin gửi đến Quý khách hàng,Quý
 										đối tác lời chào cùng lời chi ân sâu sắc nhất. Nhận được sự
@@ -78,7 +78,7 @@
 										luôn thấu hiểu được nhu cầu và đáp ứng được mong muốn của
 										khách hàng.</p>
 									<br>
-									<p style="font-size: 14px" class="font-italic">Để thích ứng
+									<p  class="font-italic">Để thích ứng
 										kịp thời với bước chuyển mình mạnh mẽ của công nghệ và với
 										tham vọng sẽ trở thành công ty hàng đầu trong lĩnh vực chuyển
 										đổi số(Disital Transformation), tích hợp hệ thống(System
@@ -88,7 +88,7 @@
 										nghệ thông tin và Viễn thông nhằm nâng cao những giá trị, lợi
 										ích, hình ảnh của Quý vị tại Việt Nam và khu vực.</p>
 									<br>
-									<p style="font-size: 14px" class="font-italic">Những dấu ấn
+									<p  class="font-italic">Những dấu ấn
 										mà ANSV có thể tự hào ngày hôm nay là thành quả trong suốt 28
 										năm hình thành và phát triển, là sự phấn đấu không ngừng của
 										một đơn vị đoàn kết, sáng tạo, là sự đồng lòng của tập thể
@@ -97,13 +97,13 @@
 										những thành tựu giúp chúng tôi vững tin bước vào thập kỷ phát
 										triển mới.</p>
 									<br>
-									<p style="font-size: 14px" class="font-italic">Với sự đổi
+									<p  class="font-italic">Với sự đổi
 										mới trong cách nghĩ, cách làm, đam mê, và không ngừng sáng
 										tạo, chúng tôi tin tưởng ANSV sẽ có những bước tiến thần tốc,
 										đón đầu các xu hướng công nghệ giúp kiến tạo và thay đổi cuộc
 										sống.</p>
 									<br>
-									<p style="font-size: 14px" class="font-italic">Với nội lực
+									<p  class="font-italic">Với nội lực
 										và sự quyết tâm, tập thể ANSV cam kết sẽ luôn luôn gắn kết,
 										đồng hành cùng Quý vị để tiếp tục phát triển và tiến xa hơn
 										nữa, khẳng định vai trò vị thể của Quý Khách hàng, Quý đối tác

@@ -33,7 +33,7 @@
 									<p>• Hệ thống cung cấp cổng dịch vụ công một cửa liên thông
 										cấp độ 3,4.</p>
 									<p>• Hệ thống điều hành văn bản.</p>
-									<p>• Tục tích hợp liên thông dữ liệu, cho phép các hệ thống
+									<p>• Trục tích hợp liên thông dữ liệu, cho phép các hệ thống
 										có thể liên thông trao đổi nhiều loại dữ liệu với nhau.</p>
 								</div>
 								<div class="col-md-6">
