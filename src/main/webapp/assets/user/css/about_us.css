@@ -539,6 +539,7 @@ ul.nav-pills a:hover::after{
 @media (min-width : 1724px) {
 	.navbar-product{
 		top:7% !important;
+		padding-top:0 !important;
 	}
 }
 @media (min-width : 993px) {
