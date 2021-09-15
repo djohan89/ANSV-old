@@ -646,7 +646,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 #owl-demo .item{
-  background: #42bdc2;
+  /* background: #42bdc2; */
   padding: 30px 0px;
   margin: 10px;
   color: #FFF;
