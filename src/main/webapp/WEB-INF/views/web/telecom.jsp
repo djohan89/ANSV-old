@@ -95,7 +95,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="section-4 " data-aos="fade-up">
+			<%-- <div class="section-4 " data-aos="fade-up">
 				<h3>
 					<b>4.Mạng thế hệ mới NGN</b>
 				</h3>
@@ -115,7 +115,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> --%>
 		</div>
 	</section>
 </body>

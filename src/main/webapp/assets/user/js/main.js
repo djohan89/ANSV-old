@@ -52,51 +52,17 @@
       }
     }
     
-      $('.owl-carousel2').owlCarousel({        
-	        loop: true,
-	        margin: 55,
-	        autoplay: true,
-	        autoplayTimeout: 2000,
-	        responsiveClass:true,
-	        responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        600:{
-            items:3,
-            nav:false
-        },
-        1000:{
-            items:4,
-            nav:true,
-            loop:false
-        }
-    }
-    	})
-        $('.owl-carousel1').owlCarousel({            
-            rtl: true,         
-            loop: true,
-            margin: 55,
-            autoplay: true,
-            autoplayTimeout: 2000,
-            responsiveClass:true,
-            responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        600:{
-            items:3,
-            nav:false
-        },
-        1000:{
-            items:4,
-            nav:true,
-            loop:false
-        }
-    }
-        })
+      var owl = $("#owl-demo");
+ 
+	  owl.owlCarousel({
+	 	autoPlay : 4000,
+	 	items : 3, //10 items above 1000px browser width
+		itemsDesktop : [1199,3], //5 items between 1000px and 901px
+		itemsDesktopSmall : [980,2], // betweem 900px and 601px
+		itemsTablet: [768,1], //2 items between 600 and 0
+		itemsMobile : true // itemsMobile disabled - inherit from itemsTablet option
+	  });
+        
         
      // Get current path and find target link
         var path = window.location.pathname.split("/").pop();

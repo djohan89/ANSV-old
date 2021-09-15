@@ -39,6 +39,8 @@
 	rel="stylesheet">
 <link href="<c:url value="/assets/user/vendor/venobox/venobox.css" />"
 	rel="stylesheet">
+<link rel="stylesheet"
+	href="<c:url value="/assets/user/vendor/owl.carousel/assets/owl.theme.css" />">
 <link
 	href="<c:url value="/assets/user/vendor/owl.carousel/assets/owl.carousel.min.css" />"
 	rel="stylesheet">
@@ -51,7 +53,7 @@
 <!-- Template Main CSS File -->
 <link href="<c:url value="/assets/user/css/style-new.css" />"
 	rel="stylesheet">
-	
+
 <link href="<c:url value="/assets/user/css/btn/btn_style_new.css" />"
 	rel="stylesheet">
 
@@ -84,7 +86,7 @@
 	<script
 		src="<c:url value="/assets/user/vendor/waypoints/jquery.waypoints.min.js" />"></script>
 	<script
-		src="<c:url value="/assets/user/vendor/owl.carousel/owl.carousel.min.js" />"></script>
+		src="<c:url value="/assets/user/vendor/owl.carousel/owl.carousel.js" />"></script>
 	<script src="<c:url value="/assets/user/vendor/aos/aos.js" />"></script>
 
 	<!-- Template Main JS File -->
