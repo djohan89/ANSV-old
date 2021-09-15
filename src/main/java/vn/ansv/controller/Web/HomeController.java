@@ -105,7 +105,7 @@ public class HomeController {
 	}
 	
 	
-	/* Chi tiết sản phẩm */
+	/* Chi tiáº¿t sáº£n pháº©m */
 	
 	@RequestMapping(value = "/HVIP01", method = RequestMethod.GET)
 	public ModelAndView HVIP01() {
@@ -172,4 +172,13 @@ public class HomeController {
 		ModelAndView mav = new ModelAndView("web/product_detail/GW240_H");
 		return mav;
 	}
+	
+	/* Tin tức */
+	
+	@RequestMapping(value = { "/mesh_vs_rep" }, method = RequestMethod.GET)
+	public ModelAndView mesh_vs_rep() {
+		ModelAndView mav = new ModelAndView("web/news/mesh_vs_rep");
+		return mav;
+	}
+	
 }

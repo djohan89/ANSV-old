@@ -52,7 +52,7 @@
 						<h2 class="title">
 							<strong>Khách hàng</strong>
 						</h2>
-						<p>Hợp tác chặt chẽ với các đối tác công nghệ hàng đầu thế
+						<p class="justify">Hợp tác chặt chẽ với các đối tác công nghệ hàng đầu thế
 							giới như: Qualcomm, Broadcom, Intel, Econet, Texas Instruments,
 							Realtek, Sigma Designs, Microsoft, Oracle, Nokia, Genesys… nhằm
 							tiếp thu kinh nghiệm, tiếp cận công nghệ tiên tiến nhất và chủ
@@ -122,10 +122,10 @@
 						</div>
 
 
-						<h2>
+						<h2 class="title">
 							<strong>Đối tác</strong>
 						</h2>
-						<p>Hợp tác chặt chẽ với các đối tác công nghệ hàng đầu thế
+						<p class="justify">Hợp tác chặt chẽ với các đối tác công nghệ hàng đầu thế
 							giới như: Qualcomm, Broadcom, Intel, Econet, Texas Instruments,
 							Realtek, Sigma Designs, Microsoft, Oracle, Nokia, Genesys… nhằm
 							tiếp thu kinh nghiệm, tiếp cận công nghệ tiên tiến nhất và chủ
