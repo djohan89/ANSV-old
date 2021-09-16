@@ -50,7 +50,7 @@
 				<div class="col-md-9 order-md-9">
 					<div class="about-right">
 						<div>
-							<h3 class="mb-5">
+							<h3 class="mb-5 title">
 								<strong>Cơ cấu</strong>
 							</h3>
 							<div class="text-center">
@@ -60,10 +60,10 @@
 									<figcaption>Sơ đồ tổ chức của công ty</figcaption>
 								</figure>
 							</div>
-							<h3 class="mb-5">
+							<h3 class="mb-5 title">
 								<strong>Nhân sự</strong>
 							</h3>
-							<p>ANSV sở hữu đội ngũ nhận sự chủ lực là các kỹ sư công nghệ
+							<p class="justify">ANSV sở hữu đội ngũ nhân sự chủ lực là các kỹ sư công nghệ
 								thông tin tin đáp ứng xu thế công nghệ 4.0 với kinh nghiệm và
 								tay nghề cao, có đam mê,nhiệt huyết và luôn làm việc với tinh
 								thần:"Tốc chiến tốc thắng". Chúng tôi tập trung vào nâng cao

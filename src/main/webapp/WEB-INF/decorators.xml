@@ -115,6 +115,11 @@
 	<decorator name="GW240_H" page="about.jsp">
 		<pattern>/GW240_H</pattern>
 	</decorator>
+	
+	<!-- Phần tin tức -->
+	<decorator name="mesh_vs_rep" page="about.jsp">
+		<pattern>/mesh_vs_rep</pattern>
+	</decorator>
 
 	<!-- Phần của admin -->
 	<decorator name="home" page="admin.jsp">

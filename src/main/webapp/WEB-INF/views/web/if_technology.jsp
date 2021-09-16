@@ -32,7 +32,7 @@
 					</div>
 					<div class="col-md-6 mt-5 pt-1 " data-aos="fade-left">
 						<div class="">
-							<p>Giải pháp Wi-Fi tổng thể là giải pháp toàn diện, hiệu suất
+							<p class="justify">Giải pháp Wi-Fi tổng thể là giải pháp toàn diện, hiệu suất
 								cao, linh hoạt trong triển khai; cung cấp kết nối không dây phù
 								hợp cho tất cả khách hàng cá nhân, doanh nghiệp SME, nhà cung
 								cấp dịch vụ, các cơ quan ban ngành trung ương và địa phương.</p>
@@ -47,7 +47,7 @@
 				<div class="row mt-5">
 					<div class="col-md-6 mt-5 pt-1 " data-aos="fade-left">
 						<div class="">
-							<p>Công ty hiện đang là đối tác của Genesys trong việc xây
+							<p class="justify">Công ty hiện đang là đối tác của Genesys trong việc xây
 								dựng giải pháp, phát triển và triển khai các hệ thống IP Contact
 								Centre (IPCC) trên nền Genesys Customer Interaction Management
 								(CIM) Platform – thành phần cốt lõi của bộ sản phẩm Genesys. CIM
@@ -62,7 +62,7 @@
 					</div>
 					<div class="col-md-6 " data-aos="fade-right">
 						<img alt="" class="img-fluid"
-							src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/IPCC-new.png" />">
+							src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/voice-1.jpg" />">
 					</div>
 				</div>
 			</div>
@@ -73,17 +73,17 @@
 				<div class="row mt-5">
 					<div class="col-md-6" data-aos="fade-right">
 						<img alt="" class="img-fluid"
-							src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/giai-phap-ha-tang.png" />">
+							src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/bao-mat.jpg" />">
 					</div>
 					<div class="col-md-6 mt-5 pt-1 " data-aos="fade-left">
 						<div class="">
-							<p>Cung cấp và tích hợp các giải pháp hạ tầng cơ sở CNTT như
+							<p class="justify">Cung cấp và tích hợp các giải pháp hạ tầng cơ sở CNTT như
 								giải pháp Ảo hóa và Điện toán đám mây, giải pháp Hạ tầng mạng,
 								giải pháp Hạ tầng trung tâm dữ liệu, giải pháp Hệ thống máy chủ
 								và lưu trữ, giải pháp hội nghị truyền hình, giải pháp Truyền
 								thông hợp nhất và giải pháp xây dựng Cơ sở Dữ liệu (CSDL) doanh
 								nghiệp toàn diện.</p>
-							<p>Các giải pháp hạ tầng CNTT được kết hợp với các giải pháp
+							<p class="justify">Các giải pháp hạ tầng CNTT được kết hợp với các giải pháp
 								bảo mật tiên tiến như Bảo mật ứng dụng, Phòng chống gian lận
 								trực tuyến, Xác thực truy nhập, Bảo mật cho mạng lưới… với các
 								mô hình triển khai linh hoạt như Đám mây, Thiết bị phần cứng,
@@ -99,7 +99,7 @@
 				<div class="row mt-5 ">
 					<div class="col-md-6 mt-5 pt-1 " data-aos="fade-left">
 						<div class="">
-							<p>OCS - hệ thống tính cước online cho thuê bao di động trả
+							<p class="justify">OCS - hệ thống tính cước online cho thuê bao di động trả
 								trước và trả sau cho nhà mạng Mobifone tích hợp với các thành
 								phần core trong mạng (mSTP, SDC, HLR, MSC, PGW, PCRF…) và các hệ
 								thống hỗ trợ, giám sát, khai báo thông tin thuê bao, khuyến mãi
@@ -124,7 +124,7 @@
 					</div>
 					<div class="col-md-6 mt-5 pt-1 " data-aos="fade-left">
 						<div class="">
-							<p>Trung tâm thông tin, chỉ đạo điều hành bao gồm: các dữ
+							<p class="justify">Trung tâm thông tin, chỉ đạo điều hành bao gồm: các dữ
 								liệu số về tình hình biến động các chỉ số kinh tế - xã hội của
 								địa phương, tỉnh, thành phố, quốc gia; các chỉ số hoạt động, vận
 								hành, kinh tế của 1 tổ chức/ doanh nghiệp, các thông tin đa

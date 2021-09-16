@@ -125,10 +125,10 @@ img.xzoom:hover {
 								<h2 class="title">Tổng Quan:</h2>
 								<p style="text-align: justify;">
 									<strong>Home Vision HVOF01</strong>là thiết bị giám sát an ninh
-									trong nhà độ phân giải cao kết hợp với khả năng nhìn ban đêm
+									ngoài trời độ phân giải cao kết hợp với khả năng nhìn ban đêm
 									mang đến chất lượng hình ảnh rõ nét thậm chí ở những vị trí
 									không có ánh sáng. Góc quan sát rộng giúp gia chủ, người quản
-									lý có thể theo dõi, kiểm soát toàn cảnh khu vực hộ gia đình,
+									lý có thể theo dõi, kiểm soát toàn cảnh khu vực xung quoanh hộ gia đình,
 									văn phòng, xí nghiệp, cơ quan, cửa hàng một cách dễ dàng.
 								</p>
 							</div>

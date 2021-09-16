@@ -28,12 +28,12 @@
 				<div class="row ">
 					<div class="col-md-6 mt-4 mb-3 pt-4" data-aos="fade-right">
 						<div class="">
-							<p>• ANSV là đơn vị đầu tiên thực hiện các dự án triển khai
+							<p class="justify">• ANSV là đơn vị đầu tiên thực hiện các dự án triển khai
 								mạng di động từ những năm 1993 tới nay, Cùng với cách mạng công
 								nghiệp 4.0 và sự bùng nổ công nghệ thông tin như hiện nay, công
 								nghệ mạng di động đã phát triển với một tốc độ hết sức nhanh
 								chóng hướng tới thế hệ thứ 5G, 6G.</p>
-							<p>• Không nằm ngoài xu thế đó với nhiều năm hoạt động chuyên
+							<p class="justify">• Không nằm ngoài xu thế đó với nhiều năm hoạt động chuyên
 								sâu, cung cấp, tích hợp và triển khai các thiết bị mạng di động
 								cho các nhà mạng VNPT và Mobifone trên phạm vi 63 tỉnh thành
 								ANSV hứa hẹn sẽ mang đến cho khách hàng những sản phẩm và dịch
@@ -58,11 +58,11 @@
 					</div>
 					<div class="col-md-6 mt-5 pt-4" data-aos="fade-right">
 						<div class="">
-							<p>• ANSV cung cấp giải pháp tổng thể công nghệ mạng gigabit
+							<p class="justify">• ANSV cung cấp giải pháp tổng thể công nghệ mạng gigabit
 								quang thụ động (GPON) bao gồm OLT, ONT và hệ thống quản lý tập
 								trung NMS. Đối tượng khách hàng mà chúng tôi hướng đến: Nhà
 								mạng, doanh nghiệp và hộ gia đình.</p>
-							<p>• Với hơn 10 năm kinh nghiệm cung cấp thiết bị, triển khai
+							<p class="justify">• Với hơn 10 năm kinh nghiệm cung cấp thiết bị, triển khai
 								và tích hợp hệ thống GPON cho các nhà mạng VNPT, Mobifone, CMC…
 								cùng đội ngũ kỹ sư nhiệt huyết và đầy sáng tạo, chúng tôi sẵn
 								sàng đáp ứng mọi nhu cầu của khách hàng.</p>
@@ -77,10 +77,10 @@
 				<div class="row ">
 					<div class="col-md-6 mt-4 pt-4" data-aos="fade-right">
 						<div class="">
-							<p>• ANSV tự hào là đơn vị triển khai các dự án truyền dẫn
+							<p class="justify">• ANSV tự hào là đơn vị triển khai các dự án truyền dẫn
 								đầu tiên bao gồm cả vô tuyến và hữu tuyến (SDH, xDSL, Wifi,
 								Viba, WDM…) cho các nhà mạng lớn như VNPT và Mobifone.</p>
-							<p>• Trong gần 30 năm qua, ANSV với tiền thân là công ty liên
+							<p class="justify">• Trong gần 30 năm qua, ANSV với tiền thân là công ty liên
 								doanh Thiết bị Viễn thông - Alcatel Network Systems Vietnam là
 								đối tác chính thức của Nokia (trước đây là Alcatel-Lucent) tại
 								Việt Nam, cung cấp sản phẩm, tích hợp hệ thống và hỗ trợ kỹ

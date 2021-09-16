@@ -213,7 +213,8 @@ body {
 .post-module .post-content .sub_title {
 	margin: 0;
 	/* padding: 0 0 20px; */
-	margin-bottom: 20px; color : #e74c3c;
+	margin-bottom: 20px;
+	color: #e74c3c;
 	font-size: 20px;
 	font-weight: 400;
 	color: #e74c3c;
@@ -367,11 +368,11 @@ p {
 							<div class="post-content">
 								<a href="#"> <font color="lightgray">SẢN PHẨM</font>
 								</a><br> <br>
-								<h1 class="title">VNPT Smartbox 2</h1>
+								<h1 class="title">Smart Box ATV </h1>
 								<h2 class="sub_title">Nhanh gấp 4 lần, giá không đổi.</h2>
-								<p class="description">SmartBox 2 dành cho tất cả các thành
+								<p class="description">Smart Box ATV dành cho tất cả các thành
 									viên trong gia đình, từ Bố Mẹ, Ông Bà cho đến trẻ nhỏ, tất cả
-									đều có thể sử dụng được SmartBox 2 với vô vàn các ứng dụng...</p>
+									đều có thể sử dụng được Smart Box ATV với vô vàn các ứng dụng...</p>
 								<div class="post-meta" align="right">
 									<span class="comments"> <a
 										href="san-pham-cong-nghe-cong-nghiep">Xem thêm...</a>
@@ -389,12 +390,11 @@ p {
 							<div class="post-content">
 								<a href="#"> <font color="lightgray">GIẢI PHÁP</font>
 								</a><br> <br>
-								<h1 class="title">IMS/VoIP</h1>
+								<h1 class="title">VoIP</h1>
 								<h2 class="sub_title">The city that never sleeps.</h2>
-								<p class="description">IMS (Internet Protocol (IP)
-									Multimedia Subsystem) là "phân hệ Đa Phương tiện Giao thức
-									Internet", dựa trên các đặc tính của Giao thức Khởi tạo Phiên
-									(SIP) do IETF...</p>
+								<p class="description">Voip (voice over internet protocol)
+									hay còn gọi là Voice IP, nghĩa là âm thanh được truyền qua giao
+									thức internet. Voip sử dụng công nghệ chuyển mạch gói...</p>
 								<div class="post-meta" align="right">
 									<span class="comments"> <a
 										href="chuyen-nganh-vien-thong">Xem thêm...</a>
@@ -439,7 +439,7 @@ p {
 										href="<c:url value="/assets/user/css/test/handmade-news-2.css" />"
 										type="text/css" />
 
-									<div class="feature f01" tabindex="0"  >
+									<div class="feature f01" tabindex="0">
 										<div id="owl-demo" class="owl-carousel owl-theme">
 											<div class="item">
 												<%-- <ul class="column_ul">
@@ -475,7 +475,7 @@ p {
 															quốc gia.</p>
 														<div class="post-meta" align="right">
 															<span class="comments"> <a
-																href="chuyen-nganh-vien-thong">Xem thêm...</a>
+																href="javascript:void(0)">Xem thêm...</a>
 															</span>
 														</div>
 													</div>
@@ -515,7 +515,7 @@ p {
 															Covid-19.</p>
 														<div class="post-meta" align="right">
 															<span class="comments"> <a
-																href="chuyen-nganh-vien-thong">Xem thêm...</a>
+																href="javascript:void(0)">Xem thêm...</a>
 															</span>
 														</div>
 													</div>
@@ -559,7 +559,7 @@ p {
 														</p>
 														<div class="post-meta" align="right">
 															<span class="comments"> <a
-																href="chuyen-nganh-vien-thong">Xem thêm...</a>
+																href="javascript:void(0)">Xem thêm...</a>
 															</span>
 														</div>
 													</div>
@@ -585,7 +585,7 @@ p {
 															tại Việt Nam.</p>
 														<div class="post-meta" align="right">
 															<span class="comments"> <a
-																href="chuyen-nganh-vien-thong">Xem thêm...</a>
+																href="javascript:void(0)">Xem thêm...</a>
 															</span>
 														</div>
 													</div>
@@ -703,7 +703,7 @@ p {
 								</div>
 								<div class="tab-pane container p-0 fade" id="home2">
 									<p style="text-align: justify;">ANSV định hướng trở thành
-										doanh nghiệp đi đầu trong lĩnh vựa chuyển đổi số, tích hợp hệ
+										doanh nghiệp đi đầu trong lĩnh vực chuyển đổi số, tích hợp hệ
 										thông CNTT - VT, phân phối bán lẻ các sản phẩm công nghệ ở thị
 										trường Việt Nam và thị trường khu vực.</p>
 								</div>
@@ -712,7 +712,7 @@ p {
 										<span> "Văn hóa là tinh thần - Sức mạnh Team work" luôn
 											được đề cao và là văn hóa cốt lõi của Doanh nghiệp, tạo nên
 											tinh thần ANSV, giúp chúng tôi không ngừng nỗ lực , sáng tạo
-											vì lợi ích chung của tập thể, ủa khách hàng và của xã hội.</span></br> <br>
+											vì lợi ích chung của tập thể, của khách hàng và của xã hội.</span></br> <br>
 										<span>"Con người là sức mạnh"- Với nguồn lực là đội ngũ
 											cán bộ, kỹ sư được đào tạo bài bản và có nhiều năm kinh
 											nghiệm, ANSV là nơi quy tụ và kết nối những nhân tài có sức
@@ -1053,7 +1053,7 @@ p {
 													</div>
 												</div>
 
-												<%-- <div
+												<div
 													class="fat-gallery-item hover-dir du-an nha-cao-tang  fat-light-gallery"
 													data-sub-html="#6093df92a611d"
 													data-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/NGN.png" />"
@@ -1095,7 +1095,7 @@ p {
 															</div>
 														</div>
 													</div>
-												</div> --%>
+												</div>
 
 												<div
 													class="fat-gallery-item hover-dir du-an nha-cao-tang  fat-light-gallery"
@@ -1144,14 +1144,14 @@ p {
 												<div
 													class="fat-gallery-item hover-dir du-an nha-cao-tang  fat-light-gallery"
 													data-sub-html="#6093df92a6388"
-													data-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/IPCC-new.png" />"
+													data-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/voice.jpg" />"
 													data-index="7">
 													<div class="fat-thumbnail" data-width="460"
 														data-height="360"
-														data-lazy-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/IPCC-new.png" />"
+														data-lazy-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/voice.jpg" />"
 														data-alt="Giải Pháp IPCC">
 														<img width="460" height="360"
-															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/IPCC-new.png" />"
+															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/voice.jpg" />"
 															alt="Giải Pháp IPCC" />
 														<h4 class="sub-title">Giải Pháp IPCC</h4>
 														<div class="fat-thumbnail-hover">
@@ -1188,14 +1188,14 @@ p {
 												<div
 													class="fat-gallery-item hover-dir du-an nha-cao-tang  fat-light-gallery"
 													data-sub-html="#6093df92a64be"
-													data-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/giai-phap-ha-tang.png" />"
+													data-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/bao-mat-2.jpg" />"
 													data-index="8">
 													<div class="fat-thumbnail" data-width="460"
 														data-height="360"
-														data-lazy-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/giai-phap-ha-tang.png" />"
+														data-lazy-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/bao-mat-2.jpg" />"
 														data-alt="Giải Pháp Hạ Tầng CNTT">
 														<img width="460" height="360"
-															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/giai-phap-ha-tang.png" />"
+															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/bao-mat-2.jpg" />"
 															alt="Giải Pháp Hạ Tầng CNTT" />
 														<h4 class="sub-title">Giải Pháp Hạ Tầng CNTT</h4>
 														<div class="fat-thumbnail-hover">

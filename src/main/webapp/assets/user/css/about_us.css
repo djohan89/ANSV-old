@@ -1798,6 +1798,15 @@ section {
     content: '\f104';
 }
 
+
+/*--------------------------------------------------------------
+# Telecom
+--------------------------------------------------------------*/
+
+.justify{
+	text-align: justify;
+}
+
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
@@ -2331,6 +2340,108 @@ section {
   padding-left: 5px;
   color: #aaaaaa;
   font-size: 14px;
+}
+/*--------------------------------------------------------------
+# News
+--------------------------------------------------------------*/
+.site-section {
+    padding: 5rem 0;
+}
+
+.post-news {
+    border-radius: 16px;
+    background: rgba(0,102,179,.1);
+}
+.p-n-info {
+    padding: 20px 30px;
+}
+
+.pd-r-l-6 {
+    padding: 0 3px;
+    color: #939393;
+    font-size: 10px;
+    position: relative;
+    top: -3px;
+}
+
+.p-n-cat, .p-n-date {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #939393;
+}
+
+.p-n-title {
+    font-size: 16px;
+    text-transform: inherit;
+    font-weight: 600;
+    line-height: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    min-height: 50px;
+}
+
+.p-n-desc-solution, .p-n-desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* min-height: 69px; */
+    text-align: left;
+}
+
+.p-n-read-more {
+    font-size: 13px;
+    text-transform: capitalize;
+    color: #000;
+}
+
+
+.post-news-no-img {
+    margin-left: 13%;
+}
+
+.post-news-no-img .post-news {
+    border-radius: 0;
+    background: transparent;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #F8EFEF;
+}
+
+.post-news-no-img .post-news .p-n-info {
+    padding: 0;
+}
+
+.post-news-no-img .post-news .p-n-info .p-n-title {
+    font-size: 16px;
+    text-transform: inherit;
+    font-weight: 600;
+    line-height: 28px;
+    display: contents;
+}
+
+.post-news-no-img .post-news .p-n-desc {
+    -webkit-line-clamp: 2;
+    min-height: 45px;
+}
+
+.detail-news {
+	width: 80%;
+	margin: 60px auto;
+}
+.detail_news .times {
+    color: #000;
+    opacity: 0.7;
+    font-size: 13px;
+    margin: 15px 0 30px 0;
+}
+
+.detail_news p.text_nm, .detail_news p.des {
+    line-height: 26px;
 }
 /*--------------------------------------------------------------
 # About
