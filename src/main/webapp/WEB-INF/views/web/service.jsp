@@ -102,25 +102,25 @@
 							<b>4. Bảo hành, bảo trì, sửa chữa, logistics</b>
 						</h3>
 					</div>
-					<div class="col-md-6 col-sm-12 mb-3" data-aos="flip-left">
+					<div class="col-md-12 col-lg-6 mb-3" data-aos="flip-left">
 						<div class="row">
-							<div class="col-md-5">
+							<div class="col-lg-5 col-md-12">
 								<div class="">
 									<h4>• Dịch vụ bảo hành</h4>
 									<p class="justify"> Đại diện cho các nhà sản xuất, các hãng Viễn thông,
 										Công nghệ thông tin thực hiện dịch vụ bảo hành</p>
 								</div>
 							</div>
-							<div class="col-md-7">
+							<div class="col-lg-7 col-md-12">
 								<img alt="" class="img-fluid mt-3"
 										src="<c:url value="/assets/user/img/bao_hanh.jpg" />">
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-12 mb-3" data-aos="flip-right">
+					<div class="col-lg-6 col-md-12 mb-3" data-aos="flip-right">
 						<div class="row">
 							<div class="">
-								<div class="col-md-6">
+								<div class="col-md-12 col-lg-6">
 									<h4>• Dịch vụ bảo trì hệ thống</h4>
 									<p class="justify">Chăm sóc các hệ thống viễn thông/ Công nghệ thông tin
 										của khách hàng và các nhà mạng theo định kỳ. Khi hệ thống xảy
@@ -130,7 +130,7 @@
 										hoạt động.</p>
 								</div>
 
-								<div class="col-md-6">
+								<div class="col-lg-6 col-md-12">
 									<img alt="" class="img-fluid mt-3"
 										src="<c:url value="/assets/user/img/bao-tri.jpg" />">
 								</div>
@@ -138,9 +138,9 @@
 						</div>
 					</div>
 					
-					<div class="col-md-6 col-sm-12 mb-3 pt-4" data-aos="flip-left">
+					<div class="col-lg-6 col-md-12 mb-3 pt-4" data-aos="flip-left">
 						<div class="row">
-							<div class="col-md-5">
+							<div class="col-lg-5 col-md-12">
 								<div class="">
 									<h4>• Dịch vụ sửa chữa</h4>
 									<p class="justify">Tiếp nhận các yêu cầu của khách hàng về việc sửa chữa
@@ -149,23 +149,23 @@
 										chuyển tới khách hàng đúng thời hạn.</p>
 								</div>
 							</div>
-							<div class="col-md-7">
+							<div class="col-lg-7 col-md-12">
 								<img alt="" class="img-fluid"
 									src="<c:url value="/assets/user/img/sua-chua.jpg" />">
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-12 mb-3 pt-4" data-aos="flip-right">
+					<div class="col-lg-6 col-md-12 mb-3 pt-4" data-aos="flip-right">
 						<div class="row ">
 							<div class="">
-								<div class="col-md-5">
+								<div class="col-lg-5 col-md-12">
 									<h4>• Logistics</h4>
 									<p>• &nbsp; Uỷ thác xuất nhập khẩu.</p>
 									<p>• &nbsp; Kho bãi.</p>
 									<p>• &nbsp; Xếp, dỡ vận chuyển hàng hóa.</p>
 								</div>
 
-								<div class="col-md-7">
+								<div class="col-lg-7 col-md-12">
 									<img alt="" class="img-fluid"
 										src="<c:url value="/assets/user/img/logistics.png" />">
 								</div>

@@ -536,6 +536,12 @@ ul.nav-pills a:hover::after{
 }
 }
 
+@media (max-width: 768px){
+	body {
+	font-size: 22px;
+}
+}
+
 @media (min-width : 1724px) {
 	.navbar-product{
 		top:7% !important;
