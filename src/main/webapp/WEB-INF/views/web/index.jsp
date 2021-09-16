@@ -1144,14 +1144,14 @@ p {
 												<div
 													class="fat-gallery-item hover-dir du-an nha-cao-tang  fat-light-gallery"
 													data-sub-html="#6093df92a6388"
-													data-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/IPCC-new.png" />"
+													data-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/voice.jpg" />"
 													data-index="7">
 													<div class="fat-thumbnail" data-width="460"
 														data-height="360"
-														data-lazy-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/IPCC-new.png" />"
+														data-lazy-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/voice.jpg" />"
 														data-alt="Giải Pháp IPCC">
 														<img width="460" height="360"
-															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/IPCC-new.png" />"
+															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/voice.jpg" />"
 															alt="Giải Pháp IPCC" />
 														<h4 class="sub-title">Giải Pháp IPCC</h4>
 														<div class="fat-thumbnail-hover">
@@ -1188,14 +1188,14 @@ p {
 												<div
 													class="fat-gallery-item hover-dir du-an nha-cao-tang  fat-light-gallery"
 													data-sub-html="#6093df92a64be"
-													data-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/giai-phap-ha-tang.png" />"
+													data-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/bao-mat-2.jpg" />"
 													data-index="8">
 													<div class="fat-thumbnail" data-width="460"
 														data-height="360"
-														data-lazy-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/giai-phap-ha-tang.png" />"
+														data-lazy-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/bao-mat-2.jpg" />"
 														data-alt="Giải Pháp Hạ Tầng CNTT">
 														<img width="460" height="360"
-															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/giai-phap-ha-tang.png" />"
+															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/bao-mat-2.jpg" />"
 															alt="Giải Pháp Hạ Tầng CNTT" />
 														<h4 class="sub-title">Giải Pháp Hạ Tầng CNTT</h4>
 														<div class="fat-thumbnail-hover">

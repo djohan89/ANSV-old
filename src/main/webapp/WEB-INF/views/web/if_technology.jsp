@@ -62,7 +62,7 @@
 					</div>
 					<div class="col-md-6 " data-aos="fade-right">
 						<img alt="" class="img-fluid"
-							src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/IPCC-new.png" />">
+							src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/voice-1.jpg" />">
 					</div>
 				</div>
 			</div>

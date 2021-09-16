@@ -63,7 +63,7 @@
 							<h3 class="mb-5 title">
 								<strong>Nhân sự</strong>
 							</h3>
-							<p class="justify">ANSV sở hữu đội ngũ nhận sự chủ lực là các kỹ sư công nghệ
+							<p class="justify">ANSV sở hữu đội ngũ nhân sự chủ lực là các kỹ sư công nghệ
 								thông tin tin đáp ứng xu thế công nghệ 4.0 với kinh nghiệm và
 								tay nghề cao, có đam mê,nhiệt huyết và luôn làm việc với tinh
 								thần:"Tốc chiến tốc thắng". Chúng tôi tập trung vào nâng cao
