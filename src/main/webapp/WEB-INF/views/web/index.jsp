@@ -1278,14 +1278,14 @@ p {
 
 												<div class="fat-gallery-item hover-dir fat-light-gallery"
 													data-sub-html="#6093df92a65fa"
-													data-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/chi-dao-dieu-hanh.png" />"
+													data-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/trung-tam-chi-dao-dieu-hanh-460x360.jpg" />"
 													data-index="9">
 													<div class="fat-thumbnail" data-width="460"
 														data-height="360"
-														data-lazy-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/chi-dao-dieu-hanh.png" />"
+														data-lazy-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/trung-tam-chi-dao-dieu-hanh-460x360.jpg" />"
 														data-alt="Trung Tâm Thông Tin, Chỉ Đạo Điều Hành">
 														<img width="460" height="360"
-															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/chi-dao-dieu-hanh.png" />"
+															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/trung-tam-chi-dao-dieu-hanh-460x360.jpg" />"
 															alt="Trung Tâm Thông Tin, Chỉ Đạo Điều Hành" />
 														<h4 class="sub-title">
 															Trung Tâm Thông Tin,<br>Chỉ Đạo Điều Hành
