@@ -7,7 +7,7 @@
 
 		<h1 class="logo mr-auto">
 			<a href="trang-chu"><img
-				src="http://www.ansv.vn/sites/default/files/Official%20logo_2.png"
+				src="<c:url value="/assets/user/img/Official logo_2.png" />"
 				alt="Home"></a>
 		</h1>
 		<!-- Uncomment below if you prefer to use an image logo -->
