@@ -1063,7 +1063,7 @@ p {
 														data-lazy-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/NGN.png" />"
 														data-alt="Mạng Thế Hệ Mới NGN">
 														<img width="460" height="360"
-															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/NGN.png" />"
+															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/mang_the_he_moi.jpg" />"
 															alt="Mạng Thế Hệ Mới NGN" />
 														<h4 class="sub-title">Mạng Thế Hệ Mới NGN</h4>
 														<div class="fat-thumbnail-hover">
@@ -1285,7 +1285,7 @@ p {
 														data-lazy-src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/chi-dao-dieu-hanh.png" />"
 														data-alt="Trung Tâm Thông Tin, Chỉ Đạo Điều Hành">
 														<img width="460" height="360"
-															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/chi-dao-dieu-hanh.png" />"
+															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/chi_dao_dieu_hanh.jpg" />"
 															alt="Trung Tâm Thông Tin, Chỉ Đạo Điều Hành" />
 														<h4 class="sub-title">
 															Trung Tâm Thông Tin,<br>Chỉ Đạo Điều Hành

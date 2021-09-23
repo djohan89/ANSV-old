@@ -6,9 +6,9 @@
 	<div class="container d-flex align-items-center">
 
 		<h1 class="logo mr-auto">
-			<a href="trang-chu"><img
-				src="http://www.ansv.vn/sites/default/files/Official%20logo_2.png"
-				alt="Home"></a>
+			<a href="trang-chu">
+				<img src="<c:url value='/assets/user/img/header/ANSV_logo.png' />" alt="Home">
+			</a>
 		</h1>
 		<!-- Uncomment below if you prefer to use an image logo -->
 		<!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->

@@ -120,7 +120,7 @@
 				<div class="row mt-5">
 					<div class="col-md-6 " data-aos="fade-right">
 						<img alt="" class="img-fluid"
-							src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/chi-dao-dieu-hanh.png" />">
+							src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/chi_dao_dieu_hanh.jpg" />">
 					</div>
 					<div class="col-md-6 mt-5 pt-1 " data-aos="fade-left">
 						<div class="">

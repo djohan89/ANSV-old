@@ -48,7 +48,7 @@
 				<div class="row bg-dak">
 					<div class="col-md-6"> 
 					<img alt="" class="img-fluid mt-4"
-										src="<c:url value="/assets/user/img/dich_vu/tich_hop_he_thong.jpg" />">
+										src="<c:url value="/assets/user/img/dich_vu/system_integration.jpg" />">
 					</div>
 					<div class="col-md-6">
 						<h3>
