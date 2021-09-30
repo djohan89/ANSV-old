@@ -145,7 +145,8 @@ svg {
 .slide:nth-child(2) .slide__bg {
   left: -50%;
   /* background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/3d-slider-2.jpg"); */
-  background-image: url("../img/slider/what-is-voip.jpg");
+  background-image: url("../img/slider/5G.jpg");
+  background-position: center;
 }
 .slide:nth-child(2) .slide__overlay-path {
   fill: #e1ccae;
@@ -161,7 +162,8 @@ svg {
 .slide:nth-child(3) .slide__bg {
   left: -100%;
   /* background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/3d-slider-1.jpg"); */
-  background-image: url("../img/slider/cap-quang.jpg");
+  background-image: url("../img/slider/big-data-ai.jpeg");
+  background-position: center;
   
   background-repeat: no-repeat;
 }

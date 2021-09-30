@@ -50,11 +50,12 @@
 			        		</svg>
 							<div class="slide__text">
 								<h2 class="slide__text-heading">
-									<font color="#e67e22"><b>IMS/VoIP</b></font>
+									<font color="#e67e22"><b>5G</b></font>
 								</h2>
-								<font size="+2"> Internet Protocol (IP) Multimedia
-									Subsystem </font><br> <br> <a href="cong-nghe-thong-tin"
-									class="slide__text-link">Tìm hiểu...</a>
+								<font size="+2" color="black">
+									<b>Đi cùng với thế giới</b>
+								</font><br><br>
+								<a href="chuyen-nganh-vien-thong" class="slide__text-link">Tìm hiểu...</a>
 							</div>
 						</div>
 					</div>
@@ -68,11 +69,12 @@
 					        </svg>
 							<div class="slide__text">
 								<h2 class="slide__text-heading">
-									<font color="#e67e22"><b>Cáp quang</b></font>
+									<font color="#e67e22"><b>AI<br>Big Data</b></font>
 								</h2>
-								<font size="+2"> Cung cấp công nghệ truyền dẫn hàng uy
-									tín </font><br> <br> <a href="chuyen-nganh-vien-thong"
-									class="slide__text-link">Tìm hiểu...</a>
+								<font size="+2">
+									Ứng dụng toàn cầu
+								</font><br><br>
+								<a href="cong-nghe-thong-tin" class="slide__text-link">Tìm hiểu...</a>
 							</div>
 						</div>
 					</div>
@@ -343,7 +345,7 @@ p {
 									src="<c:url value="/assets/user/img/noi_bat/gioi-thieu-chung.png" />">
 							</div>
 							<div class="post-content">
-								<a href="#"> <font color="lightgray">VỀ CHÚNG TÔI</font>
+								<a href="#"> <font color="gray">VỀ CHÚNG TÔI</font>
 								</a><br> <br>
 								<h1 class="title">Giới thiệu chung</h1>
 								<h2 class="sub_title">TNHH Thiết bị Viễn thông ANSV</h2>
@@ -363,19 +365,26 @@ p {
 						<div class="post-module">
 							<div class="thumbnail">
 								<img
-									src="<c:url value="/assets/user/img/noi_bat/smartbox-gioi-thieu2.png" />">
+									src="<c:url value="/assets/user/img/5g_1.jpg" />">
 							</div>
 							<div class="post-content">
-								<a href="#"> <font color="lightgray">SẢN PHẨM</font>
+								<a href="#"> <font color="gray">Viễn thông</font>
 								</a><br> <br>
-								<h1 class="title">Smart Box ATV </h1>
-								<h2 class="sub_title">Nhanh gấp 4 lần, giá không đổi.</h2>
-								<p class="description">Smart Box ATV dành cho tất cả các thành
+								<h1 class="title">Công nghệ mạng 5G</h1>
+								<h2 class="sub_title">Đi cùng với thế giới</h2>
+								<p class="description">
+									<!-- Smart Box ATV dành cho tất cả các thành
 									viên trong gia đình, từ Bố Mẹ, Ông Bà cho đến trẻ nhỏ, tất cả
-									đều có thể sử dụng được Smart Box ATV với vô vàn các ứng dụng...</p>
+									đều có thể sử dụng được Smart Box ATV với vô vàn các ứng dụng... -->
+									<font color="#e67e22"><b>ANSV</b></font> 
+									là đơn vị đầu tiên thực hiện các dự án triển khai mạng
+									di động từ những năm 1993 tới nay, Cùng với cách
+									mạng công nghiệp 4.0 và sự bùng nổ công nghệ thông
+									tin...
+								</p>
 								<div class="post-meta" align="right">
 									<span class="comments"> <a
-										href="san-pham-cong-nghe-cong-nghiep">Xem thêm...</a>
+										href="chuyen-nganh-vien-thong">Xem thêm...</a>
 									</span>
 								</div>
 							</div>
@@ -385,19 +394,25 @@ p {
 					<div class="col-lg-4">
 						<div class="post-module">
 							<div class="thumbnail">
-								<img src="<c:url value="/assets/user/img/noi_bat/VoIP-2.jpg" />">
+								<img src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/chi_dao_dieu_hanh.jpg" />">
 							</div>
 							<div class="post-content">
-								<a href="#"> <font color="lightgray">GIẢI PHÁP</font>
+								<a href="#"> <font color="gray">GIẢI PHÁP</font>
 								</a><br> <br>
-								<h1 class="title">VoIP</h1>
-								<h2 class="sub_title">The city that never sleeps.</h2>
-								<p class="description">Voip (voice over internet protocol)
+								<h1 class="title">Trung tâm thông tin</h1>
+								<h2 class="sub_title">Chỉ đạo điều hành</h2>
+								<p class="description">
+									<!-- Voip (voice over internet protocol)
 									hay còn gọi là Voice IP, nghĩa là âm thanh được truyền qua giao
-									thức internet. Voip sử dụng công nghệ chuyển mạch gói...</p>
+									thức internet. Voip sử dụng công nghệ chuyển mạch gói... -->
+									Trung tâm thông tin, chỉ đạo điều hành bao gồm: 
+									các dữ liệu số về tình hình biến động các chỉ
+									số kinh tế - xã hội của địa phương, tỉnh, thành phố,
+									quốc gia; các chỉ số...
+								</p>
 								<div class="post-meta" align="right">
 									<span class="comments"> <a
-										href="chuyen-nganh-vien-thong">Xem thêm...</a>
+										href="cong-nghe-thong-tin">Xem thêm...</a>
 									</span>
 								</div>
 							</div>
