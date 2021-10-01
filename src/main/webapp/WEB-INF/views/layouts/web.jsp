@@ -15,9 +15,8 @@
 <meta content="" name="keywords">
 
 <!-- Favicons -->
-<link href="<c:url value="/assets/user/img/logo_ansv.png" />" rel="icon">
-<link href="<c:url value="/assets/user/img/logo_ansv.png" />"
-	rel="apple-touch-icon">
+<link href="<c:url value="/assets/user/img/logo/logo_ansv_big_new-removebg-preview.png" />" rel="icon">
+<link href="<c:url value="/assets/user/img/logo_ansv.png" />" rel="apple-touch-icon">
 
 <!-- Google Fonts -->
 <link

@@ -8,6 +8,7 @@
 		<h1 class="logo mr-auto">
 			<a href="trang-chu">
 				<img src="<c:url value='/assets/user/img/header/ANSV_logo.png' />" alt="Home">
+				<font size="-2" color="#007bff">Technologies Create Future</font>
 			</a>
 		</h1>
 		<!-- Uncomment below if you prefer to use an image logo -->

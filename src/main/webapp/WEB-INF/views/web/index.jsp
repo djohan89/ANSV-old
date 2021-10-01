@@ -30,13 +30,18 @@
 									d="M0,0 50,0 340,405 0,405" />
 				        	</svg>
 							<div class="slide__text">
-								<h2 class="slide__text-heading">
-									<font color="#e67e22"><b>ANSV</b></font>
-								</h2>
-								<font size="+1" color="black"> <b>ADVANCED NETWORK
-										SYSTEMS VIETNAM COMPANY LIMITED</b>
-								</font><br> <br> <a href="ve-chung-toi"
-									class="slide__text-link">Tìm hiểu...</a>
+								<span class="slide__text-heading">
+									<!-- <font color="#e67e22"><b>ANSV</b></font> -->
+									<img src="<c:url value='/assets/user/img/header/ANSV_logo.png' />" alt="Home" height="70px">
+								</span><br>
+								<div style="font-size: 20px; color: black;">
+									<font color="#FF6600"><b>A</b></font>DVANCED
+									<font color="#FF6600"><b>N</b></font>ETWORK
+									<font color="#FF6600"><b>S</b></font>YSTEMS
+									<font color="#FF6600"><b>V</b></font>IETNAM<br>
+									COMPANY LIMITED
+								</div><br>
+								<a href="ve-chung-toi" class="slide__text-link">Tìm hiểu...</a>
 							</div>
 						</div>
 					</div>
@@ -101,6 +106,8 @@
 		</section>
 		<!-- ===== Cuối: Slideshow ===== -->
 
+
+
 		<!-- ======= Section: Nổi Bật ======= -->
 		<section>
 
@@ -110,215 +117,221 @@
 					src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 				<style>
-body {
-	background: #f2f2f2;
-	font-family: 'proxima-nova-soft', sans-serif;
-	font-size: 14px;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-.post-module {
-	position: relative;
-	z-index: 1;
-	display: block;
-	background: #FFFFFF;
-	min-width: 270px;
-	height: 470px;
-	-webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
-	-moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
-	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
-	-webkit-transition: all 0.3s linear 0s;
-	-moz-transition: all 0.3s linear 0s;
-	-ms-transition: all 0.3s linear 0s;
-	-o-transition: all 0.3s linear 0s;
-	transition: all 0.3s linear 0s;
-	border-radius: 16px;
-}
-
-.post-module:hover, .hover {
-	-webkit-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
-	-moz-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
-	box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
-}
-
-.post-module:hover .thumbnail img, .hover .thumbnail img {
-	-webkit-transform: scale(1.1);
-	-moz-transform: scale(1.1);
-	transform: scale(1.1);
-	opacity: 0.6;
-}
-
-.post-module .thumbnail {
-	background: #000000;
-	height: 400px;
-	overflow: hidden;
-	border-radius: 16px;
-}
-
-.post-module .thumbnail img {
-	display: block;
-	width: 120%;
-	-webkit-transition: all 0.3s linear 0s;
-	-moz-transition: all 0.3s linear 0s;
-	-ms-transition: all 0.3s linear 0s;
-	-o-transition: all 0.3s linear 0s;
-	transition: all 0.3s linear 0s;
-}
-
-.post-module .post-content {
-	position: absolute;
-	bottom: 0;
-	background: #FFFFFF;
-	width: 100%;
-	padding: 30px;
-	-webkti-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	-webkit-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
-	-moz-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
-	-ms-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
-	-o-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
-	transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
-	border-radius: 0 0 16px 16px;
-}
-
-.post-module .post-content .category {
-	position: absolute;
-	top: -34px;
-	left: 0;
-	background: #e74c3c;
-	padding: 10px 15px;
-	color: #FFFFFF;
-	font-size: 14px;
-	font-weight: 600;
-	text-transform: uppercase;
-}
-
-.post-module .post-content .title {
-	margin: 0;
-	padding: 0 0 10px;
-	color: #333333;
-	font-size: 26px;
-	font-weight: 700;
-}
-
-.post-module .post-content .desc {
-	overflow: hidden;
-	text-overflow: ellipsis;
-	-webkit-box-orient: vertical;
-	display: -webkit-box;
-	-webkit-line-clamp: 2;
-	text-align: left;
-}
-
-.post-module .post-content .sub_title {
-	margin: 0;
-	/* padding: 0 0 20px; */
-	margin-bottom: 20px;
-	color: #e74c3c;
-	font-size: 20px;
-	font-weight: 400;
-	color: #e74c3c;
-}
-
-.post-module .post-content .description {
-	display: none;
-	color: #666666;
-	font-size: 14px;
-	line-height: 1.8em;
-}
-
-.post-module .post-content .post-meta {
-	margin: 30px 0 0;
-	color: #999999;
-}
-
-.post-module .post-content .post-meta .timestamp {
-	margin: 0 16px 0 0;
-}
-
-.post-module .post-content .post-meta a {
-	color: #999999;
-	text-decoration: none;
-}
-
-.hover .post-content .description {
-	display: block !important;
-	height: auto !important;
-	opacity: 1 !important;
-}
-
-.container {
-	margin: 0 auto;
-}
-
-.container:before, .container:after {
-	content: '';
-	display: block;
-	clear: both;
-}
-
-.container .column {
-	width: 50%;
-	padding: 0 25px;
-	-webkti-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	float: left;
-}
-
-.container .column .demo-title {
-	margin: 0 0 15px;
-	color: #666666;
-	font-size: 18px;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-
-.container .info {
-	width: 300px;
-	margin: 50px auto;
-	text-align: center;
-}
-
-.container .info h1 {
-	margin: 0 0 15px;
-	padding: 0;
-	font-size: 24px;
-	font-weight: bold;
-	color: #333333;
-}
-
-.container .info span {
-	color: #666666;
-	font-size: 12px;
-}
-
-.container .info span a {
-	color: #000000;
-	text-decoration: none;
-}
-
-.container .info span .fa {
-	color: #e74c3c;
-}
-
-/*CSS cho nội dung bên trong thẻ <p>*/
-p {
-	text-align: justify;
-	line-height: 1.5;
-}
-
-.text-less {
-	overflow: hidden;
-	text-overflow: ellipsis;
-	line-height: 20px;
-	-webkit-line-clamp: 4;
-	display: -webkit-box;
-	-webkit-box-orient: vertical;
-}
-</style>
+					body {
+						background: #f2f2f2;
+						font-family: 'proxima-nova-soft', sans-serif;
+						font-size: 14px;
+						-webkit-font-smoothing: antialiased;
+						-moz-osx-font-smoothing: grayscale;
+					}
+					
+					.post-module {
+						position: relative;
+						z-index: 1;
+						display: block;
+						background: #FFFFFF;
+						min-width: 270px;
+						height: 470px;
+						-webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+						-moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+						box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+						-webkit-transition: all 0.3s linear 0s;
+						-moz-transition: all 0.3s linear 0s;
+						-ms-transition: all 0.3s linear 0s;
+						-o-transition: all 0.3s linear 0s;
+						transition: all 0.3s linear 0s;
+						border-radius: 16px;
+					}
+					
+					.post-module:hover, .hover {
+						-webkit-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+						-moz-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+						box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+					}
+					
+					.post-module:hover .thumbnail img, .hover .thumbnail img {
+						-webkit-transform: scale(1.1);
+						-moz-transform: scale(1.1);
+						transform: scale(1.1);
+						opacity: 0.6;
+					}
+					
+					.post-module .thumbnail {
+						background: white;
+						height: 400px;
+						overflow: hidden;
+						border-radius: 16px;
+					}
+					
+					.post-module .thumbnail img {
+						display: block;
+						width: 120%;
+						-webkit-transition: all 0.3s linear 0s;
+						-moz-transition: all 0.3s linear 0s;
+						-ms-transition: all 0.3s linear 0s;
+						-o-transition: all 0.3s linear 0s;
+						transition: all 0.3s linear 0s;
+					}
+					
+					.post-module .post-content {
+						position: absolute;
+						bottom: 0;
+						/* background: #FFFFFF; */
+						background: #E0E0F8;
+						width: 100%;
+						padding: 30px;
+						-webkti-box-sizing: border-box;
+						-moz-box-sizing: border-box;
+						box-sizing: border-box;
+						-webkit-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+						-moz-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+						-ms-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+						-o-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+						transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+						border-radius: 0 0 16px 16px;
+					}
+					
+					.post-module .post-content .category {
+						position: absolute;
+						top: -34px;
+						left: 0;
+						background: #e74c3c;
+						padding: 10px 15px;
+						color: #FFFFFF;
+						font-size: 14px;
+						font-weight: 600;
+						text-transform: uppercase;
+					}
+					
+					.post-module .post-content .title {
+						margin: 0;
+						padding: 0 0 10px;
+						color: #333333;
+						font-size: 26px;
+						font-weight: 700;
+					}
+					
+					.post-module .post-content .desc {
+						overflow: hidden;
+						text-overflow: ellipsis;
+						-webkit-box-orient: vertical;
+						display: -webkit-box;
+						-webkit-line-clamp: 2;
+						text-align: left;
+					}
+					
+					.post-module .post-content .sub_title {
+						margin: 0;
+						/* padding: 0 0 20px; */
+						margin-bottom: 20px;
+						font-size: 20px;
+						font-weight: 400;
+						/* color: #e74c3c; */
+						color: #FF6600;
+					}
+					
+					.post-module .post-content .description {
+						display: none;
+						/* color: #666666; */
+						color: #000000;
+						font-size: 14px;
+						line-height: 1.8em;
+					}
+					
+					.post-module .post-content .post-meta {
+						margin: 30px 0 0;
+						color: #999999;
+					}
+					
+					.post-module .post-content .post-meta .timestamp {
+						margin: 0 16px 0 0;
+					}
+					
+					.post-module .post-content .post-meta a {
+						color: #999999;
+						text-decoration: none;
+					}
+					
+					.hover .post-content .description {
+						display: block !important;
+						height: auto !important;
+						opacity: 1 !important;
+					}
+					
+					.container {
+						margin: 0 auto;
+					}
+					
+					.container:before, .container:after {
+						content: '';
+						display: block;
+						clear: both;
+					}
+					
+					.container .column {
+						width: 50%;
+						padding: 0 25px;
+						-webkti-box-sizing: border-box;
+						-moz-box-sizing: border-box;
+						box-sizing: border-box;
+						float: left;
+					}
+					
+					.container .column .demo-title {
+						margin: 0 0 15px;
+						color: #666666;
+						font-size: 18px;
+						font-weight: bold;
+						text-transform: uppercase;
+					}
+					
+					.container .info {
+						width: 300px;
+						margin: 50px auto;
+						text-align: center;
+					}
+					
+					.container .info h1 {
+						margin: 0 0 15px;
+						padding: 0;
+						font-size: 24px;
+						font-weight: bold;
+						color: #333333;
+					}
+					
+					.container .info span {
+						color: #666666;
+						font-size: 12px;
+					}
+					
+					.container .info span a {
+						color: #000000;
+						text-decoration: none;
+					}
+					
+					.container .info span .fa {
+						color: #e74c3c;
+					}
+					
+					/*CSS cho nội dung bên trong thẻ <p>*/
+					p {
+						text-align: justify;
+						line-height: 1.5;
+					}
+					
+					.text-less {
+						overflow: hidden;
+						text-overflow: ellipsis;
+						line-height: 20px;
+						-webkit-line-clamp: 4;
+						display: -webkit-box;
+						-webkit-box-orient: vertical;
+					}
+					
+					.title-bold {
+						font-weight: bold !important;
+					}
+				</style>
 
 				<script>
 					$(document).ready(function() {
@@ -477,10 +490,10 @@ p {
 															src="<c:url value="/assets/user/img/test/hop-tac.jpg" />">
 													</div>
 													<div class="post-content">
-														<a href="#"> <font color="lightgray">TIN TỨC</font>
+														<a href="#"><font color="gray">TIN TỨC</font>
 														</a><br> <br>
 														<h1 class="title"></h1>
-														<h2 class="sub_title desc">VNPT và Nokia hợp tác về
+														<h2 class="sub_title desc title-bold">VNPT và Nokia hợp tác về
 															nghiên cứu và phát triển hạ tầng số</h2>
 														<p class="description">Theo thỏa thuận này, hai bên
 															nhất trí tăng cường mối quan hệ hợp tác chiến lược để
@@ -517,10 +530,10 @@ p {
 														<img src="<c:url value="/assets/user/img/test/qr.jpg" />">
 													</div>
 													<div class="post-content">
-														<a href="#"> <font color="lightgray">TIN TỨC</font>
+														<a href="#"> <font color="gray">TIN TỨC</font>
 														</a><br> <br>
 														<h1 class="title"></h1>
-														<h2 class="sub_title desc">Thống nhất mã QR dùng
+														<h2 class="sub_title desc title-bold">Thống nhất mã QR dùng
 															chung cho các nền tảng công nghệ chống dịch</h2>
 														<p class="description">Mỗi cá nhân sử dụng các nền
 															tảng, ứng dụng phòng chống dịch Covid-19 được cấp duy
@@ -559,10 +572,10 @@ p {
 															src="<c:url value="/assets/user/img/test/toc-do-internet.jpg" />">
 													</div>
 													<div class="post-content">
-														<a href="#"> <font color="lightgray">TIN TỨC</font>
+														<a href="#"> <font color="gray">TIN TỨC</font>
 														</a><br> <br>
 														<h1 class="title"></h1>
-														<h2 class="sub_title desc">Tốc độ Internet Việt Nam
+														<h2 class="sub_title desc title-bold">Tốc độ Internet Việt Nam
 															thấp hơn mức trung bình thế giới</h2>
 														<p class="description">
 															Tốc độ mạng di động và băng thông rộng Việt Nam đứng thứ
@@ -586,10 +599,10 @@ p {
 														<img src="<c:url value="/assets/user/img/test/5g.jpg" />">
 													</div>
 													<div class="post-content">
-														<a href="#"> <font color="lightgray">TIN TỨC</font>
+														<a href="#"> <font color="gray">TIN TỨC</font>
 														</a><br> <br>
 														<h1 class="title"></h1>
-														<h2 class="sub_title desc">Đẩy nhanh việc triển khai
+														<h2 class="sub_title desc title-bold">Đẩy nhanh việc triển khai
 															và thương mại hóa 5G tại Việt Nam</h2>
 														<p class="description">Việc nghiên cứu, xây dựng và
 															hoàn thiện các quy định hướng dẫn về tiêu chuẩn, quy
@@ -1863,7 +1876,7 @@ p {
 
 
 
-					<div class="section bu-g-solution-static-content">
+					<div class="section bu-g-solution-static-content" style="width: 100%;">
 						<!-- Thư viện -->
 						<link rel="stylesheet"
 							href="<c:url value="/assets/user/css/test/handmade-content-videos.css" />"
@@ -1873,10 +1886,10 @@ p {
 							<div class="video_wrap">
 								<div class="video_bg">
 									<img class="js-img-src js-img-lazy"
-										src="//images.samsung.com/is/image/samsung/p5/global/business/networks/main/images/kf3-bg_01.jpg"
-										data-src-pc="//images.samsung.com/is/image/samsung/p5/global/business/networks/main/images/kf3-bg_01.jpg"
-										data-src-mobile="//images.samsung.com/is/image/samsung/p5/global/business/networks/main/images/kf3-bg_01-m.jpg"
-										alt="A black background image with thin blue curves at the bottom." />
+										src="<c:url value="/assets/user/img/bg/dark-backgrounds.jpg" />"
+										data-src-pc="<c:url value="/assets/user/img/bg/dark-backgrounds.jpg" />"
+										data-src-mobile="<c:url value="/assets/user/img/bg/dark-backgrounds.jpg" />"
+										alt="A black background image with thin blue curves at the bottom." style="height: 550px" />
 									<span></span>
 								</div>
 								<h3>Cuộc sống của chúng tôi</h3>
@@ -1900,13 +1913,14 @@ p {
 												</div>
 											</div></li>
 
-										<li class="" style="margin-left: -75%;"><a
-											data-src="F4U5yuAqqcE" data-omni-type="microsite_b2bcontent"
-											data-omni="networks home_video:How Samsung Networks helps enterprises build a reliable private network - New Business Team"
-											href="#" title="WATCH : Giới thiệu Tập đoàn VNPT - 2018">
-												<span class="video_img"> <img
-													src="<c:url value="/assets/user/img/test/tap-doan-vnpt.jpg" />"
-													alt="Video - Giới thiệu Tập đoàn VNPT - 2018"> <span>watch</span>
+										<li class="" style="margin-left: -75%;">
+											<a data-src="F4U5yuAqqcE" data-omni-type="microsite_b2bcontent"
+												data-omni="networks home_video:How Samsung Networks helps enterprises build a reliable private network - New Business Team"
+												href="#" title="WATCH : Giới thiệu Tập đoàn VNPT - 2018">
+												<span class="video_img"> 
+												<img src="<c:url value="/assets/user/img/test/tap-doan-vnpt.jpg" />"
+													alt="Video - Giới thiệu Tập đoàn VNPT - 2018">
+												<span>watch</span>
 											</span>
 										</a>
 											<div class="video_txt">
