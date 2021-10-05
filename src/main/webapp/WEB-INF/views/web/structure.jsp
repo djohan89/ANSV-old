@@ -16,7 +16,7 @@
 </style>
 </head>
 <body id="about-section" data-spy="scroll" data-target="#myScrollspy" data-offset="20">
-	<section id="about-content">
+	<!-- <section id="about-content">
 		<div class="container">
 			<div class="row align-self-center text-center">
 				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
@@ -25,7 +25,19 @@
 				</div>
 			</div>
 		</div>
+	</section> -->
+	
+	<section id="home-section-2" class="home-section-2 posr">
+	    <div id="particles-js" class="particles-js particles-home-section-2"></div>
+	    <div class="container">
+	    	<div class="row align-self-center text-center">
+				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
+					<h1 class="text-uppercase header_text">Cơ cấu tổ chức và nhân sự</h1>
+				</div>
+			</div>
+	    </div>
 	</section>
+	
 	<section>
 		<div class="container">
 			<div class="row">

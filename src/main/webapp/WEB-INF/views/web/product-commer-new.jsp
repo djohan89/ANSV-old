@@ -10,7 +10,7 @@
 <title>Sản phẩm thương mại</title>
 </head>
 <body>
-	<section id="about-content">
+	<!-- <section id="about-content">
 		<div class="container">
 			<div class="row align-self-center text-center">
 				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
@@ -18,7 +18,19 @@
 				</div>
 			</div>
 		</div>
+	</section> -->
+	
+	<section id="home-section-2" class="home-section-2 posr">
+	    <div id="particles-js" class="particles-js particles-home-section-2"></div>
+	    <div class="container">
+	    	<div class="row align-self-center text-center">
+				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
+					<h1 class="text-uppercase header_text">Sản phẩm thương mại</h1>
+				</div>
+			</div>
+	    </div>
 	</section>
+	
 	<section class="products">
 		<div class="container">
 			<div class="row mb-5">
@@ -31,7 +43,7 @@
 							class="img-fluid"
 							src="<c:url value="/assets/user/img/portfolio/iGate_R4G_22N-01.jpg" />">
 						</a>
-						<div class="info">
+						<div class="info" style="background-color: rgba(0,102,179,.1);">
 							<div class="cat mb-2">
 								<a href="san-pham-thuong-mai">Sản phẩm thương mại</a>
 							</div>

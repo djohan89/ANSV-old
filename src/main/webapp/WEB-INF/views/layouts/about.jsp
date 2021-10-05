@@ -63,6 +63,16 @@
 	
 <link rel="stylesheet"
 	href="<c:url value="/assets/user/vendor/font-awesome/css/font-awesome.min.css" />">
+	
+	
+	
+<!-- ===== CSS chạy hiệu ứng (theme) cho background ===== -->
+<link rel='stylesheet' id='style-css' 
+	href='<c:url value="/assets/user/css/css_background_animation/style_background_animation.css" />' type='text/css' media='all' />
+	
+<!-- ===== JS chạy hiệu ứng (theme) cho background ===== -->
+<script type='text/javascript' 
+	src='<c:url value="/assets/user/js/js_background_animation/addons.js" />'></script>
 
 </head>
 <body>
@@ -109,7 +119,122 @@
 		.header_text {
 			font-weight: bold;
 			color: orange;
+			padding-top: 3.5%;
 		}
 	</style>
+	
+	<!-- ===== Đoạn Javascript chạy hiệu ứng cho background ===== -->
+	<script>
+	    particlesJS("particles-js", {
+	        "particles": {
+	            "number": {
+	                "value": 216,
+	                "density": {
+	                    "enable": true,
+	                    "value_area": 562
+	                }
+	            },
+	            "color": {
+	                "value": "#ffffff"
+	            },
+	            "shape": {
+	                "type": "circle",
+	                "stroke": {
+	                    "width": 0,
+	                    "color": "#000000"
+	                },
+	                "polygon": {
+	                    "nb_sides": 6
+	                },
+	                "image": {
+	                    "src": "img/github.svg",
+	                    "width": 60,
+	                    "height": 60
+	                }
+	            },
+	            "opacity": {
+	                "value": 0.21,
+	                "random": false,
+	                "anim": {
+	                    "enable": true,
+	                    "speed": 0.3996003996003996,
+	                    "opacity_min": 0.04795204795204795,
+	                    "sync": false
+	                }
+	            },
+	            "size": {
+	                "value": 3,
+	                "random": true,
+	                "anim": {
+	                    "enable": false,
+	                    "speed": 4,
+	                    "size_min": 0.8120772123013452,
+	                    "sync": false
+	                }
+	            },
+	            "line_linked": {
+	                "enable": true,
+	                "distance": 100,
+	                "color": "#ffffff",
+	                "opacity": 0.22096133965703635,
+	                "width": 1
+	            },
+	            "move": {
+	                "enable": true,
+	                "speed": 1.3,
+	                "direction": "top-right",
+	                "random": false,
+	                "straight": false,
+	                "out_mode": "out",
+	                "bounce": false,
+	                "attract": {
+	                    "enable": false,
+	                    "rotateX": 600,
+	                    "rotateY": 1200
+	                }
+	            }
+	        },
+	        "interactivity": {
+	            "detect_on": "canvas",
+	            "events": {
+	                "onhover": {
+	                    "enable": false,
+	                    "mode": "repulse"
+	                },
+	                "onclick": {
+	                    "enable": true,
+	                    "mode": "push"
+	                },
+	                "resize": true
+	            },
+	            "modes": {
+	                "grab": {
+	                    "distance": 400,
+	                    "line_linked": {
+	                        "opacity": 1
+	                    }
+	                },
+	                "bubble": {
+	                    "distance": 400,
+	                    "size": 40,
+	                    "duration": 2,
+	                    "opacity": 8,
+	                    "speed": 3
+	                },
+	                "repulse": {
+	                    "distance": 200,
+	                    "duration": 0.4
+	                },
+	                "push": {
+	                    "particles_nb": 4
+	                },
+	                "remove": {
+	                    "particles_nb": 2
+	                }
+	            }
+	        },
+	        "retina_detect": true
+	    });
+	</script>
 </body>
 </html>

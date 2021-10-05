@@ -11,14 +11,14 @@
 <title>Thông điệp của tổng giám đốc</title>
 <style type="text/css">
 	.banner {
-	position: absolute;
-	top: 10px;
-}
+		position: absolute;
+		top: 10px;
+	}
 </style>
 
 </head>
 <body>
-	<section id="about-content">
+	<!-- <section id="about-content">
 		<div class="container">
 			<div class="row align-self-center text-center">
 				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
@@ -28,7 +28,19 @@
 			</div>
 		</div>
 
+	</section> -->
+	
+	<section id="home-section-2" class="home-section-2 posr">
+	    <div id="particles-js" class="particles-js particles-home-section-2"></div>
+	    <div class="container">
+	    	<div class="row align-self-center text-center">
+				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
+					<h1 class="text-uppercase header_text">Thông điệp</h1>
+				</div>
+			</div>
+	    </div>
 	</section>
+	
 	<section id="about-section">
 		<div class="container">
 			<div class="row">
@@ -66,6 +78,8 @@
 										class="img-fluid" alt="">
 								</div>
 								<div class="col-lg-6 pt-4 col-md-12 pt-lg-0" data-aos="fade-left">
+									<%-- <img src="<c:url value="/assets/user/img/Presedent.JPG" />"
+										class="img-fluid" alt="" style="float: left; width: 50%;"> --%>
 									<h3 style="border-bottom: 2px solid #f27700">Kính gửi Quý
 										khách hàng, Quý đối tác</h3>
 									<br>
@@ -133,6 +147,7 @@
 		</div>
 
 	</section>
+	
 	<script type="text/javascript">
 		jQuery(document).ready(function($) {
 			var $banner = $('.banner'), $window = $(window);

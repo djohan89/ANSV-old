@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +8,7 @@
 <title>Liên hệ</title>
 </head>
 <body>
-	<section id="about-content">
+	<!-- <section id="about-content">
 		<div class="container">
 			<div class="row align-self-center text-center">
 				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
@@ -15,7 +16,19 @@
 				</div>
 			</div>
 		</div>
+	</section> -->
+	
+	<section id="home-section-2" class="home-section-2 posr">
+	    <div id="particles-js" class="particles-js particles-home-section-2"></div>
+	    <div class="container">
+	    	<div class="row align-self-center text-center">
+				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
+					<h1 class="text-uppercase header_text">Liên hệ</h1>
+				</div>
+			</div>
+	    </div>
 	</section>
+	
 	<section id="location">
 		<div class="">
 			<div class="row align-self-center">

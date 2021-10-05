@@ -108,6 +108,23 @@
 
 
 
+		<!-- ===== CSS chạy hiệu ứng (theme) cho background ===== -->
+		<link rel='stylesheet' id='style-css' 
+			href='<c:url value="/assets/user/css/css_background_animation/style_background_animation.css" />' 
+			type='text/css' media='all' />
+		
+		<!-- ===== JS chạy hiệu ứng (theme) cho background ===== -->
+		<script type='text/javascript' 
+			src='<c:url value="/assets/user/js/js_background_animation/addons.js" />'></script>
+			
+		<section id="home-section-2" class="home-section-2 posr" style="margin-top: -120px;">
+		    <div id="particles-js" class="particles-js particles-home-section-2"></div>
+		    <div class="container"></div>
+		</section>
+
+
+
+
 		<!-- ======= Section: Nổi Bật ======= -->
 		<section>
 
@@ -502,20 +519,6 @@
 									<div class="feature f01" tabindex="0">
 										<div id="owl-demo" class="owl-carousel owl-theme">
 											<div class="item">
-												<%-- <ul class="column_ul">
-													<li><a data-omni-type="microsite_b2bcontent"
-														data-omni="networks home_news:samsung powers world’s first 3gpp-compliant nationwide public safety network in korea"
-														href="http://antt.vn/nha-thau-ngoai-trung-goi-thau-gan-nghin-ty-234860.htm"
-														title="Nhà Thầu ngoại trúng thầu gần nghìn tỷ">
-															<img class="js-img-src js-img-lazy"
-															src="<c:url value="/assets/user/img/test/news1.jpg" />"
-															data-src-pc="<c:url value="/assets/user/img/test/news1.jpg" />"
-															data-src-mobile="<c:url value="/assets/user/img/test/news1.jpg" />"
-															alt="Ảnh trúng gói thầu" />
-															<h4 class="txt_fff ellipsis" style="font-size: 200%;">Nhà
-																thầu ngoại trúng thầu gần nghìn tỷ</h4>
-													</a></li>
-												</ul> --%>
 												<div class="post-module">
 													<div class="thumbnail">
 														<img
@@ -523,7 +526,7 @@
 													</div>
 													<div class="post-content">
 														<div class="post-content-child-news">
-															<a href="#"><font color="#FFFFFF">TIN TỨC</font></a>
+															<a href="#"><font color="gray">TIN TỨC</font></a>
 															<br><br>
 															<h1 class="title"></h1>
 															<h2 class="sub_title desc title-bold">
@@ -548,27 +551,13 @@
 											</div>
 
 											<div class="item">
-												<%-- <ul class="column_ul">
-													<li><a data-omni-type="microsite_b2bcontent"
-														data-omni="networks home_news:samsung releases whitepaper on virtualized radio access network (vran)"
-														href="https://fee.tnut.edu.vn/cong-ty-tnhh-thiet-bi-vien-thong-ansv-tuyen-dung-dt694.html"
-														title="ANSV tuyển dụng"> <img
-															class="js-img-src js-img-lazy"
-															src="<c:url value="/assets/user/img/test/news2.png" />"
-															data-src-pc="<c:url value="/assets/user/img/test/news2.png" />"
-															data-src-mobile="<c:url value="/assets/user/img/test/news2.png" />"
-															alt="Ảnh tuyển dụng" />
-															<h4 class="txt_fff ellipsis" style="font-size: 200%;">ANSV
-																tuyển dụng</h4>
-													</a></li>
-												</ul> --%>
 												<div class="post-module">
 													<div class="thumbnail">
 														<img src="<c:url value="/assets/user/img/test/qr.jpg" />">
 													</div>
 													<div class="post-content">
 														<div class="post-content-child-news">
-															<a href="#"> <font color="#FFFFFF">TIN TỨC</font>
+															<a href="#"> <font color="gray">TIN TỨC</font>
 															</a><br> <br>
 															<h1 class="title"></h1>
 															<h2 class="sub_title desc title-bold">
@@ -593,21 +582,6 @@
 											</div>
 
 											<div class="item">
-												<%-- <ul class="column_ul">
-													<li><a data-omni-type="microsite_b2bcontent"
-														data-omni="networks home_news:verizon starts c-band equipment deployment with samsung network solutions"
-														href="https://niithanoi.vn/chi-tiet-tin/1965/khai-giang-khoa-dao-tao-iot-ung-dung-vao-doanh-nghiep-cong-ty-tnhh-thiet-bi-vien-thong-ansv.html/page:2#.YOJj6-gzZPY"
-														title="Khai giảng khoá đào tạo Iot ứng dụng vào..."> <img
-															class="js-img-src js-img-lazy"
-															src="<c:url value="/assets/user/img/test/news3.png" />"
-															data-src-pc="<c:url value="/assets/user/img/test/news3.png" />"
-															data-src-mobile="<c:url value="/assets/user/img/test/news3.png" />"
-															alt="Verizon starts C-Band equipment deployment with Samsung Network Solutions" />
-															<h4 class="txt_fff ellipsis" style="font-size: 200%;">Khai
-																giảng khóa đào tạo Iot ứng dụng vào doanh nghiệp - Công
-																ty TNHH Thiết bị Viễn thông ANSV</h4>
-													</a></li>
-												</ul> --%>
 												<div class="post-module">
 													<div class="thumbnail">
 														<img
@@ -615,7 +589,7 @@
 													</div>
 													<div class="post-content">
 														<div class="post-content-child-news">
-															<a href="#"> <font color="#FFFFFF">TIN TỨC</font>
+															<a href="#"> <font color="gray">TIN TỨC</font>
 															</a><br> <br>
 															<h1 class="title"></h1>
 															<h2 class="sub_title desc title-bold">
@@ -647,7 +621,7 @@
 													</div>
 													<div class="post-content">
 														<div class="post-content-child-news">
-															<a href="#"> <font color="#FFFFFF">TIN TỨC</font>
+															<a href="#"> <font color="gray">TIN TỨC</font>
 															</a><br> <br>
 															<h1 class="title"></h1>
 															<h2 class="sub_title desc title-bold">
@@ -672,28 +646,6 @@
 												</div>
 											</div>
 										</div>
-										<!-- <ul class="column_ul">
-										<li class="col-lg-4">
-											<a data-omni-type="microsite_b2bcontent" data-omni="networks home_news:samsung powers world’s first 3gpp-compliant nationwide public safety network in korea" href="#" title="LEARN MORE : Samsung Powers World’s First 3GPP-Compliant Nationwide Public Safety Network in Korea">
-											   <img class="js-img-src js-img-lazy" src="template/web/assets/img/test/news1.jpg" data-src-pc="template/web/assets/img/test/news1.jpg" data-src-mobile="template/web/assets/img/test/news1.jpg" alt="Ảnh trúng gói thầu"/>
-											   <h4 class="txt_fff">Nhà thầu ngoại trúng gói thầu gần nghìn tỷ</h4>
-											</a>
-										</li>
-
-										<li class="col-lg-4">
-											<a data-omni-type="microsite_b2bcontent" data-omni="networks home_news:samsung releases whitepaper on virtualized radio access network (vran)" href="#" title="LEARN MORE : Samsung Releases Whitepaper on Virtualized Radio Access Network (vRAN)">
-											   <img class="js-img-src js-img-lazy" src="template/web/assets/img/test/news2.png" data-src-pc="template/web/assets/img/test/news2.png" data-src-mobile="template/web/assets/img/test/news2.png" alt="Ảnh tuyển dụng"/>
-											   <h4 class="txt_fff ellipsis">ANSV tuyển dụng</h4>
-											</a>
-										</li>
-
-										<li class="col-lg-4">
-											<a data-omni-type="microsite_b2bcontent" data-omni="networks home_news:verizon starts c-band equipment deployment with samsung network solutions" href="#" title="LEARN MORE : Verizon starts C-Band equipment deployment with Samsung Network Solutions">
-											   <img class="js-img-src js-img-lazy" src="template/web/assets/img/test/news3.png" data-src-pc="template/web/assets/img/test/news3.png" data-src-mobile="template/web/assets/img/test/news3.png" alt="Verizon starts C-Band equipment deployment with Samsung Network Solutions"/>
-											   <h4 class="txt_fff ellipsis">Khai giảng khóa đào tạo Iot ứng dụng vào doanh nghiệp - Công ty TNHH Thiết bị Viễn thông ANSV</h4>
-											</a>
-										</li>
-				    				</ul> -->
 
 										<ul class="mo_only">
 											<li><a data-omni-type="microsite_pcontentinter"
@@ -704,18 +656,7 @@
 											<li><a data-omni-type="microsite_pcontentinter"
 												data-omni="rolling:index_3" href="#" title=""></a></li>
 										</ul>
-										<div class="list__cont-link_new">
-											<!-- <a data-omni-type="microsite_b2bcontent"
-												data-omni="networks home_news:show more" href="tin-tuc" title=""
-												class="s-ico-new-window s-default detailButton s2"> Xem
-												thêm <span class="show">></span>
-											</a> -->
-											<!-- <a href="tin-tuc">
-												<button class="custom-btn btn-7">
-													<span>Xem Thêm...</span>
-												</button>
-											</a> -->
-										</div>
+										<div class="list__cont-link_new"></div>
 									</div>
 								</div>
 							</div>
@@ -800,128 +741,14 @@
 								</div>
 							</div>
 						</div>
-						<img src="<c:url value="/assets/user/img/infor.jpg" />"
-							class="img-fluid" alt="" style="padding-top: 5%">
-						<!-- <style>
-				#test{
-					background-image: url('template/web/assets/img/phuong-cham.png');
-					background-repeat: no-repeat;
-					width: 555px;
-					text-align: justify;
-					/*padding: Top Right Bottom Left*/
-					padding: 10px 20px 10px 90px;
-				}
-			</style>
-			
-			<div id="test">
-				<font size="1px">
-					Với phương châm hoạt động đạo đức, chuyên nghiệp và sáng tạo, chúng tôi tạo ra môi trường làm 
-					việc ý nghĩa cho cán bộ nhân viên, mang đến khách hàng các giá trị mới và dịch vụ tuyệt hảo, 
-					hướng tới nâng cao giá trị, lợi ích cho Khách hàng, đồng hành cùng Khách hàng hướng tới sự phát 
-					triển bền vững và mang lại trách nhiệm, giá trị của Doanh nghiệp với cộng đồng.
-				</font>
-			</div> -->
-
-						<!--
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</li>
-            </ul>
-            <p class="font-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua. alallalalalalallaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaal
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            
-            -->
+						<img src="<c:url value="/assets/user/img/infor.jpg" />" class="img-fluid" alt="" 
+							style="padding-top: 5%">
 					</div>
 				</div>
-
 			</div>
 		</section>
 		<!-- End About Us Section -->
 
-
-
-		<!-- ======= President Election Section ======= -->
-		<%-- <section id="President-Election" class="President-Election">
-			<div class="container" data-aos="fade-up">
-
-				<div class="section-title">
-					<h2>
-						Thông Điệp Từ Tổng Giám Đốc</strong>
-					</h2>
-				</div>
-
-				<div class="row content">
-					<div class="col-lg-6" data-aos="fade-right">
-						<img src="<c:url value="/assets/user/img/Presedent.JPG" />"
-							class="img-fluid" alt="">
-					</div>
-					<div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-						<h3 style="border-bottom: 2px solid #f27700">Kính gửi Quý khách
-							hàng, Quý đối tác</h3>
-						<br>
-						<p style="font-size: 14px" class="font-italic">Lời đầu tiên
-							tôi xin thay mặt toàn thể cán bộ công nhân viên của công ty TNHH
-							Thiết bị viễn thông ANSV xin gửi đến Quý khách hàng,Quý đối tác
-							lời chào cùng lời chi ân sâu sắc nhất. Nhận được sự tin tưởng và
-							đồng hành của Quý vị vừa là niềm vinh dự vừa là động lực để chúng
-							tôi tiếp tục nỗ lực, sáng tạo để tự hào khi luôn thấu hiểu được
-							nhu cầu và đáp ứng được mong muốn của khách hàng.</p>
-						<br>
-						<p style="font-size: 14px" class="font-italic">Để thích ứng
-							kịp thời với bước chuyển mình mạnh mẽ của công nghệ và với tham
-							vọng sẽ trở thành công ty hàng đầu trong lĩnh vực chuyển đổi
-							số(Disital Transformation), tích hợp hệ thống(System Intergration
-							- ST), chúng tôi đã, đang làm việc và cộng tác với nhiều đối tác,
-							nhà cung cấp hàng đầu trên thế giới để tập trung cung cấp và khai
-							thác các dịch vụ, giải pháp về Công nghệ thông tin và Viễn thông
-							nhằm nâng cao những giá trị, lợi ích, hình ảnh của Quý vị tại
-							Việt Nam và khu vực.</p>
-						<br>
-						<p style="font-size: 14px" class="font-italic">Những dấu ấn mà
-							ANSV có thể tự hào ngày hôm nay là thành quả trong suốt 28 năm
-							hình thành và phát triển, là sự phấn đấu không ngừng của một đơn
-							vị đoàn kết, sáng tạo, là sự đồng lòng của tập thể lãnh đạo các
-							thời kỳ, là ự nhiệt huyết tận tâm của tập thể các cán bộ công
-							nhân viên và người lao động trong công ty. Đây là những thành tựu
-							giúp chúng tôi vững tin bước vào thập kỷ phát triển mới.</p>
-						<br>
-						<p style="font-size: 14px" class="font-italic">Với sự đổi mới
-							trong cách nghĩ, cách làm, đam mê, và không ngừng sáng tạo, chúng
-							tôi tin tưởng ANSV sẽ có những bước tiến thần tốc, đón đầu các xu
-							hướng công nghệ giúp kiến tạo và thay đổi cuộc sống.</p>
-						<br>
-						<p style="font-size: 14px" class="font-italic">Với nội lực và
-							sự quyết tâm, tập thể ANSV cam kết sẽ luôn luôn gắn kết, đồng
-							hành cùng Quý vị để tiếp tục phát triển và tiến xa hơn nữa, khẳng
-							định vai trò vị thể của Quý Khách hàng, Quý đối tác tại Việt Nam
-							và trong khu vực.</p>
-						<hr>
-
-						<!--             <ul> -->
-						<!--               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li> -->
-						<!--               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li> -->
-						<!--               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li> -->
-						<!--               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li> -->
-						<!--               <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li> -->
-						<!--               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</li> -->
-						<!--             </ul> -->
-						<p class="font-italic">Một lần nữa, xin trân trọng cảm ơn!</p>
-					</div>
-				</div>
-
-			</div>
-		</section> --%>
-		<!-- End President Election Section -->
 
 
 		<!-- ======= Services Section ======= -->
@@ -949,34 +776,34 @@
 			id='fat-gallery-js'></script>
 
 		<style>
-.in-dam {
-	font-weight: bold;
-}
-
-.xem-them-1 {
-	position: absolute;
-	bottom: 4%;
-	right: 5%;
-}
-
-.xem-them-2:visited {
-	color: gray;
-}
-
-.xem-them-2:hover {
-	text-decoration: underline;
-	color: #FF6600;
-}
-
-/*CSS tiêu đề hover outer*/
-.fat-gallery-title h5 {
-	font-size: 14px;
-	color: #333;
-	font-style: normal;
-	font-weight: normal;
-	text-transform: none;
-}
-</style>
+			.in-dam {
+				font-weight: bold;
+			}
+			
+			.xem-them-1 {
+				position: absolute;
+				bottom: 4%;
+				right: 5%;
+			}
+			
+			.xem-them-2:visited {
+				color: gray;
+			}
+			
+			.xem-them-2:hover {
+				text-decoration: underline;
+				color: #FF6600;
+			}
+			
+			/*CSS tiêu đề hover outer*/
+			.fat-gallery-title h5 {
+				font-size: 14px;
+				color: #333;
+				font-style: normal;
+				font-weight: normal;
+				text-transform: none;
+			}
+		</style>
 
 		<section class="home-page">
 			<div class="section-title">
@@ -1425,140 +1252,8 @@
 				</div>
 			</main>
 		</section>
-
-		<!-- Content: Dịch vụ và Giải pháp(cái cũ) -->
-		<!-- <section id="services" class="services section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Dịch Vụ Và Giải Pháp</strong></h2>
-          <p>Với lực lượng cán bộ kỹ thuật có trình độ chuyên môn cao và cơ sở vật chất hiện có, ANSV luôn khẳng định đảm bảo tốt chất lượng các dịch vụ hỗ trợ kỹ thuật cam kết với khách hàng như:</p>
-        </div>
-        <div class="row ">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch  " data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box iconbox-blue " style=" background: url(template/web/assets/img/solution.jpg); background-position: center;">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
-                </svg>
-                <a href="#"><i class="bx bxl-dribbble"></i></a>
-              </div>
-              <h4><a href="">Công Nghệ Mạng Di Động</a></h4>
-              <p>ANSV là đơn vị đầu tiên các dự án triển khai mạng di động từ những năm 1993 đến nay.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch  mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box iconbox-orange " style=" background: url(template/web/assets/img/solution.jpg); background-position: center;" >
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
-                </svg>
-                <a href="#"><i class="bx bx-file"></i></a>
-              </div>
-              <h4><a href="">Giải Pháp Hệ Thống Mạng GPON</a></h4>
-              <p>ANSV cung cấp các giải pháp tổng thể công nghệ mạng gigabit quang thụ động(GPON) bao gồm OLT, ONT và hệ thống quản lý tập trung NMS.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch  mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box iconbox-pink" style=" background: url(template/web/assets/img/truyen-dan.jpg); background-position: center;">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
-                </svg>
-                <a href="#"><i class="bx bx-tachometer"></i></a>
-              </div>
-              <h4><a href="">Công Nghệ Truyền Dẫn</a></h4>
-              <p>ANSVctự hào là đơn vị triển khai các dự án truyền dẫn đầu tiên bao gồm cả vô tuyến và hữu tuyến(SDH, xDSL, Wifi, Viba, WDM,...) cho các nhà mạng lớn như VNPT và Mobifone.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch  mt-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box iconbox-yellow" style=" background: url(template/web/assets/img/ngn.jpg); background-position: center;">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813"></path>
-                </svg>
-                <a href="#"><i class="bx bx-layer"></i></a>
-              </div>
-              <h4><a href="" class="text-white">Mạng Thế Hệ Mới NGN</a></h4>
-              <p class="text-white">Mạng viễn thông thế hệ mới- NGN (Next Generation Network) đã trở thành xu hướng của nhiều nước trên thế giới do những lợi ích của nó cả về kinh tế ký thuật trong việc cung cấp các dịch vụ đa phương tiện.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch  mt-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box iconbox-red" style=" background: url(template/web/assets/img/wifi.jpg); background-position: center;">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
-                </svg>
-                <a href="#"><i class="bx bx-wifi-2"></i></a>
-              </div>
-              <h4><a href="" class="text-white">Giải Pháp Wifi Total Solution</a></h4>
-              <p class="text-white">Giải pháp Wi-Fi tổng thể là giải pháp toàn diện, hiệu suất cao, linh hoạt trong triển khai; cung cấp kết nối không dây phù hợp cho tất cả khách hàng cá nhân, doanh nghiệp SME, nhà cung cấp dịch vụ, các cơ quan ban nghành trung ương và địa phương.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch  mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box iconbox-teal" style=" background: url(template/web/assets/img/IPCC.jpg); background-position: center;">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
-                </svg>
-                <a href="#"><i class="bx bx-arch"></i></a>
-              </div>
-              <h4><a href="">Giải Pháp IPCC</a></h4>
-              <p class="">Công ty hiện đang là đối tác của Genesys trong việc xây dựng giải pháp, phát triển và triển khai các hệ thông IP Contact Centre (IPCC) trên nền Genesys Customer Interaction Management(CIM) Platform -thành phần cốt lõi của bộ sản phẩm Genesys. </p>
-            </div>
-          </div>
-          
-          
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch  mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box iconbox-teal" style=" background: url(template/web/assets/img/truyen-dan.jpg); background-position: center;">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
-                </svg>
-                <a href="#"><i class="bx bx-arch"></i></a>
-              </div>
-              <h4><a href="">Giải Pháp Hạ Tầng CNTT</a></h4>
-              <p>Cung cấp và tích hợp các giải pháp hạ tâng CNTT như giải pháp Ảo hóa và Điện toán đám mây, giải pháp Hạ tầng mạng, giải pháp Hạ tầng trung tâm dữ liệu, giải pháp Hệ thống máy chủ và lưu trữ, giải pháp hội nghị truyền hình, giải pháp truyền trông hợp nhất và giải pháp xây dựng Cơ sở dữ liệu(CSDL) doanh nghiệp toàn diện.</p>
-            </div>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch  mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box iconbox-teal" style=" background: url(template/web/assets/img/pay-online.jpg); background-position: center;">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
-                </svg>
-                <a href="#"><i class="bx bx-arch"></i></a>
-              </div>
-              <h4><a href="">Hệ Thống Tính Cước Online - OCS (Online Charging System)</a></h4>
-              <p>OCS- hệ thống tính cước online cho thuê bao di động trả trước và trả sau cho nhà mạng Mobifone tích hợp với các thành phần core trong mạng(mSTP, SDC, HLR, MSC, PGW, PCRF,...) và các hệ thống hỗ trợ, giám sát, khai báo thông tin thuê bao, khuyễn mãi. </p>
-            </div>
-          </div>
-          
-           <div class="col-lg-4 col-md-6 d-flex align-items-stretch  mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box iconbox-teal" style=" background: url(template/web/assets/img/chi-dao.jpg); background-position: center;">
-              <div class="icon">
-                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
-                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
-                </svg>
-                <a href =""><i class="bx bx-server"> </i></a>
-              </div>
-              <h4><a href="" class="text-white">Trung Tâm Thông Tin, Chỉ Đạo Điều Hành</a></h4>
-              <p class="text-white">Trung tâm thông tin, chỉ đạo điều hành bao gồm: các dữ liệu số về tình hình biến động các chỉ số kinh tế - xã hội của địa phương, tỉnh, thành phố, quốc gia; các chỉ số hoạt động, vận hành, kinh tế, của 1 tổ chức/ doanh nghiệp,các thông tin đa chiều theo nhóm các vấn đề, lĩnh vực cụ thể.</p>
-            </div>
-          </div>
-          	
-
-        </div>
-
-      </div>
-    </section> -->
-		<!-- End Services Section -->
+		
+			
 
 		<!-- ======= Portfolio Section ======= -->
 		<section id="portfolio" class="portfolio">
@@ -1816,82 +1511,6 @@
 		</section>
 		<!-- End Portfolio Section -->
 
-		<!-- ======= Our Clients Section ======= -->
-		<%-- <section id="clients" class="clients">
-			<div class="container" data-aos="fade-up">
-
-				<div class="section-title">
-					<h2>Khách hàng</h2>
-				</div>
-
-				<div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">
-
-					<div class="col-lg-3 col-md-4 col-6">
-						<div class="client-logo">
-							<img src="<c:url value="/assets/user/img/clients/cmc.png" />"
-								class="img-fluid" alt="">
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-md-4 col-6">
-						<div class="client-logo">
-							<img
-								src="<c:url value="/assets/user/img/clients/mobifone.jpg" />"
-								class="img-fluid" alt="">
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-md-4 col-6">
-						<div class="client-logo">
-							<img src="<c:url value="/assets/user/img/clients/nokia.png" />"
-								class="img-fluid" alt="">
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-md-4 col-6">
-						<div class="client-logo">
-							<img src="<c:url value="/assets/user/img/clients/oracle.png" />"
-								class="img-fluid" alt="">
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-md-4 col-6">
-						<div class="client-logo">
-							<img src="<c:url value="/assets/user/img/clients/samsung.png" />"
-								class="img-fluid" alt="">
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-md-4 col-6">
-						<div class="client-logo">
-							<img
-								src="<c:url value="/assets/user/img/clients/client-6.png" />"
-								class="img-fluid" alt="">
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-md-4 col-6">
-						<div class="client-logo">
-							<img
-								src="<c:url value="/assets/user/img/clients/client-7.png" />"
-								class="img-fluid" alt="">
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-md-4 col-6">
-						<div class="client-logo">
-							<img
-								src="<c:url value="/assets/user/img/clients/client-8.png" />"
-								class="img-fluid" alt="">
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-		</section> --%>
-		<!-- End Our Clients Section -->
-
 
 
 		<!-- ======= Videos ======= -->
@@ -2145,13 +1764,6 @@
 									</div>
 								</div>
 							</div>
-							<!-- <div class="list__cont-link_new">
-								<a data-omni-type="microsite_b2bcontent"
-									data-omni="networks home_video:show more" href="#" title=""
-									class="s-ico-new-window s-default detailButton s2"> Xem
-									thêm <span class="show">></span>
-								</a>
-							</div> -->
 						</div>
 						<div class="video_popup">
 							<div class="popup_innder">
@@ -2175,5 +1787,120 @@
 
 	</main>
 	<!-- End #main -->
-
+	
+	
+	
+	<!-- ===== Đoạn Javascript chạy hiệu ứng cho background ===== -->
+	<script>
+	    particlesJS("particles-js", {
+	        "particles": {
+	            "number": {
+	                "value": 216,
+	                "density": {
+	                    "enable": true,
+	                    "value_area": 562
+	                }
+	            },
+	            "color": {
+	                "value": "#ffffff"
+	            },
+	            "shape": {
+	                "type": "circle",
+	                "stroke": {
+	                    "width": 0,
+	                    "color": "#000000"
+	                },
+	                "polygon": {
+	                    "nb_sides": 6
+	                },
+	                "image": {
+	                    "src": "img/github.svg",
+	                    "width": 60,
+	                    "height": 60
+	                }
+	            },
+	            "opacity": {
+	                "value": 0.21,
+	                "random": false,
+	                "anim": {
+	                    "enable": true,
+	                    "speed": 0.3996003996003996,
+	                    "opacity_min": 0.04795204795204795,
+	                    "sync": false
+	                }
+	            },
+	            "size": {
+	                "value": 3,
+	                "random": true,
+	                "anim": {
+	                    "enable": false,
+	                    "speed": 4,
+	                    "size_min": 0.8120772123013452,
+	                    "sync": false
+	                }
+	            },
+	            "line_linked": {
+	                "enable": true,
+	                "distance": 100,
+	                "color": "#ffffff",
+	                "opacity": 0.22096133965703635,
+	                "width": 1
+	            },
+	            "move": {
+	                "enable": true,
+	                "speed": 1.3,
+	                "direction": "top-right",
+	                "random": false,
+	                "straight": false,
+	                "out_mode": "out",
+	                "bounce": false,
+	                "attract": {
+	                    "enable": false,
+	                    "rotateX": 600,
+	                    "rotateY": 1200
+	                }
+	            }
+	        },
+	        "interactivity": {
+	            "detect_on": "canvas",
+	            "events": {
+	                "onhover": {
+	                    "enable": false,
+	                    "mode": "repulse"
+	                },
+	                "onclick": {
+	                    "enable": true,
+	                    "mode": "push"
+	                },
+	                "resize": true
+	            },
+	            "modes": {
+	                "grab": {
+	                    "distance": 400,
+	                    "line_linked": {
+	                        "opacity": 1
+	                    }
+	                },
+	                "bubble": {
+	                    "distance": 400,
+	                    "size": 40,
+	                    "duration": 2,
+	                    "opacity": 8,
+	                    "speed": 3
+	                },
+	                "repulse": {
+	                    "distance": 200,
+	                    "duration": 0.4
+	                },
+	                "push": {
+	                    "particles_nb": 4
+	                },
+	                "remove": {
+	                    "particles_nb": 2
+	                }
+	            }
+	        },
+	        "retina_detect": true
+	    });
+	</script>
 </body>

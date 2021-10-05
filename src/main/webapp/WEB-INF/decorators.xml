@@ -58,6 +58,10 @@
        <pattern>/chi-tiet-san-pham</pattern>
     </decorator>
     
+    <decorator name="noi-bo" page="about.jsp">
+       <pattern>/noi-bo</pattern>
+    </decorator>
+    
     <decorator name="lien-he" page="about.jsp">
        <pattern>/lien-he</pattern>
     </decorator>
