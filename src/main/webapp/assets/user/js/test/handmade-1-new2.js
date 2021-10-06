@@ -1546,7 +1546,7 @@
 			f03sliderIdx = slide_idx;
 			setTimeout(function() {
 				$(".f03 .video_wrap .video_ul > ul li").removeClass("select");
-				console.log("console", (idx+2));
+				/*console.log("console", (idx+2));*/
 				$(".f03 .video_wrap .video_ul > ul li").eq(idx+2).addClass("select");
 			}, 1300);
 			$('.f03 .video_wrap .video_ul li a').eq(idx+1).attr('data-omni-type','microsite_pcontentinte');
@@ -1555,7 +1555,7 @@
 			$('.f03 .video_wrap .video_ul li a').eq(idx+2).attr('data-omni',omniarray[idx])
 			$('.f03 .video_wrap .video_ul li a').eq(idx+3).attr('data-omni-type','microsite_pcontentinte');
 			$('.f03 .video_wrap .video_ul li a').eq(idx+3).attr('data-omni','rolling:right_click');
-			console.log("console", (idx));
+			/*console.log("console", (idx));*/
 	}
 
 

@@ -198,10 +198,15 @@
 					}
 					
 					.post-module .post-content .post-content-child-news {
-						background-color: rgba(0,92,161,1);
+						background-color: #0d3dcf;
 						color: #FFFFFF;
-						padding: 30px;
+						padding: 15px 25px 25px 25px;
 						border-radius: 0 0 16px 16px;
+					}
+					
+					.post-module .post-content .post-content-child-news .news-logo {
+						margin: auto;
+						width: 30%;
 					}
 					
 					.post-module .post-content .category {
@@ -236,11 +241,14 @@
 					.post-module .post-content .sub_title {
 						margin: 0;
 						/* padding: 0 0 20px; */
+						padding-bottom: 20px;
 						margin-bottom: 20px;
 						font-size: 20px;
 						font-weight: 400;
 						/* color: #e74c3c; */
-						color: #FF6600;
+						color: #FFFFFF;
+						/* color: #FF6600; */
+						border-bottom: 2px solid white;
 					}
 					
 					.post-module .post-content .post-content-child .description {
@@ -257,6 +265,8 @@
 						color: #FFFFFF;
 						font-size: 14px;
 						line-height: 1.8em;
+						padding-bottom: 20px;
+						border-bottom: 2px solid white;
 					}
 					
 					.post-module .post-content .post-meta {
@@ -502,20 +512,6 @@
 									<div class="feature f01" tabindex="0">
 										<div id="owl-demo" class="owl-carousel owl-theme">
 											<div class="item">
-												<%-- <ul class="column_ul">
-													<li><a data-omni-type="microsite_b2bcontent"
-														data-omni="networks home_news:samsung powers world’s first 3gpp-compliant nationwide public safety network in korea"
-														href="http://antt.vn/nha-thau-ngoai-trung-goi-thau-gan-nghin-ty-234860.htm"
-														title="Nhà Thầu ngoại trúng thầu gần nghìn tỷ">
-															<img class="js-img-src js-img-lazy"
-															src="<c:url value="/assets/user/img/test/news1.jpg" />"
-															data-src-pc="<c:url value="/assets/user/img/test/news1.jpg" />"
-															data-src-mobile="<c:url value="/assets/user/img/test/news1.jpg" />"
-															alt="Ảnh trúng gói thầu" />
-															<h4 class="txt_fff ellipsis" style="font-size: 200%;">Nhà
-																thầu ngoại trúng thầu gần nghìn tỷ</h4>
-													</a></li>
-												</ul> --%>
 												<div class="post-module">
 													<div class="thumbnail">
 														<img
@@ -523,20 +519,19 @@
 													</div>
 													<div class="post-content">
 														<div class="post-content-child-news">
-															<a href="#"><font color="#FFFFFF">TIN TỨC</font></a>
-															<br><br>
+															<img src="<c:url value='/assets/user/img/header/ANSV_logo.png' />" class="news-logo">
 															<h1 class="title"></h1>
 															<h2 class="sub_title desc title-bold">
-																<font color="#ef6c00">
-																	VNPT và Nokia hợp tác về nghiên cứu và phát triển hạ tầng số
-																</font>
+																VNPT và Nokia hợp tác về nghiên cứu và phát triển hạ tầng số
 															</h2>
-															<p class="description">Theo thỏa thuận này, hai bên
+															<p class="description">
+																Theo thỏa thuận này, hai bên
 																nhất trí tăng cường mối quan hệ hợp tác chiến lược để
 																nâng cấp năng lực mạng đường trục, mạng lõi, phát triển
 																nền tảng 4G, 5G, IOT,... hiện đại đáp ứng với nhu cầu
 																quan trọng của một hạ tầng sô, phục vụ cho chuyển đổi số
-																quốc gia.</p>
+																quốc gia.
+															</p>
 															<div class="post-meta" align="right">
 																<span class="comments"> <a
 																	href="javascript:void(0)">Xem thêm...</a>
@@ -548,33 +543,17 @@
 											</div>
 
 											<div class="item">
-												<%-- <ul class="column_ul">
-													<li><a data-omni-type="microsite_b2bcontent"
-														data-omni="networks home_news:samsung releases whitepaper on virtualized radio access network (vran)"
-														href="https://fee.tnut.edu.vn/cong-ty-tnhh-thiet-bi-vien-thong-ansv-tuyen-dung-dt694.html"
-														title="ANSV tuyển dụng"> <img
-															class="js-img-src js-img-lazy"
-															src="<c:url value="/assets/user/img/test/news2.png" />"
-															data-src-pc="<c:url value="/assets/user/img/test/news2.png" />"
-															data-src-mobile="<c:url value="/assets/user/img/test/news2.png" />"
-															alt="Ảnh tuyển dụng" />
-															<h4 class="txt_fff ellipsis" style="font-size: 200%;">ANSV
-																tuyển dụng</h4>
-													</a></li>
-												</ul> --%>
 												<div class="post-module">
 													<div class="thumbnail">
 														<img src="<c:url value="/assets/user/img/test/qr.jpg" />">
 													</div>
 													<div class="post-content">
 														<div class="post-content-child-news">
-															<a href="#"> <font color="#FFFFFF">TIN TỨC</font>
-															</a><br> <br>
+															<img src="<c:url value='/assets/user/img/header/ANSV_logo.png' />" class="news-logo">
 															<h1 class="title"></h1>
 															<h2 class="sub_title desc title-bold">
-																<font color="#ef6c00">
-																	Thống nhất mã QR dùng chung cho các nền tảng công nghệ chống dịch
-																</font>
+																Thống nhất mã QR dùng chung cho các nền tảng công nghệ...
+																<!-- chống dịch -->
 															</h2>
 															<p class="description">Mỗi cá nhân sử dụng các nền
 																tảng, ứng dụng phòng chống dịch Covid-19 được cấp duy
@@ -593,35 +572,16 @@
 											</div>
 
 											<div class="item">
-												<%-- <ul class="column_ul">
-													<li><a data-omni-type="microsite_b2bcontent"
-														data-omni="networks home_news:verizon starts c-band equipment deployment with samsung network solutions"
-														href="https://niithanoi.vn/chi-tiet-tin/1965/khai-giang-khoa-dao-tao-iot-ung-dung-vao-doanh-nghiep-cong-ty-tnhh-thiet-bi-vien-thong-ansv.html/page:2#.YOJj6-gzZPY"
-														title="Khai giảng khoá đào tạo Iot ứng dụng vào..."> <img
-															class="js-img-src js-img-lazy"
-															src="<c:url value="/assets/user/img/test/news3.png" />"
-															data-src-pc="<c:url value="/assets/user/img/test/news3.png" />"
-															data-src-mobile="<c:url value="/assets/user/img/test/news3.png" />"
-															alt="Verizon starts C-Band equipment deployment with Samsung Network Solutions" />
-															<h4 class="txt_fff ellipsis" style="font-size: 200%;">Khai
-																giảng khóa đào tạo Iot ứng dụng vào doanh nghiệp - Công
-																ty TNHH Thiết bị Viễn thông ANSV</h4>
-													</a></li>
-												</ul> --%>
 												<div class="post-module">
 													<div class="thumbnail">
-														<img
-															src="<c:url value="/assets/user/img/test/toc-do-internet.jpg" />">
+														<img src="<c:url value="/assets/user/img/test/toc-do-internet.jpg" />">
 													</div>
 													<div class="post-content">
 														<div class="post-content-child-news">
-															<a href="#"> <font color="#FFFFFF">TIN TỨC</font>
-															</a><br> <br>
+															<img src="<c:url value='/assets/user/img/header/ANSV_logo.png' />" class="news-logo">
 															<h1 class="title"></h1>
 															<h2 class="sub_title desc title-bold">
-																<font color="#ef6c00">
-																	Tốc độ Internet Việt Nam thấp hơn mức trung bình thế giới
-																</font>
+																Tốc độ Internet Việt Nam thấp hơn mức trung bình thế giới
 															</h2>
 															<p class="description">
 																Tốc độ mạng di động và băng thông rộng Việt Nam đứng thứ
@@ -647,13 +607,10 @@
 													</div>
 													<div class="post-content">
 														<div class="post-content-child-news">
-															<a href="#"> <font color="#FFFFFF">TIN TỨC</font>
-															</a><br> <br>
+															<img src="<c:url value='/assets/user/img/header/ANSV_logo.png' />" class="news-logo">
 															<h1 class="title"></h1>
 															<h2 class="sub_title desc title-bold">
-																<font color="#ef6c00">
-																	Đẩy nhanh việc triển khai và thương mại hóa 5G tại Việt Nam
-																</font>
+																Đẩy nhanh việc triển khai và thương mại hóa 5G tại Việt Nam
 															</h2>
 															<p class="description">Việc nghiên cứu, xây dựng và
 																hoàn thiện các quy định hướng dẫn về tiêu chuẩn, quy
@@ -672,28 +629,6 @@
 												</div>
 											</div>
 										</div>
-										<!-- <ul class="column_ul">
-										<li class="col-lg-4">
-											<a data-omni-type="microsite_b2bcontent" data-omni="networks home_news:samsung powers world’s first 3gpp-compliant nationwide public safety network in korea" href="#" title="LEARN MORE : Samsung Powers World’s First 3GPP-Compliant Nationwide Public Safety Network in Korea">
-											   <img class="js-img-src js-img-lazy" src="template/web/assets/img/test/news1.jpg" data-src-pc="template/web/assets/img/test/news1.jpg" data-src-mobile="template/web/assets/img/test/news1.jpg" alt="Ảnh trúng gói thầu"/>
-											   <h4 class="txt_fff">Nhà thầu ngoại trúng gói thầu gần nghìn tỷ</h4>
-											</a>
-										</li>
-
-										<li class="col-lg-4">
-											<a data-omni-type="microsite_b2bcontent" data-omni="networks home_news:samsung releases whitepaper on virtualized radio access network (vran)" href="#" title="LEARN MORE : Samsung Releases Whitepaper on Virtualized Radio Access Network (vRAN)">
-											   <img class="js-img-src js-img-lazy" src="template/web/assets/img/test/news2.png" data-src-pc="template/web/assets/img/test/news2.png" data-src-mobile="template/web/assets/img/test/news2.png" alt="Ảnh tuyển dụng"/>
-											   <h4 class="txt_fff ellipsis">ANSV tuyển dụng</h4>
-											</a>
-										</li>
-
-										<li class="col-lg-4">
-											<a data-omni-type="microsite_b2bcontent" data-omni="networks home_news:verizon starts c-band equipment deployment with samsung network solutions" href="#" title="LEARN MORE : Verizon starts C-Band equipment deployment with Samsung Network Solutions">
-											   <img class="js-img-src js-img-lazy" src="template/web/assets/img/test/news3.png" data-src-pc="template/web/assets/img/test/news3.png" data-src-mobile="template/web/assets/img/test/news3.png" alt="Verizon starts C-Band equipment deployment with Samsung Network Solutions"/>
-											   <h4 class="txt_fff ellipsis">Khai giảng khóa đào tạo Iot ứng dụng vào doanh nghiệp - Công ty TNHH Thiết bị Viễn thông ANSV</h4>
-											</a>
-										</li>
-				    				</ul> -->
 
 										<ul class="mo_only">
 											<li><a data-omni-type="microsite_pcontentinter"
@@ -743,14 +678,15 @@
 						data-aos="fade-right">
 						<h3>Lĩnh Vực Hoạt Động</h3>
 						<!-- <h3>Với hơn 28 năm kinh nghiệm, công ty TNHH Thiết Bị Viễn Thông ANSV là nhà tích hợp hệ thống, cung cấp các sản phẩm/giải pháp và dịch vụ công nghệ thông tin hàng đầu tại Việt Nam, có vị thế vững chắc ở thị trường trong nước và trong khu vực</h3>-->
-						<p style="text-align: justify;">Với hơn 28 năm kinh nghiệm,
-							công ty TNHH Thiết Bị Viễn Thông ANSV là nhà tích hợp hệ thống,
+						<p style="text-align: justify;">
+							Với hơn 28 năm kinh nghiệm, công ty TNHH Thiết Bị Viễn Thông
+							<font color="#FF6600"><b>ANSV</b></font>
+							là nhà tích hợp hệ thống,
 							cung cấp các sản phẩm/giải pháp và dịch vụ công nghệ thông tin
 							hàng đầu tại Việt Nam, có vị thế vững chắc ở thị trường trong
-							nước và trong khu vực.</p>
-						<br> <img
-							src="<c:url value="/assets/user/img/About_us.JPG" />"
-							class="img-fluid" alt="">
+							nước và trong khu vực.
+						</p><br>
+						<img src="<c:url value="/assets/user/img/About_us.JPG" />" class="img-fluid" alt="">
 					</div>
 
 
@@ -770,77 +706,46 @@
 							</ul>
 							<div class="tab-content rounded mt-2">
 								<div class="tab-pane container p-0 active" id="home1">
-									<p style="text-align: justify;">ANSV dựa trên ứng dụng KHCN
-										- CNTT-VT cùng sự liên tục đổi mới sáng tạo và sức mạnh kết
-										nối của các thành tựu công nghệ quốc tế cùng với những chuyên
-										gia, kỹ sư người Việt nam, chúng tôi luôn nỗ lực phát triển,
-										nâng cao giá trị cho cộng đồng, hướng tới mục tiêu đặt một dấu
-										ấn vững chắc trên bản đồ công nghệ toàn cầu.</p>
+									<p style="text-align: justify;">
+										<font color="#FF6600"><b>ANSV</b></font>
+										dựa trên ứng dụng KHCN - CNTT-VT cùng sự liên tục đổi mới sáng tạo 
+										và sức mạnh kết nối của các thành tựu công nghệ quốc tế cùng với 
+										những chuyên gia, kỹ sư người Việt nam, chúng tôi luôn nỗ lực phát 
+										triển, nâng cao giá trị cho cộng đồng, hướng tới mục tiêu đặt một 
+										dấu ấn vững chắc trên bản đồ công nghệ toàn cầu.
+									</p>
 
 								</div>
 								<div class="tab-pane container p-0 fade" id="home2">
-									<p style="text-align: justify;">ANSV định hướng trở thành
-										doanh nghiệp đi đầu trong lĩnh vực chuyển đổi số, tích hợp hệ
-										thông CNTT - VT, phân phối bán lẻ các sản phẩm công nghệ ở thị
-										trường Việt Nam và thị trường khu vực.</p>
+									<p style="text-align: justify;">
+										<font color="#FF6600"><b>ANSV</b></font>
+										định hướng trở thành doanh nghiệp đi đầu trong lĩnh vực chuyển đổi 
+										số, tích hợp hệ thông CNTT - VT, phân phối bán lẻ các sản phẩm công 
+										nghệ ở thị trường Việt Nam và thị trường khu vực.
+									</p>
 								</div>
 								<div class="tab-pane container p-0 fade" id="home3">
 									<p style="text-align: justify;">
-										<span> "Văn hóa là tinh thần - Sức mạnh Team work" luôn
-											được đề cao và là văn hóa cốt lõi của Doanh nghiệp, tạo nên
-											tinh thần ANSV, giúp chúng tôi không ngừng nỗ lực , sáng tạo
-											vì lợi ích chung của tập thể, của khách hàng và của xã hội.</span></br> <br>
-										<span>"Con người là sức mạnh"- Với nguồn lực là đội ngũ
-											cán bộ, kỹ sư được đào tạo bài bản và có nhiều năm kinh
-											nghiệm, ANSV là nơi quy tụ và kết nối những nhân tài có sức
-											sáng tạo và đam mê, cùng hướng tới mục tiêu phát triển các
-											sản phẩm, giải đáp, dịch vụ công nghệ chất lượng cao, hữu ích
-											phục vụ cuộc sống và cộng đồng.</span>
+										<span> 
+											"Văn hóa là tinh thần - Sức mạnh Team work" luôn được đề cao và 
+											là văn hóa cốt lõi của Doanh nghiệp, tạo nên tinh thần 
+											<font color="#FF6600"><b>ANSV</b></font>
+											, giúp chúng tôi không ngừng nỗ lực , sáng tạo vì lợi ích chung 
+											của tập thể, của khách hàng và của xã hội.
+										</span></br><br>
+										<span>
+											"Con người là sức mạnh"- Với nguồn lực là đội ngũ cán bộ, kỹ sư 
+											được đào tạo bài bản và có nhiều năm kinh nghiệm, 
+											<font color="#FF6600"><b>ANSV</b></font> 
+											là nơi quy tụ và kết nối những nhân tài có sức sáng tạo và đam mê, 
+											cùng hướng tới mục tiêu phát triển các sản phẩm, giải đáp, dịch vụ 
+											công nghệ chất lượng cao, hữu ích phục vụ cuộc sống và cộng đồng.
+										</span>
 									</p>
 								</div>
 							</div>
 						</div>
-						<img src="<c:url value="/assets/user/img/infor.jpg" />"
-							class="img-fluid" alt="" style="padding-top: 5%">
-						<!-- <style>
-				#test{
-					background-image: url('template/web/assets/img/phuong-cham.png');
-					background-repeat: no-repeat;
-					width: 555px;
-					text-align: justify;
-					/*padding: Top Right Bottom Left*/
-					padding: 10px 20px 10px 90px;
-				}
-			</style>
-			
-			<div id="test">
-				<font size="1px">
-					Với phương châm hoạt động đạo đức, chuyên nghiệp và sáng tạo, chúng tôi tạo ra môi trường làm 
-					việc ý nghĩa cho cán bộ nhân viên, mang đến khách hàng các giá trị mới và dịch vụ tuyệt hảo, 
-					hướng tới nâng cao giá trị, lợi ích cho Khách hàng, đồng hành cùng Khách hàng hướng tới sự phát 
-					triển bền vững và mang lại trách nhiệm, giá trị của Doanh nghiệp với cộng đồng.
-				</font>
-			</div> -->
-
-						<!--
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</li>
-            </ul>
-            <p class="font-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua. alallalalalalallaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaal
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            
-            -->
+						<img src="<c:url value="/assets/user/img/infor.jpg" />" class="img-fluid" alt="" style="padding-top: 5%">
 					</div>
 				</div>
 
@@ -848,80 +753,6 @@
 		</section>
 		<!-- End About Us Section -->
 
-
-
-		<!-- ======= President Election Section ======= -->
-		<%-- <section id="President-Election" class="President-Election">
-			<div class="container" data-aos="fade-up">
-
-				<div class="section-title">
-					<h2>
-						Thông Điệp Từ Tổng Giám Đốc</strong>
-					</h2>
-				</div>
-
-				<div class="row content">
-					<div class="col-lg-6" data-aos="fade-right">
-						<img src="<c:url value="/assets/user/img/Presedent.JPG" />"
-							class="img-fluid" alt="">
-					</div>
-					<div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-						<h3 style="border-bottom: 2px solid #f27700">Kính gửi Quý khách
-							hàng, Quý đối tác</h3>
-						<br>
-						<p style="font-size: 14px" class="font-italic">Lời đầu tiên
-							tôi xin thay mặt toàn thể cán bộ công nhân viên của công ty TNHH
-							Thiết bị viễn thông ANSV xin gửi đến Quý khách hàng,Quý đối tác
-							lời chào cùng lời chi ân sâu sắc nhất. Nhận được sự tin tưởng và
-							đồng hành của Quý vị vừa là niềm vinh dự vừa là động lực để chúng
-							tôi tiếp tục nỗ lực, sáng tạo để tự hào khi luôn thấu hiểu được
-							nhu cầu và đáp ứng được mong muốn của khách hàng.</p>
-						<br>
-						<p style="font-size: 14px" class="font-italic">Để thích ứng
-							kịp thời với bước chuyển mình mạnh mẽ của công nghệ và với tham
-							vọng sẽ trở thành công ty hàng đầu trong lĩnh vực chuyển đổi
-							số(Disital Transformation), tích hợp hệ thống(System Intergration
-							- ST), chúng tôi đã, đang làm việc và cộng tác với nhiều đối tác,
-							nhà cung cấp hàng đầu trên thế giới để tập trung cung cấp và khai
-							thác các dịch vụ, giải pháp về Công nghệ thông tin và Viễn thông
-							nhằm nâng cao những giá trị, lợi ích, hình ảnh của Quý vị tại
-							Việt Nam và khu vực.</p>
-						<br>
-						<p style="font-size: 14px" class="font-italic">Những dấu ấn mà
-							ANSV có thể tự hào ngày hôm nay là thành quả trong suốt 28 năm
-							hình thành và phát triển, là sự phấn đấu không ngừng của một đơn
-							vị đoàn kết, sáng tạo, là sự đồng lòng của tập thể lãnh đạo các
-							thời kỳ, là ự nhiệt huyết tận tâm của tập thể các cán bộ công
-							nhân viên và người lao động trong công ty. Đây là những thành tựu
-							giúp chúng tôi vững tin bước vào thập kỷ phát triển mới.</p>
-						<br>
-						<p style="font-size: 14px" class="font-italic">Với sự đổi mới
-							trong cách nghĩ, cách làm, đam mê, và không ngừng sáng tạo, chúng
-							tôi tin tưởng ANSV sẽ có những bước tiến thần tốc, đón đầu các xu
-							hướng công nghệ giúp kiến tạo và thay đổi cuộc sống.</p>
-						<br>
-						<p style="font-size: 14px" class="font-italic">Với nội lực và
-							sự quyết tâm, tập thể ANSV cam kết sẽ luôn luôn gắn kết, đồng
-							hành cùng Quý vị để tiếp tục phát triển và tiến xa hơn nữa, khẳng
-							định vai trò vị thể của Quý Khách hàng, Quý đối tác tại Việt Nam
-							và trong khu vực.</p>
-						<hr>
-
-						<!--             <ul> -->
-						<!--               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li> -->
-						<!--               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li> -->
-						<!--               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li> -->
-						<!--               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li> -->
-						<!--               <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li> -->
-						<!--               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</li> -->
-						<!--             </ul> -->
-						<p class="font-italic">Một lần nữa, xin trân trọng cảm ơn!</p>
-					</div>
-				</div>
-
-			</div>
-		</section> --%>
-		<!-- End President Election Section -->
 
 
 		<!-- ======= Services Section ======= -->
@@ -949,34 +780,34 @@
 			id='fat-gallery-js'></script>
 
 		<style>
-.in-dam {
-	font-weight: bold;
-}
-
-.xem-them-1 {
-	position: absolute;
-	bottom: 4%;
-	right: 5%;
-}
-
-.xem-them-2:visited {
-	color: gray;
-}
-
-.xem-them-2:hover {
-	text-decoration: underline;
-	color: #FF6600;
-}
-
-/*CSS tiêu đề hover outer*/
-.fat-gallery-title h5 {
-	font-size: 14px;
-	color: #333;
-	font-style: normal;
-	font-weight: normal;
-	text-transform: none;
-}
-</style>
+			.in-dam {
+				font-weight: bold;
+			}
+			
+			.xem-them-1 {
+				position: absolute;
+				bottom: 4%;
+				right: 5%;
+			}
+			
+			.xem-them-2:visited {
+				color: gray;
+			}
+			
+			.xem-them-2:hover {
+				text-decoration: underline;
+				color: #FF6600;
+			}
+			
+			/*CSS tiêu đề hover outer*/
+			.fat-gallery-title h5 {
+				font-size: 14px;
+				color: #333;
+				font-style: normal;
+				font-weight: normal;
+				text-transform: none;
+			}
+		</style>
 
 		<section class="home-page">
 			<div class="section-title">
@@ -1700,29 +1531,32 @@
 								<a href="GW240_H">GPON ONT iGate GW240-H</a>
 							</h4>
 							<p></p>
-							<a
-								href="<c:url value="/assets/user/img/portfolio/960x643-iGate_GW240-H.jpg" />"
+							<a href="<c:url value="/assets/user/img/portfolio/960x643-iGate_GW240-H.jpg" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
-								title="GPON ONT iGate GW240-H"><i class="bx bx-plus"></i></a> <a
-								href="GW240_H" class="details-link" title="More Details"><i
-								class="bx bx-link"></i></a>
+								title="GPON ONT iGate GW240-H">
+								<i class="bx bx-plus"></i>
+							</a>
+							<a href="GW240_H" class="details-link" title="More Details">
+								<i class="bx bx-link"></i>
+							</a>
 						</div>
 					</div>
 
 					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
 						<img src="<c:url value="/assets/user/img/Product_1.JPG" />"
 							class="img-fluid" alt="">
-						<div class="portfolio-info">
+						<div class="portfolio-info d-flex">
 							<h4>
-								<a href="javascript:void(0)">Hệ thống thiết bị mạng truy cập
-									quang GPON</a>
+								<a href="javascript:void(0)">Hệ thống thiết bị mạng<br>truy cập quang GPON</a>
 							</h4>
 							<a href="<c:url value="/assets/user/img/Product_1.JPG" />"
-								data-gall="portfolioGallery" class="venobox preview-link mt-3"
-								title="Hệ thống thiết bị mạng truy cập quang GPON"><i
-								class="bx bx-plus"></i></a> <a href="javascript:void(0)"
-								class="details-link mt-3" title="More Details"><i
-								class="bx bx-link"></i></a>
+								data-gall="portfolioGallery" class="venobox preview-link"
+								title="Hệ thống thiết bị mạng truy cập quang GPON">
+								<i class="bx bx-plus"></i>
+							</a> 
+							<a href="javascript:void(0)" class="details-link" title="More Details">
+								<i class="bx bx-link"></i>
+							</a>
 						</div>
 					</div>
 
@@ -1734,26 +1568,32 @@
 								<a href="javascript:void(0)">Hệ thống truyền dẫn DWDM</a>
 							</h4>
 							<a href="<c:url value="/assets/user/img/Product_2.JPG" />"
-								data-gall="portfolioGallery" class="venobox preview-link mt-4"
-								title="Hệ thống truyền dẫn DWDM"><i class="bx bx-plus"></i></a>
-							<a href="javascript:void(0)" class="details-link mt-4"
-								title="More Details"><i class="bx bx-link"></i></a>
+								data-gall="portfolioGallery" class="venobox preview-link"
+								title="Hệ thống truyền dẫn DWDM">
+								<i class="bx bx-plus"></i>
+							</a>
+							<a href="javascript:void(0)" class="details-link" title="More Details">
+								<i class="bx bx-link"></i>
+							</a>
 						</div>
 					</div>
 
 					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
 						<img src="<c:url value="/assets/user/img/Product_4.JPG" />"
 							class="img-fluid" alt="">
-						<div class="portfolio-info text-center">
+						<div class="portfolio-info">
 							<h4>
 								<a href="javascript:void(0)">Nguồn</a>
 							</h4>
 							<p></p>
 							<a href="<c:url value="/assets/user/img/Product_4.JPG" />"
-								data-gall="portfolioGallery" class="venobox preview-link mt-2"
-								title="Nguồn"><i class="bx bx-plus"></i></a> <a
-								href="javascript:void(0)" class="details-link mt-2"
-								title="More Details"><i class="bx bx-link"></i></a>
+								data-gall="portfolioGallery" class="venobox preview-link"
+								title="Nguồn">
+								<i class="bx bx-plus"></i>
+							</a> 
+							<a href="javascript:void(0)" class="details-link" title="More Details">
+								<i class="bx bx-link"></i>
+							</a>
 						</div>
 					</div>
 
@@ -1766,10 +1606,13 @@
 							</h4>
 							<p></p>
 							<a href="<c:url value="/assets/user/img/Product_3.JPG" />"
-								data-gall="portfolioGallery" class="venobox preview-link mt-2"
-								title="IP"><i class="bx bx-plus"></i></a> <a
-								href="javascript:void(0)" class="details-link mt-2"
-								title="More Details"><i class="bx bx-link"></i></a>
+								data-gall="portfolioGallery" class="venobox preview-link"
+								title="IP">
+								<i class="bx bx-plus"></i>
+							</a>
+							<a href="javascript:void(0)" class="details-link" title="More Details">
+								<i class="bx bx-link"></i>
+							</a>
 						</div>
 					</div>
 
@@ -1777,18 +1620,19 @@
 						<img
 							src="<c:url value="/assets/user/img/portfolio/960x643-iGateMR4G-11D.jpg" />"
 							class="img-fluid" alt="">
-						<div class="portfolio-info text-center">
+						<div class="portfolio-info">
 							<h4>
-								<a href="MR4G_11D">4G LTE Mobile Hotspot – iGate MR4G-11D</a>
+								<a href="MR4G_11D">4G LTE Mobile Hotspot<br>– iGate MR4G-11D</a>
 							</h4>
 							<p></p>
-							<a
-								href="<c:url value="/assets/user/img/portfolio/960x643-iGateMR4G-11D.jpg" />"
-								data-gall="portfolioGallery" class="venobox preview-link mt-2"
-								title="4G LTE Mobile Hotspot – iGate MR4G-11D"><i
-								class="bx bx-plus"></i></a> <a href="MR4G_11D"
-								class="details-link mt-2" title="More Details"><i
-								class="bx bx-link"></i></a>
+							<a href="<c:url value="/assets/user/img/portfolio/960x643-iGateMR4G-11D.jpg" />"
+								data-gall="portfolioGallery" class="venobox preview-link"
+								title="4G LTE Mobile Hotspot – iGate MR4G-11D">
+								<i class="bx bx-plus"></i>
+							</a>
+							<a href="MR4G_11D" class="details-link" title="More Details">
+								<i class="bx bx-link"></i>
+							</a>
 						</div>
 					</div>
 
@@ -1796,18 +1640,19 @@
 						<img
 							src="<c:url value="/assets/user/img/portfolio/iGate_R4G_22N-01.jpg" />"
 							class="img-fluid" alt="">
-						<div class="portfolio-info text-center">
+						<div class="portfolio-info">
 							<h4>
-								<a href="22N_01">MULTIMODE LTE ROUTER - IGATE R4G 22N-01</a>
+								<a href="22N_01">MULTIMODE LTE ROUTER<br>- IGATE R4G 22N-01</a>
 							</h4>
 							<p></p>
-							<a
-								href="<c:url value="/assets/user/img/portfolio/iGate_R4G_22N-01.jpg" />"
-								data-gall="portfolioGallery" class="venobox preview-link mt-2"
-								title="MULTIMODE LTE ROUTER - IGATE R4G 22N-01"><i
-								class="bx bx-plus"></i></a> <a href="22N_01"
-								class="details-link mt-2" title="More Details"><i
-								class="bx bx-link"></i></a>
+							<a href="<c:url value="/assets/user/img/portfolio/iGate_R4G_22N-01.jpg" />"
+								data-gall="portfolioGallery" class="venobox preview-link"
+								title="MULTIMODE LTE ROUTER - IGATE R4G 22N-01">
+								<i class="bx bx-plus"></i>
+							</a> 
+							<a href="22N_01" class="details-link" title="More Details">
+								<i class="bx bx-link"></i>
+							</a>
 						</div>
 					</div>
 
