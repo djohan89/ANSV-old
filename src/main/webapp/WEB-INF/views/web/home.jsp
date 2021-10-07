@@ -932,7 +932,7 @@
 
 											<div class="fat-gallery-item hover-dir fat-light-gallery" data-sub-html="#6093df92a65fa" data-src="template/web/assets/img/dich-vu-va-giai-phap/chi-dao-dieu-hanh.png" data-index="9">
 												<div class="fat-thumbnail" data-width="460" data-height="360" data-lazy-src="template/web/assets/img/dich-vu-va-giai-phap/chi-dao-dieu-hanh.png" data-alt="Trung Tâm Thông Tin, Chỉ Đạo Điều Hành">
-													<img width="460" height="360" src="template/web/assets/img/dich-vu-va-giai-phap/chi-dao-dieu-hanh.png" alt="Trung Tâm Thông Tin, Chỉ Đạo Điều Hành" />
+													<img width="460" height="360" src="template/web/assets/img/dich-vu-va-giai-phap/chi-dao-dieu-hanh.jpg" alt="Trung Tâm Thông Tin, Chỉ Đạo Điều Hành" />
 													<div class="fat-thumbnail-hover">
 														<div class="fat-hover-outer">
 															<div class="fat-hover-inner line-height-1">

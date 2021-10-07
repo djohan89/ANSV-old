@@ -6,9 +6,17 @@
 	<div class="container d-flex align-items-center">
 
 		<h1 class="logo mr-auto">
+
 			<a href="trang-chu"><img
 				src="<c:url value="/assets/user/img/Official logo_2.png" />"
 				alt="Home"></a>
+
+			<a href="trang-chu">
+				<%-- <img src="<c:url value='/assets/user/img/header/ANSV_logo.png' />" alt="Home"> --%>
+				<img src="<c:url value='/assets/user/img/header/logo_and_slogan_2.png' />" alt="Home">
+				<!-- <font size="-2" color="#007bff">Technologies Create Future</font> -->
+			</a>
+
 		</h1>
 		<!-- Uncomment below if you prefer to use an image logo -->
 		<!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
@@ -25,21 +33,25 @@
 						<li><a href="khach-hang">Khách hàng &amp; đối tác</a></li>
 						<li><a href="thong-diep">Thông điệp của tổng giám đốc</a></li>
 						<!-- <li class="drop-down"><a href="#">Deep Drop Down</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li> -->
-					</ul></li>
+			                <ul>
+			                  <li><a href="#">Deep Drop Down 1</a></li>
+			                  <li><a href="#">Deep Drop Down 2</a></li>
+			                  <li><a href="#">Deep Drop Down 3</a></li>
+			                  <li><a href="#">Deep Drop Down 4</a></li>
+			                  <li><a href="#">Deep Drop Down 5</a></li>
+			                </ul>
+              			</li> -->
+					</ul>
+				</li>
 
-				<li class="drop-down"><a href="javascript:void(0)">Sản phẩm & Dự án</a>
+				<li class="drop-down">
+					<a href="javascript:void(0)">Sản phẩm & Dự án</a>
 					<ul>
 						<li><a href="san-pham-thuong-mai">Sản phẩm thương mại</a></li>
-						<li><a href="san-pham-cong-nghe-cong-nghiep">Sản phẩm
-								Công nghệ Công nghiệp</a></li>
+						<li>
+							<a href="san-pham-cong-nghe-cong-nghiep">
+								Sản phẩm Công nghệ Công nghiệp</a>
+						</li>
 						<li><a href="du-an-tieu-bieu">Dự án tiêu biểu</a></li>
 						<!-- <li class="drop-down"><a href="#">Sản phẩm D</a>
                 <ul>
@@ -50,22 +62,29 @@
                   <li><a href="#">Deep Drop Down 5</a></li>
                 </ul>
               </li> -->
-					</ul></li>
+					</ul>
+				</li>
 
 				
-				<li class="drop-down"><a href="javascript:void(0)">Giải pháp & Dịch vụ</a>
+				<li class="drop-down">
+					<a href="javascript:void(0)">Giải pháp & Dịch vụ</a>
 					<ul>
 						<li class="drop-down"><a href="#">Giải pháp</a>
 							<ul>
-								<li><a href="chuyen-nganh-vien-thong">Chuyên ngành viễn
-										thông</a></li>
-								<li><a href="cong-nghe-thong-tin">Công nghệ thông tin
-										(CNTT)</a></li>
+								<li>
+									<a href="chuyen-nganh-vien-thong">Chuyên ngành viễn thông</a>
+								</li>
+								<li>
+									<a href="cong-nghe-thong-tin">Công nghệ thông tin (CNTT)</a>
+								</li>
 								<li><a href="chuyen-doi-so">Chuyển đổi số</a></li>
-							</ul></li>
+							</ul>
+						</li>
 						<li><a href="dich-vu">Dịch vụ</a></li>
-					</ul></li>
+					</ul>
+				</li>
 				<!-- <li><a href="tin-tuc">Tin tức</a></li> -->
+				<!-- <li><a href="noi-bo">Nội bộ</a></li> -->
 				<li><a href="lien-he">Liên hệ</a></li>
 
 			</ul>

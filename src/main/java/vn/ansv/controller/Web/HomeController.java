@@ -14,7 +14,6 @@ public class HomeController {
 		return mav;
 	}
 	
-	
 	@RequestMapping(value = "/ve-chung-toi", method = RequestMethod.GET)
 	public ModelAndView aboutPage() {
 		ModelAndView mav = new ModelAndView("web/about_us");
@@ -105,7 +104,8 @@ public class HomeController {
 	}
 	
 	
-	/* Chi tiáº¿t sáº£n pháº©m */
+	
+	/* Chi tiết sản phẩm */
 	
 	@RequestMapping(value = "/HVIP01", method = RequestMethod.GET)
 	public ModelAndView HVIP01() {
@@ -178,6 +178,22 @@ public class HomeController {
 	@RequestMapping(value = { "/mesh_vs_rep" }, method = RequestMethod.GET)
 	public ModelAndView mesh_vs_rep() {
 		ModelAndView mav = new ModelAndView("web/news/mesh_vs_rep");
+		return mav;
+	}
+	
+	
+	
+	@RequestMapping(value = { "/noi-bo" }, method = RequestMethod.GET)
+	public ModelAndView Internal() {
+		ModelAndView mav = new ModelAndView("web/internal/internal_home");
+		return mav;
+	}
+	
+	
+	
+	@RequestMapping(value = { "/home-test" }, method = RequestMethod.GET)
+	public ModelAndView homeTest() {
+		ModelAndView mav = new ModelAndView("web/home_test");
 		return mav;
 	}
 	

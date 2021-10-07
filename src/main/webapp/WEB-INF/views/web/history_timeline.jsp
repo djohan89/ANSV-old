@@ -16,7 +16,7 @@
 </style>
 </head>
 <body>
-	<section id="about-content">
+	<!-- <section id="about-content">
 		<div class="container">
 			<div class="row align-self-center text-center">
 				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
@@ -26,7 +26,21 @@
 				</div>
 			</div>
 		</div>
+	</section> -->
+	
+	<section id="home-section-2" class="home-section-2 posr">
+	    <div id="particles-js" class="particles-js particles-home-section-2"></div>
+	    <div class="container">
+	    	<div class="row align-self-center text-center">
+				<div class="col-md-8 offset-md-2 text-center breadcrumb-info">
+					<div class="text-uppercase header_text" style="padding-top: 5%;">
+						<font size="+3">Lịch sử hình thành và phát triển</font>
+					</div>
+				</div>
+			</div>
+	    </div>
 	</section>
+	
 	<section id="about-section" data-spy="scroll"
 		data-target="#myScrollspy" data-offset="20">
 		<div class="container">
@@ -52,7 +66,6 @@
 				<div class="col-md-9 order-md-9">
 					<div class="about-right">
 						<div>
-
 							<div class="text-center">
 								<figure class="image">
 									<img alt=""
@@ -77,14 +90,20 @@
 
 							<script>
 								var timeline_history = $("#timeline").timelinr(
-										{
-											autoPlay : 'true',
-											autoPlayDirection : 'forward'
-										});
+									{
+										autoPlay : 'true',
+										autoPlayDirection : 'forward'
+									});
 							</script>
 
 							<div id="timeline"
-								style="background-color: #58ACFA; margin-top: 20px; border: 1px solid; padding: 10px; box-shadow: 5px 10px 8px #888888;">
+								style="	background: blue; 
+										background-image: url('<c:url value="/assets/user/img//bg/background-timeline.jpg" />');
+										background-position: right top; 
+										margin-top: 20px; 
+										border: 1px solid; 
+										padding: 10px; 
+										box-shadow: 5px 10px 8px #888888;">
 								<ul id="dates">
 									<li><a href="#2020">2020</a></li>
 									<li><a href="#2019">2019</a></li>

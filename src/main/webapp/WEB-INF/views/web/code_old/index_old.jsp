@@ -7,15 +7,14 @@
 
 <body>
 	<!-- ======= Hero Section ======= -->
-	<section id="hero">
+	<!-- <section id="hero">
 		<div id="heroCarousel" class="carousel slide carousel-fade"
 			data-ride="carousel">
-
-			<div class="carousel-inner" role="listbox">
-
-				<!-- Slide 1 -->
-				<div class="carousel-item active"
-					style="background-image: url(http://www.vnpt-technology.vn/storage/photos/shares/Anh_banner/banner_web.jpg);">
+			
+			<div class="carousel-inner row" role="listbox">
+				Slide 1
+				<div class="carousel-item active "
+					style="background-image: url(http://www.vnpt-technology.vn/storage/photos/shares/Anh_banner/banner_web.jpg); overflow: inherit;">
 					<div class="carousel-container">
 						<div class="carousel-content animate__animated animate__fadeInUp">
 							<h2>
@@ -26,14 +25,14 @@
 								Alcatel (nay là Alcatel-Lucent) với Tổng công ty Bưu chính Viễn
 								thông Việt Nam (nay là Tập đoàn Bưu chính Viễn thông Việt Nam).</p>
 							<div class="text-center">
-								<a href="" class="btn-get-started">Read More</a>
+								<a href="ve-chung-toi" class="btn-get-started">Read More</a>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<!-- Slide 2 -->
-				<div class="carousel-item"
+				Slide 2
+				<div class="carousel-item "
 					style="background-image: url(http://www.vnpt-technology.vn/storage/photos/shares/banner-main-index/slide-1.jpg);">
 					<div class="carousel-container">
 						<div class="carousel-content animate__animated animate__fadeInUp">
@@ -46,15 +45,15 @@
 								chất lượng trong thời gian ngắn nhất, giúp các nhà quản lý có
 								thể đưa ra kế hoạch xử lý kịp thời.</p>
 							<div class="text-center">
-								<a href="" class="btn-get-started">Read More</a>
+								<a href="dich-vu" class="btn-get-started">Read More</a>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<!-- Slide 3 -->
-				<!-- <div class="carousel-item" style="background-image: url(template/web/assets/img/slide/slide-4.jpg);"> -->
-				<div class="carousel-item"
+				Slide 3
+				<div class="carousel-item" style="background-image: url(template/web/assets/img/slide/slide-4.jpg);">
+				<div class="carousel-item "
 					style="background-image: url(http://www.vnpt-technology.vn/storage/photos/shares/banner-main-index/slide-home-10.jpg);">
 					<div class="carousel-container">
 						<div class="carousel-content animate__animated animate__fadeInUp">
@@ -87,10 +86,15 @@
 			<ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
 		</div>
-	</section>
+	</section> -->
 	<!-- End Hero -->
 
 	<main id="main">
+
+		<!-- ===== Video đầu trang ===== -->
+		<section>
+			<video src="https://sun-asterisk.vn/wp-content/uploads/2020/11/mv-pc.mp4" autoplay muted webkit-playsinline playsinline loop style="width: 100%; margin-top: -4%;"></video>
+		</section>
 
 		<!-- ======= Section: Nổi Bật ======= -->
 		<section>
@@ -124,6 +128,8 @@ body {
 	-ms-transition: all 0.3s linear 0s;
 	-o-transition: all 0.3s linear 0s;
 	transition: all 0.3s linear 0s;
+	
+	border-radius: 16px;
 }
 
 .post-module:hover, .hover {
@@ -143,35 +149,8 @@ body {
 	background: #000000;
 	height: 400px;
 	overflow: hidden;
-}
-
-.post-module .thumbnail .date {
-	position: absolute;
-	top: 20px;
-	right: 20px;
-	z-index: 1;
-	background: #e74c3c;
-	width: 55px;
-	height: 55px;
-	padding: 12.5px 0;
-	-webkit-border-radius: 100%;
-	-moz-border-radius: 100%;
-	border-radius: 100%;
-	color: #FFFFFF;
-	font-weight: 700;
-	text-align: center;
-	-webkti-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-.post-module .thumbnail .date .day {
-	font-size: 18px;
-}
-
-.post-module .thumbnail .date .month {
-	font-size: 12px;
-	text-transform: uppercase;
+	
+	border-radius: 16px;
 }
 
 .post-module .thumbnail img {
@@ -198,6 +177,8 @@ body {
 	-ms-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
 	-o-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
 	transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+	
+	border-radius: 0 0 16px 16px;
 }
 
 .post-module .post-content .category {
@@ -373,7 +354,7 @@ p {
 						<div class="post-module">
 							<div class="thumbnail">
 								<img
-									src="<c:url value="/assets/user/img/gioi-thieu-chung.png" />">
+									src="<c:url value="/assets/user/img/noi_bat/gioi-thieu-chung.png" />">
 							</div>
 							<div class="post-content">
 								<a href="#"> <font color="lightgray">VỀ CHÚNG TÔI</font>
@@ -395,7 +376,7 @@ p {
 						<div class="post-module">
 							<div class="thumbnail">
 								<img
-									src="<c:url value="/assets/user/img/smartbox-gioi-thieu2.png" />">
+									src="<c:url value="/assets/user/img/noi_bat/smartbox-gioi-thieu2.png" />">
 							</div>
 							<div class="post-content">
 								<a href="#"> <font color="lightgray">SẢN PHẨM</font>
@@ -416,7 +397,7 @@ p {
 					<div class="col-lg-4">
 						<div class="post-module">
 							<div class="thumbnail">
-								<img src="<c:url value="/assets/user/img/VoIP-2.jpg" />">
+								<img src="<c:url value="/assets/user/img/noi_bat/VoIP-2.jpg" />">
 							</div>
 							<div class="post-content">
 								<a href="#"> <font color="lightgray">GIẢI PHÁP</font>
@@ -557,10 +538,15 @@ p {
 												data-omni="rolling:index_3" href="#" title=""></a></li>
 										</ul>
 										<div class="list__cont-link_new">
-											<a data-omni-type="microsite_b2bcontent"
-												data-omni="networks home_news:show more" href="#" title=""
+											<!-- <a data-omni-type="microsite_b2bcontent"
+												data-omni="networks home_news:show more" href="tin-tuc" title=""
 												class="s-ico-new-window s-default detailButton s2"> Xem
 												thêm <span class="show">></span>
+											</a> -->
+											<a href="tin-tuc">
+												<button class="custom-btn btn-7">
+													<span>Xem Thêm...</span>
+												</button>
 											</a>
 										</div>
 									</div>
@@ -717,7 +703,7 @@ p {
 							class="img-fluid" alt="">
 					</div>
 					<div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-						<h3 style="border-bottom: 2px solid green">Kính gửi Quý khách
+						<h3 style="border-bottom: 2px solid #f27700">Kính gửi Quý khách
 							hàng, Quý đối tác</h3>
 						<br>
 						<p style="font-size: 14px" class="font-italic">Lời đầu tiên
@@ -862,7 +848,7 @@ p {
 														<img width="460" height="360"
 															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/cong-nghe-mang-di-dong.png" />"
 															alt="Công nghệ mạng di động" />
-
+														<h4 class="sub-title">Công nghệ mạng di động</h4>
 														<div class="fat-thumbnail-hover">
 															<div class="fat-hover-outer">
 																<div class="fat-hover-inner line-height-1">
@@ -905,6 +891,7 @@ p {
 														<img width="460" height="360"
 															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/GPON.png" />"
 															alt="Giải Pháp Hệ Thống Mạng GPON" />
+														<h4 class="sub-title">Giải Pháp Hệ Thống Mạng</h4>
 														<div class="fat-thumbnail-hover">
 															<div class="fat-hover-outer">
 																<div class="fat-hover-inner line-height-1">
@@ -948,6 +935,7 @@ p {
 														<img width="460" height="360"
 															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/cong-nghe-truyen-dan.png" />"
 															alt="Công Nghệ Truyền Dẫn" />
+														<h4 class="sub-title">Công Nghệ Truyền Dẫn</h4>
 														<div class="fat-thumbnail-hover">
 															<div class="fat-hover-outer">
 																<div class="fat-hover-inner line-height-1">
@@ -988,6 +976,7 @@ p {
 														<img width="460" height="360"
 															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/NGN.png" />"
 															alt="Mạng Thế Hệ Mới NGN" />
+														<h4 class="sub-title">Mạng Thế Hệ Mới NGN</h4>
 														<div class="fat-thumbnail-hover">
 															<div class="fat-hover-outer">
 																<div class="fat-hover-inner line-height-1">
@@ -1030,6 +1019,7 @@ p {
 														<img width="460" height="360"
 															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/wifi-total-solution.png" />"
 															alt="Giải pháp Wifi Tổng thể" />
+														<h4 class="sub-title">Giải pháp Wifi Tổng thể</h4>
 														<div class="fat-thumbnail-hover">
 															<div class="fat-hover-outer">
 																<div class="fat-hover-inner line-height-1">
@@ -1072,6 +1062,7 @@ p {
 														<img width="460" height="360"
 															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/IPCC-new.png" />"
 															alt="Giải Pháp IPCC" />
+														<h4 class="sub-title">Giải Pháp IPCC</h4>
 														<div class="fat-thumbnail-hover">
 															<div class="fat-hover-outer">
 																<div class="fat-hover-inner line-height-1">
@@ -1114,6 +1105,7 @@ p {
 														<img width="460" height="360"
 															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/giai-phap-ha-tang.png" />"
 															alt="Giải Pháp Hạ Tầng CNTT" />
+														<h4 class="sub-title">Giải Pháp Hạ Tầng CNTT</h4>
 														<div class="fat-thumbnail-hover">
 															<div class="fat-hover-outer">
 																<div class="fat-hover-inner line-height-1">
@@ -1155,6 +1147,9 @@ p {
 														<img width="460" height="360"
 															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/OCS.png" />"
 															alt="Hệ Thống Tính Cước Online - OCS" />
+														<h4 class="sub-title">
+															Hệ Thống Tính Cước<br>Online - OCS
+														</h4>
 														<div class="fat-thumbnail-hover">
 															<div class="fat-hover-outer">
 																<div class="fat-hover-inner line-height-1">
@@ -1198,6 +1193,9 @@ p {
 														<img width="460" height="360"
 															src="<c:url value="/assets/user/img/dich-vu-va-giai-phap/chi-dao-dieu-hanh.png" />"
 															alt="Trung Tâm Thông Tin, Chỉ Đạo Điều Hành" />
+														<h4 class="sub-title">
+															Trung Tâm Thông Tin,<br>Chỉ Đạo Điều Hành
+														</h4>
 														<div class="fat-thumbnail-hover">
 															<div class="fat-hover-outer">
 																<div class="fat-hover-inner line-height-1">
@@ -1234,12 +1232,9 @@ p {
 										<script type="text/javascript">
 											var $container = jQuery('#fat-gallery-container-6093df92a57cd');
 
-											jQuery(
-													'.fat-gallery-item.hover-dir > div.fat-thumbnail')
-													.hoverdir();
+											jQuery('.fat-gallery-item.hover-dir > div.fat-thumbnail').hoverdir();
 
-											FatGallery
-													.init(
+											FatGallery.init(
 															'https://mec.vn/wp-admin/admin-ajax.php',
 															'6093df92a57cd',
 															'magnificPopup',
@@ -1403,40 +1398,43 @@ p {
 						<ul id="portfolio-flters">
 							<li data-filter="*" class="filter-active">All</li>
 							<li data-filter=".filter-app">Sản Phẩm Thương Mại</li>
-							<li data-filter=".filter-card">Sản Phẩm Công Nghiệp</li>
+							<li data-filter=".filter-card">Sản Phẩm Công Nghệ Công
+								Nghiệp</li>
 							<!--<li data-filter=".filter-web">Web</li>-->
 						</ul>
 					</div>
 				</div>
 
-				<div class="row portfolio-container" data-aos="fade-up">
+				<div class="row portfolio-container " data-aos="fade-up">
 
 					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
 						<img src="<c:url value="/assets/user/img/Product_1.JPG" />"
 							class="img-fluid" alt="">
 						<div class="portfolio-info">
-							<h4>App 1</h4>
-							<p>App</p>
+							<h4>
+								<a href="chi-tiet-san-pham">Hệ thống thiết bị mạng truy cập quang GPON</a>
+							</h4>
 							<a
 								href="<c:url value="/assets/user/img/portfolio/portfolio-1.jpg" />"
-								data-gall="portfolioGallery" class="venobox preview-link"
+								data-gall="portfolioGallery" class="venobox preview-link mt-3"
 								title="App 1"><i class="bx bx-plus"></i></a> <a
-								href="portfolio-details.html" class="details-link"
+								href="portfolio-details.html" class="details-link mt-3"
 								title="More Details"><i class="bx bx-link"></i></a>
 						</div>
 					</div>
 
-					<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
 						<img src="<c:url value="/assets/user/img/Product_2.JPG" />"
 							class="img-fluid" alt="">
 						<div class="portfolio-info">
-							<h4>Web 3</h4>
-							<p>Web</p>
+							<h4>
+								<a href="chi-tiet-san-pham">Hệ thống truyền dẫn DWDM</a>
+							</h4>
 							<a
 								href="<c:url value="/assets/user/img/portfolio/portfolio-2.jpg" />"
-								data-gall="portfolioGallery" class="venobox preview-link"
+								data-gall="portfolioGallery" class="venobox preview-link mt-4"
 								title="Web 3"><i class="bx bx-plus"></i></a> <a
-								href="portfolio-details.html" class="details-link"
+								href="portfolio-details.html" class="details-link mt-4"
 								title="More Details"><i class="bx bx-link"></i></a>
 						</div>
 					</div>
@@ -1445,38 +1443,44 @@ p {
 						<img src="<c:url value="/assets/user/img/Product_3.JPG" />"
 							class="img-fluid" alt="">
 						<div class="portfolio-info">
-							<h4>App 2</h4>
-							<p>App</p>
+							<h4>
+								<a href="chi-tiet-san-pham">Các sản phẩm IP</a>
+							</h4>
+							<p></p>
 							<a
 								href="<c:url value="/assets/user/img/portfolio/portfolio-3.jpg" />"
-								data-gall="portfolioGallery" class="venobox preview-link"
+								data-gall="portfolioGallery" class="venobox preview-link mt-2"
 								title="App 2"><i class="bx bx-plus"></i></a> <a
-								href="portfolio-details.html" class="details-link"
+								href="portfolio-details.html" class="details-link mt-2"
+								title="More Details"><i class="bx bx-link"></i></a>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+						<img src="<c:url value="/assets/user/img/Product_4.JPG" />"
+							class="img-fluid" alt="">
+						<div class="portfolio-info text-center">
+							<h4>
+								<a href="chi-tiet-san-pham">Nguồn</a>
+							</h4>
+							<p></p>
+							<a
+								href="<c:url value="/assets/user/img/portfolio/portfolio-4.jpg" />"
+								data-gall="portfolioGallery" class="venobox preview-link mt-2"
+								title="Card 2"><i class="bx bx-plus"></i></a> <a
+								href="portfolio-details.html" class="details-link mt-2"
 								title="More Details"><i class="bx bx-link"></i></a>
 						</div>
 					</div>
 
 					<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-						<img src="<c:url value="/assets/user/img/Product_4.JPG" />"
-							class="img-fluid" alt="">
-						<div class="portfolio-info">
-							<h4>Card 2</h4>
-							<p>Card</p>
-							<a
-								href="<c:url value="/assets/user/img/portfolio/portfolio-4.jpg" />"
-								data-gall="portfolioGallery" class="venobox preview-link"
-								title="Card 2"><i class="bx bx-plus"></i></a> <a
-								href="portfolio-details.html" class="details-link"
-								title="More Details"><i class="bx bx-link"></i></a>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 portfolio-item filter-web">
 						<img src="<c:url value="/assets/user/img/Product_5.JPG" />"
 							class="img-fluid" alt="">
 						<div class="portfolio-info">
-							<h4>Web 2</h4>
-							<p>Web</p>
+							<h4>
+								<a href="chi-tiet-san-pham">Camera IP Wifi</a>
+							</h4>
+							<p></p>
 							<a
 								href="<c:url value="/assets/user/img/portfolio/portfolio-5.jpg" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
@@ -1486,12 +1490,14 @@ p {
 						</div>
 					</div>
 
-					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+					<div class="col-lg-4 col-md-6 portfolio-item filter-card">
 						<img src="<c:url value="/assets/user/img/Product_6.JPG" />"
 							class="img-fluid" alt="">
 						<div class="portfolio-info">
-							<h4>App 3</h4>
-							<p>App</p>
+							<h4>
+								<a href="chi-tiet-san-pham">SmartBox 2</a>
+							</h4>
+							<p></p>
 							<a
 								href="<c:url value="/assets/user/img/portfolio/portfolio-6.jpg" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
@@ -1505,8 +1511,10 @@ p {
 						<img src="<c:url value="/assets/user/img/Product_7.JPG" />"
 							class="img-fluid" alt="">
 						<div class="portfolio-info">
-							<h4>Card 1</h4>
-							<p>Card</p>
+							<h4>
+								<a href="chi-tiet-san-pham">iGate</a>
+							</h4>
+							<p></p>
 							<a
 								href="<c:url value="/assets/user/img/portfolio/portfolio-7.jpg" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
@@ -1520,28 +1528,32 @@ p {
 						<img src="<c:url value="/assets/user/img/Product_1.JPG" />"
 							class="img-fluid" alt="">
 						<div class="portfolio-info">
-							<h4>Card 3</h4>
-							<p>Card</p>
+							<h4>
+								<a href="chi-tiet-san-pham">Hệ thống thiết bị mạng truy cập quang GPON</a>
+							</h4>
+							<p></p>
 							<a
 								href="<c:url value="/assets/user/img/portfolio/portfolio-8.jpg" />"
-								data-gall="portfolioGallery" class="venobox preview-link"
+								data-gall="portfolioGallery" class="venobox preview-link mt-4"
 								title="Card 3"><i class="bx bx-plus"></i></a> <a
-								href="portfolio-details.html" class="details-link"
+								href="portfolio-details.html" class="details-link mt-4"
 								title="More Details"><i class="bx bx-link"></i></a>
 						</div>
 					</div>
 
-					<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
 						<img src="<c:url value="/assets/user/img/Product_1.JPG" />"
 							class="img-fluid" alt="">
 						<div class="portfolio-info">
-							<h4>Web 3</h4>
-							<p>Web</p>
+							<h4>
+								<a href="chi-tiet-san-pham">Hệ thống thiết bị mạng truy cập quang GPON</a>
+							</h4>
+							<p></p>
 							<a
 								href="<c:url value="/assets/user/img/portfolio/portfolio-9.jpg" />"
-								data-gall="portfolioGallery" class="venobox preview-link"
+								data-gall="portfolioGallery" class="venobox preview-link mt-4"
 								title="Web 3"><i class="bx bx-plus"></i></a> <a
-								href="portfolio-details.html" class="details-link"
+								href="portfolio-details.html" class="details-link mt-4"
 								title="More Details"><i class="bx bx-link"></i></a>
 						</div>
 					</div>
@@ -1880,13 +1892,13 @@ p {
 									</div>
 								</div>
 							</div>
-							<div class="list__cont-link_new">
+							<!-- <div class="list__cont-link_new">
 								<a data-omni-type="microsite_b2bcontent"
 									data-omni="networks home_video:show more" href="#" title=""
 									class="s-ico-new-window s-default detailButton s2"> Xem
 									thêm <span class="show">></span>
 								</a>
-							</div>
+							</div> -->
 						</div>
 						<div class="video_popup">
 							<div class="popup_innder">
@@ -1901,7 +1913,7 @@ p {
 				</div>
 
 				<script type="text/javascript"
-					src="<c:url value="/assets/user/js/test/page.35ba7c29271cb1dd0c4bc4a93b15c715.js" />"></script>
+					src="<c:url value="/assets/user/js/test/page.35ba7c29271cb1dd0c4bc4a93b15c715-new.js" />"></script>
 			</div>
 		</section>
 		<!-- End Videos Section -->

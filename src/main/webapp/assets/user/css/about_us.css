@@ -1668,8 +1668,9 @@ section {
     opacity: 0;
     bottom: 0px;
     background: #fff;
-    left:5%;
-    right:5%;
+    left: 4%;
+    right: 4%;
+    bottom: 1%;
     border-radius: 0 0 16px 16px;
 }
 .products .product-item:hover .info{
