@@ -1318,44 +1318,46 @@
 
 				<div class="row portfolio-container " data-aos="fade-up">
 					<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-						<img
-							src="<c:url value="/assets/user/img/portfolio/HVOF01_1.png" />"
+						<img src="<c:url value="/assets/user/img/san_pham/HVOF01.png" />"
 							class="img-fluid" style="background-color: white;" alt="">
 						<div class="portfolio-info">
 							<h4>
 								<a href="HVOF01">Home Vision HVOF01 </a>
 							</h4>
 							<p></p>
-							<a
-								href="<c:url value="/assets/user/img/portfolio/HVOF01_1.png" />"
+							<a href="<c:url value="/assets/user/img/san_pham/HVOF01.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
-								title="Home Vision HVOF01"><i class="bx bx-plus"></i></a> <a
-								href="HVOF01" class="details-link" title="More Details"><i
-								class="bx bx-link"></i></a>
+								title="Home Vision HVOF01">
+								<i class="bx bx-plus"></i>
+							</a>
+							<a href="HVOF01" class="details-link" title="More Details">
+								<i class="bx bx-link"></i>
+							</a>
 						</div>
 					</div>
 
 					<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-						<img
-							src="<c:url value="/assets/user/img/portfolio/HVIP01_3.png" />"
+						<img src="<c:url value="/assets/user/img/san_pham/HVIP01.png" />"
 							class="img-fluid" style="background-color: white;" alt="">
 						<div class="portfolio-info">
 							<h4>
 								<a href="HVIP01">Home Vision HVIP01 </a>
 							</h4>
 							<p></p>
-							<a
-								href="<c:url value="/assets/user/img/portfolio/HVIP01_3.png" />"
+							<a href="<c:url value="/assets/user/img/san_pham/HVIP01.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
-								title="Home Vision HVIP01"><i class="bx bx-plus"></i></a> <a
-								href="HVIP01" class="details-link" title="More Details"><i
-								class="bx bx-link"></i></a>
+								title="Home Vision HVIP01">
+								<i class="bx bx-plus"></i>
+							</a>
+							<a href="HVIP01" class="details-link" title="More Details">
+								<i class="bx bx-link"></i>
+							</a>
 						</div>
 					</div>
 
 					<div class="col-lg-4 col-md-6 portfolio-item filter-card">
 						<img
-							src="<c:url value="/assets/user/img/portfolio/960x643_GPON_iGate_GW020.jpg" />"
+							src="<c:url value="/assets/user/img/san_pham/GPON-iGate-GW020-H.png" />"
 							class="img-fluid" style="background-color: white;" alt="">
 						<div class="portfolio-info">
 							<h4>
@@ -1363,7 +1365,7 @@
 							</h4>
 							<p></p>
 							<a
-								href="<c:url value="/assets/user/img/portfolio/960x643_GPON_iGate_GW020.jpg" />"
+								href="<c:url value="/assets/user/img/san_pham/GPON-iGate-GW020-H.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
 								title="GPON ONT iGate GW020-H"><i class="bx bx-plus"></i></a> <a
 								href="GW020_H" class="details-link" title="More Details"><i
@@ -1373,7 +1375,7 @@
 
 					<div class="col-lg-4 col-md-6 portfolio-item filter-card">
 						<img
-							src="<c:url value="/assets/user/img/portfolio/GPON_ONT_iGate_GW040-H.jpg" />"
+							src="<c:url value="/assets/user/img/san_pham/GPON-ONT-iGate-GW040-H.png" />"
 							class="img-fluid" style="background-color: white;" alt="">
 						<div class="portfolio-info">
 							<h4>
@@ -1381,7 +1383,7 @@
 							</h4>
 							<p></p>
 							<a
-								href="<c:url value="/assets/user/img/portfolio/GPON_ONT_iGate_GW040-H.jpg" />"
+								href="<c:url value="/assets/user/img/san_pham/GPON-ONT-iGate-GW040-H.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
 								title="GPON ONT iGate GW040-H"><i class="bx bx-plus"></i></a> <a
 								href="GW040_H" class="details-link" title="More Details"><i
@@ -1391,7 +1393,7 @@
 
 					<div class="col-lg-4 col-md-6 portfolio-item filter-card">
 						<img
-							src="<c:url value="/assets/user/img/portfolio/800x800-Mesh-iGate-EW12S-01.png" />"
+							src="<c:url value="/assets/user/img/san_pham/Mesh-iGate-EW12S.png" />"
 							class="img-fluid" style="background-color: white;" alt="">
 						<div class="portfolio-info">
 							<h4>
@@ -1399,7 +1401,7 @@
 							</h4>
 							<p></p>
 							<a
-								href="<c:url value="/assets/user/img/portfolio/800x800-Mesh-iGate-EW12S-01.png" />"
+								href="<c:url value="/assets/user/img/san_pham/Mesh-iGate-EW12S.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
 								title="iGate EW12S/SG"><i class="bx bx-plus"></i></a> <a
 								href="EW12S_SG" class="details-link" title="More Details"><i
@@ -1409,7 +1411,7 @@
 
 					<div class="col-lg-4 col-md-6 portfolio-item filter-card">
 						<img
-							src="<c:url value="/assets/user/img/portfolio/EW12C-1.png" />"
+							src="<c:url value="/assets/user/img/san_pham/iGate-EW12C.png" />"
 							class="img-fluid" style="background-color: white;" alt="">
 						<div class="portfolio-info">
 							<h4>
@@ -1417,7 +1419,7 @@
 							</h4>
 							<p></p>
 							<a
-								href="<c:url value="/assets/user/img/portfolio/EW12C-1.png" />"
+								href="<c:url value="/assets/user/img/san_pham/iGate-EW12C.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
 								title="iGate EW12C/CG"><i class="bx bx-plus"></i></a> <a
 								href="EW12C_CG" class="details-link" title="More Details"><i
@@ -1427,14 +1429,14 @@
 
 					<div class="col-lg-4 col-md-6 portfolio-item filter-card">
 						<img
-							src="<c:url value="/assets/user/img/portfolio/960x643-iGate_GW240-H.jpg" />"
+							src="<c:url value="/assets/user/img/san_pham/GPON-ONT-iGate-GW240-H.png" />"
 							class="img-fluid" style="background-color: white;" alt="">
 						<div class="portfolio-info">
 							<h4>
 								<a href="GW240_H">GPON ONT iGate GW240-H</a>
 							</h4>
 							<p></p>
-							<a href="<c:url value="/assets/user/img/portfolio/960x643-iGate_GW240-H.jpg" />"
+							<a href="<c:url value="/assets/user/img/san_pham/GPON-ONT-iGate-GW240-H.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
 								title="GPON ONT iGate GW240-H">
 								<i class="bx bx-plus"></i>
@@ -1446,13 +1448,13 @@
 					</div>
 
 					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-						<img src="<c:url value="/assets/user/img/Product_1.JPG" />"
+						<img src="<c:url value="/assets/user/img/san_pham/truy-cap-quang-GPON.png" />"
 							class="img-fluid" alt="">
 						<div class="portfolio-info d-flex">
 							<h4>
 								<a href="javascript:void(0)">Hệ thống thiết bị mạng<br>truy cập quang GPON</a>
 							</h4>
-							<a href="<c:url value="/assets/user/img/Product_1.JPG" />"
+							<a href="<c:url value="/assets/user/img/san_pham/truy-cap-quang-GPON.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
 								title="Hệ thống thiết bị mạng truy cập quang GPON">
 								<i class="bx bx-plus"></i>
@@ -1464,13 +1466,12 @@
 					</div>
 
 					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-						<img src="<c:url value="/assets/user/img/Product_2.JPG" />"
-							class="img-fluid" alt="">
+						<img src="<c:url value="/assets/user/img/san_pham/DWDM.png" />" class="img-fluid" alt="">
 						<div class="portfolio-info">
 							<h4>
 								<a href="javascript:void(0)">Hệ thống truyền dẫn DWDM</a>
 							</h4>
-							<a href="<c:url value="/assets/user/img/Product_2.JPG" />"
+							<a href="<c:url value="/assets/user/img/san_pham/DWDM.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
 								title="Hệ thống truyền dẫn DWDM">
 								<i class="bx bx-plus"></i>
@@ -1482,14 +1483,14 @@
 					</div>
 
 					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-						<img src="<c:url value="/assets/user/img/Product_4.JPG" />"
+						<img src="<c:url value="/assets/user/img/san_pham/nguon.png" />"
 							class="img-fluid" alt="">
 						<div class="portfolio-info">
 							<h4>
 								<a href="javascript:void(0)">Nguồn</a>
 							</h4>
 							<p></p>
-							<a href="<c:url value="/assets/user/img/Product_4.JPG" />"
+							<a href="<c:url value="/assets/user/img/san_pham/nguon.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
 								title="Nguồn">
 								<i class="bx bx-plus"></i>
@@ -1501,14 +1502,14 @@
 					</div>
 
 					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-						<img src="<c:url value="/assets/user/img/Product_3.JPG" />"
+						<img src="<c:url value="/assets/user/img/san_pham/san-pham-IP.png" />"
 							class="img-fluid" alt="">
 						<div class="portfolio-info">
 							<h4>
 								<a href="#">Các sản phẩm IP</a>
 							</h4>
 							<p></p>
-							<a href="<c:url value="/assets/user/img/Product_3.JPG" />"
+							<a href="<c:url value="/assets/user/img/san_pham/san-pham-IP.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
 								title="IP">
 								<i class="bx bx-plus"></i>
@@ -1521,14 +1522,14 @@
 
 					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
 						<img
-							src="<c:url value="/assets/user/img/portfolio/960x643-iGateMR4G-11D.jpg" />"
+							src="<c:url value="/assets/user/img/san_pham/iGate-MR4G-11D.png" />"
 							class="img-fluid" alt="">
 						<div class="portfolio-info">
 							<h4>
 								<a href="MR4G_11D">4G LTE Mobile Hotspot<br>– iGate MR4G-11D</a>
 							</h4>
 							<p></p>
-							<a href="<c:url value="/assets/user/img/portfolio/960x643-iGateMR4G-11D.jpg" />"
+							<a href="<c:url value="/assets/user/img/san_pham/iGate-MR4G-11D.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
 								title="4G LTE Mobile Hotspot – iGate MR4G-11D">
 								<i class="bx bx-plus"></i>
@@ -1541,14 +1542,14 @@
 
 					<div class="col-lg-4 col-md-6 portfolio-item filter-app">
 						<img
-							src="<c:url value="/assets/user/img/portfolio/iGate_R4G_22N-01.jpg" />"
+							src="<c:url value="/assets/user/img/san_pham/IGATE-R4G-22N-01.png" />"
 							class="img-fluid" alt="">
 						<div class="portfolio-info">
 							<h4>
 								<a href="22N_01">MULTIMODE LTE ROUTER<br>- IGATE R4G 22N-01</a>
 							</h4>
 							<p></p>
-							<a href="<c:url value="/assets/user/img/portfolio/iGate_R4G_22N-01.jpg" />"
+							<a href="<c:url value="/assets/user/img/san_pham/IGATE-R4G-22N-01.png" />"
 								data-gall="portfolioGallery" class="venobox preview-link"
 								title="MULTIMODE LTE ROUTER - IGATE R4G 22N-01">
 								<i class="bx bx-plus"></i>
