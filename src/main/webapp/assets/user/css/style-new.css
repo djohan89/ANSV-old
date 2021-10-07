@@ -1509,35 +1509,14 @@ section {
 	background: #2ae149;
 }
 
-@
--webkit-keyframes animate-loading { 0% {
-	transform: rotate(0deg);
+@-webkit-keyframes animate-loading { 
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
 }
 
-100
-%
-{
-transform
-:
-rotate(
-360deg
-);
-}
-}
-@
-keyframes animate-loading { 0% {
-	transform: rotate(0deg);
-}
-
-100
-%
-{
-transform
-:
-rotate(
-360deg
-);
-}
+@keyframes animate-loading { 
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
 }
 
 /*--------------------------------------------------------------
