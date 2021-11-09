@@ -83,7 +83,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- <div class="slide slide-3">
+					<div class="slide slide-3">
 				      	<div class="slide__bg"></div>
 				      	<div class="slide__content">
 				        	<svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
@@ -95,7 +95,7 @@
 				          		<a class="slide__text-link">Project link</a>
 				        	</div>
 				      	</div>
-				    </div> -->
+				    </div>
 				</div>
 			</div>
 
